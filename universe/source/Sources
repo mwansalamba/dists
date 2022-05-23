@@ -1,0 +1,2714 @@
+Package: sjfonts
+Binary: ttf-sjfonts
+Version: 2.0.2-1.1ubuntu1
+Priority: optional
+Section: universe/x11
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Daniel Schepler <schepler@debian.org>
+Build-Depends-Indep: debhelper (>= 8.1.0~), fontforge-nox | fontforge
+Architecture: all
+Standards-Version: 3.9.2
+Format: 3.0 (quilt)
+Directory: pool/universe/s/sjfonts
+Files:
+ c3adddced66bc12748f2f848986f2c36 1872 sjfonts_2.0.2-1.1ubuntu1.dsc
+ ba27675170ed474533a9b8f422a86e43 254355 sjfonts_2.0.2.orig.tar.gz
+ 8c47126aed207e9941b43958c5309985 3324 sjfonts_2.0.2-1.1ubuntu1.debian.tar.gz
+Package-List: 
+ ttf-sjfonts deb fonts optional
+Checksums-Sha1:
+ 26f48abda8c014f8d6d363478529d678be39c4a5 1872 sjfonts_2.0.2-1.1ubuntu1.dsc
+ 172076ddd3096c2265910ce94b4846e049b8a65d 254355 sjfonts_2.0.2.orig.tar.gz
+ 7309c19d663e48dca3508b2f5a9c4dcdcb49e63f 3324 sjfonts_2.0.2-1.1ubuntu1.debian.tar.gz
+Checksums-Sha256:
+ 3e310e4d6bf82d5ad6e7cefdfbdf581d394eefe16006e76b6778684c36163aa4 1872 sjfonts_2.0.2-1.1ubuntu1.dsc
+ 58d3de8c7a40f28e1bdbc7d0ed76d3c142880b2806293bad959849c4ee37431d 254355 sjfonts_2.0.2.orig.tar.gz
+ 13b90475f4266efba775eb0c76e4661f3df07d10471128267689f5433bc8c123 3324 sjfonts_2.0.2-1.1ubuntu1.debian.tar.gz
+
+Package: zita-at1
+Binary: zita-at1
+Version: 0.2.3-2
+Priority: optional
+Section: universe/sound
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Build-Depends: debhelper (>= 7.0.50~), libcairo2-dev, libclthreads-dev (>= 2.4.0), libclxclient-dev (>= 3.6.1), libfftw3-dev (>= 3.1.2-3.1), libjack-dev, libzita-resampler-dev (>> 1.1.0)
+Architecture: any
+Standards-Version: 3.9.2
+Format: 3.0 (quilt)
+Directory: pool/universe/z/zita-at1
+Files:
+ 203fdd7bf9fc268b89c13c9a55756f72 2162 zita-at1_0.2.3-2.dsc
+ d901f378da09407b550c72b2607cc97f 51270 zita-at1_0.2.3.orig.tar.bz2
+ eddd7c052a3cd85f5ba91c7d9e74d34c 3722 zita-at1_0.2.3-2.debian.tar.gz
+Uploaders:  Alessio Treglia <alessio@debian.org>, Adrian Knoth <adi@drcomp.erfurt.thur.de>
+Dm-Upload-Allowed: yes
+Homepage: http://kokkinizita.linuxaudio.org/linuxaudio/
+Vcs-Browser: http://git.debian.org/?p=pkg-multimedia/zita-at1.git
+Vcs-Git: git://git.debian.org/git/pkg-multimedia/zita-at1.git
+Package-List: 
+ zita-at1 deb sound optional
+Checksums-Sha1:
+ 71857d104b1d5afa8d018fe03150e91e5ff8b7d1 2162 zita-at1_0.2.3-2.dsc
+ 78d8ecfad38302723041465247c02f55a4d2c6f5 51270 zita-at1_0.2.3.orig.tar.bz2
+ 55a9385e7c996d6c51078c3a82bf0407049a2334 3722 zita-at1_0.2.3-2.debian.tar.gz
+Checksums-Sha256:
+ 3f915a8646b8035de9568ba52016f0f5e3d8bb67d962ed2361290d04444b7673 2162 zita-at1_0.2.3-2.dsc
+ aca3ba9f747b614953381eb56f319ba4321236d75fc76f597cd2ab77793b375f 51270 zita-at1_0.2.3.orig.tar.bz2
+ 0c29dcfae77d5cc45acb31a9aab4464a279685b199c6e765589cefe10ca7e71a 3722 zita-at1_0.2.3-2.debian.tar.gz
+
+Package: zynjacku
+Binary: zynjacku
+Version: 6-4
+Priority: optional
+Section: universe/sound
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Build-Depends: autotools-dev (>= 20100122.1~), debhelper (>= 7.0.50~), dh-autoreconf, libjack-dev, liblv2dynparam1-dev, lv2-dev, pkg-config, python-all-dev (>= 2.6.6-3), python-gtk2-dev
+Architecture: any
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Directory: pool/universe/z/zynjacku
+Files:
+ fda71ab022bcf2b408099f181bd3d4df 2133 zynjacku_6-4.dsc
+ 4fe6bb1322ee5784280c7e71c77b636c 400405 zynjacku_6.orig.tar.bz2
+ 8d7bdd20254a76750fd32af815469623 24204 zynjacku_6-4.debian.tar.gz
+Uploaders:  Free Ekanayaka <freee@debian.org>, Jaromír Mikeš <mira.mikes@seznam.cz>, Alessio Treglia <alessio@debian.org>
+Homepage: http://home.gna.org/zynjacku/
+Vcs-Browser: http://git.debian.org/?p=pkg-multimedia/zynjacku.git
+Vcs-Git: git://git.debian.org/git/pkg-multimedia/zynjacku.git
+Package-List: 
+ zynjacku deb sound optional
+Checksums-Sha1:
+ 26d0ae0121458733b0cbfc544ebdce846a670aea 2133 zynjacku_6-4.dsc
+ 2b48b23c9827065b413ff5cc103f009d1eab069b 400405 zynjacku_6.orig.tar.bz2
+ 15dd5517430294ac11fdf2ca7d9fecdbb27b0623 24204 zynjacku_6-4.debian.tar.gz
+Checksums-Sha256:
+ c16ba2533ebb23e3dd995875e89f4a7e1d96dcd553e52d1b737aa6752a000895 2133 zynjacku_6-4.dsc
+ 75ae39833c263f520a19f6c245d66d17eb5c04579858dc844a70b315d5617dff 400405 zynjacku_6.orig.tar.bz2
+ 57b9d12546eed831b8bd7c11032bbcb23ca19f5d82c68cf22dc3a48f604f9741 24204 zynjacku_6-4.debian.tar.gz
+
+Package: gw-fonts-ttf
+Binary: ttf-georgewilliams
+Version: 1.0-5ubuntu1
+Priority: optional
+Section: universe/x11
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Fonts Task Force <pkg-fonts-devel@lists.alioth.debian.org>
+Build-Depends: debhelper (>= 8.1.0~), unzip
+Architecture: all
+Standards-Version: 3.9.2
+Format: 3.0 (quilt)
+Directory: pool/universe/g/gw-fonts-ttf
+Files:
+ 719728355c08f4750cc04bf278964cd9 2006 gw-fonts-ttf_1.0-5ubuntu1.dsc
+ e81446f5c03ed00fb280072eb75252e6 1786534 gw-fonts-ttf_1.0.orig.tar.bz2
+ cfa9bae02aa5b79d2676e2b3e81c445c 2699 gw-fonts-ttf_1.0-5ubuntu1.debian.tar.gz
+Uploaders: Christian Perrier <bubulle@debian.org>
+Homepage: http://fontforge.sourceforge.net/sfds/
+Package-List: 
+ ttf-georgewilliams deb fonts optional
+Checksums-Sha1:
+ 33af3d5d9babd57fec5e300dfb86f463c3500ea7 2006 gw-fonts-ttf_1.0-5ubuntu1.dsc
+ c319968eb4fec46907e3c9d1454c747f47d32e9c 1786534 gw-fonts-ttf_1.0.orig.tar.bz2
+ ce8b9c20cf4c5c38acf73c8e9f3e62d613b2270d 2699 gw-fonts-ttf_1.0-5ubuntu1.debian.tar.gz
+Checksums-Sha256:
+ f1d86aa489d809d202c4e56a7a49758229d01e7166eebe11e54df7ab1fc72931 2006 gw-fonts-ttf_1.0-5ubuntu1.dsc
+ d088ab96246949e6953ed614a627985b653c679142bec2e0c5f4558b322dd021 1786534 gw-fonts-ttf_1.0.orig.tar.bz2
+ 2a8ed0b01ce28ab5da8b7efea3f538388d8ea56444a7af3a2d68720379320322 2699 gw-fonts-ttf_1.0-5ubuntu1.debian.tar.gz
+
+Package: ttf-summersby
+Binary: ttf-summersby
+Version: 1.007-3.1
+Priority: optional
+Section: universe/x11
+Maintainer: Mauro Lizaur <lavaramano@gmail.com>
+Build-Depends: debhelper (>= 8)
+Architecture: all
+Standards-Version: 3.9.2
+Format: 1.0
+Directory: pool/universe/t/ttf-summersby
+Files:
+ 3f406cea44759ee2cf8b798d8dbb7725 1677 ttf-summersby_1.007-3.1.dsc
+ 618ecd772cb48fb4d0112615b5ddfe73 147470 ttf-summersby_1.007.orig.tar.gz
+ f89d082b6ae2960922c4b11d12c7ce19 1293 ttf-summersby_1.007-3.1.diff.gz
+Package-List: 
+ ttf-summersby deb x11 optional
+Checksums-Sha1:
+ c70f195862ab5ce26368aa567d033ebf67d2872e 1677 ttf-summersby_1.007-3.1.dsc
+ 63d774a1d8f374f1db1f06e64f7d7bd5c9a51c3f 147470 ttf-summersby_1.007.orig.tar.gz
+ e144d3919f3194a5e9b2a84380a3960c669169cb 1293 ttf-summersby_1.007-3.1.diff.gz
+Checksums-Sha256:
+ 54a078fc8a01a9a1f70a7fb42af951f17f58470b18dfed8c26fe059108652f01 1677 ttf-summersby_1.007-3.1.dsc
+ e7932abeda52bc6b3bcc06bfc76d4e2435e72a6b2f4b1553f5d3019ac717f41f 147470 ttf-summersby_1.007.orig.tar.gz
+ 1446a2df86903ea8788caee0b17f31e987eddfe7add8e98a88dc7d9e1cfdc532 1293 ttf-summersby_1.007-3.1.diff.gz
+
+Package: tuxtype
+Binary: tuxtype, tuxtype-data
+Version: 1.8.1-5
+Priority: optional
+Section: universe/games
+Maintainer: Holger Levsen <holger@debian.org>
+Build-Depends: debhelper (>= 5.0.42), libsdl-mixer1.2-dev, libsdl-image1.2-dev, libsdl1.2-dev, libsdl-ttf2.0-dev, libsdl-pango-dev, librsvg2-dev
+Architecture: any all
+Standards-Version: 3.9.2
+Format: 1.0
+Directory: pool/universe/t/tuxtype
+Files:
+ 5ed148b2d82b9646b96899fe70ab5050 1953 tuxtype_1.8.1-5.dsc
+ ce96616ba0c9e619ce0071a528301e94 11528002 tuxtype_1.8.1.orig.tar.gz
+ 8be9ed07ef2a1cad456efe207657ebe6 21418 tuxtype_1.8.1-5.diff.gz
+Homepage: http://tux4kids.alioth.debian.org
+Vcs-Browser: http://anonscm.debian.org/git/tux4kids/tuxtype.git
+Vcs-Git: git://anonscm.debian.org/tux4kids/tuxtype.git
+Package-List: 
+ tuxtype deb games optional
+ tuxtype-data deb games optional
+Checksums-Sha1:
+ c1d3f337c7c13d42b2c9719259f775fb9669e45b 1953 tuxtype_1.8.1-5.dsc
+ f9e67f4cb8a6bb882bd6360b773f8b1645d74c23 11528002 tuxtype_1.8.1.orig.tar.gz
+ 67b4bccbb560bfb346947fc892c89f09d4875b3d 21418 tuxtype_1.8.1-5.diff.gz
+Checksums-Sha256:
+ 888f73c02b8580564f604be4a073ad32ef58912c86f3c9ea2dabade22b0479af 1953 tuxtype_1.8.1-5.dsc
+ 2687b858679b4f0b4f42204211d162234568198544bd95a9b71ec96e788d1481 11528002 tuxtype_1.8.1.orig.tar.gz
+ a1f2696f45165d3cfd3a4a9116319c381ec8d46408005e697db352d3f40ece5e 21418 tuxtype_1.8.1-5.diff.gz
+
+Package: ttf-engadget
+Binary: ttf-engadget
+Version: 1.001-1-1
+Priority: optional
+Section: universe/x11
+Maintainer: Gürkan Sengün <gurkan@phys.ethz.ch>
+Build-Depends: debhelper (>= 7)
+Architecture: all
+Standards-Version: 3.9.1
+Format: 1.0
+Directory: pool/universe/t/ttf-engadget
+Files:
+ 2691719690bf8fb633a8d22c5032dab5 1050 ttf-engadget_1.001-1-1.dsc
+ f9bfa66c4669758ba143459a0e292392 148623 ttf-engadget_1.001-1.orig.tar.gz
+ 731c70ff4a12cfbf4ecf140044857377 1723 ttf-engadget_1.001-1-1.diff.gz
+Homepage: http://www.thibault.org/fonts/engadget/
+Checksums-Sha1:
+ d0385881f54aaa4b1eec8f2ef89f7dcfac47a2f7 1050 ttf-engadget_1.001-1-1.dsc
+ 5bdd6e1b9da43cd202766900fe650b324114183f 148623 ttf-engadget_1.001-1.orig.tar.gz
+ a66e7bf72001c7665b535d4e22c18570d8e10aac 1723 ttf-engadget_1.001-1-1.diff.gz
+Checksums-Sha256:
+ 9d7c302f962a904fc34a35e0581e5cf10fb1eb4b697579087114b8a8c52a4064 1050 ttf-engadget_1.001-1-1.dsc
+ 6f6f6502b9c95cd02e5af2be94191e2d79a85b927f5df81c67c75a7996a08daf 148623 ttf-engadget_1.001-1.orig.tar.gz
+ 475bae0cc2c2eccbd9e7fe1f1986622187b41398aae4418dda88d969e16a70e8 1723 ttf-engadget_1.001-1-1.diff.gz
+
+Package: tuxmath
+Binary: tuxmath
+Version: 1.8.0-4
+Priority: optional
+Section: universe/games
+Maintainer: Holger Levsen <holger@debian.org>
+Build-Depends: debhelper (>= 5.0.42), libsdl1.2-dev, libsdl-image1.2-dev, libsdl-mixer1.2-dev, libsdl-ttf2.0-dev, libx11-6, libxext6, libsdl-pango-dev, librsvg2-dev, libsdl-net1.2-dev
+Architecture: any
+Standards-Version: 3.9.2
+Format: 1.0
+Directory: pool/universe/t/tuxmath
+Files:
+ 7ebb385e5b0bda0dad650092cd5ffe85 1935 tuxmath_1.8.0-4.dsc
+ 2432cb31f50f07f60296b3c7b32412e9 7353132 tuxmath_1.8.0.orig.tar.gz
+ ae87fdf133fca72ca49684f752b7a78c 8332 tuxmath_1.8.0-4.diff.gz
+Homepage: http://tux4kids.alioth.debian.org
+Vcs-Browser: http://anonscm.debian.org/git/tux4kids/tuxmath.git
+Vcs-Git: git://anonscm.debian.org/tux4kids/tuxmath.git
+Package-List: 
+ tuxmath deb games optional
+Checksums-Sha1:
+ 623cdc3b98d491c3fae3236bb48a3df3951a7d8d 1935 tuxmath_1.8.0-4.dsc
+ 33dfb34cc03b52cc3c3251c97cede3edede24205 7353132 tuxmath_1.8.0.orig.tar.gz
+ d04857f50e59c8e10cfa5aa792501c852934989b 8332 tuxmath_1.8.0-4.diff.gz
+Checksums-Sha256:
+ d62b3756bb8358ecd6e1a904b2496e4cfecb418d17bf47349c9c180cbdb6a966 1935 tuxmath_1.8.0-4.dsc
+ 062f232c013109da93fd4bda76d21020d2b3621bf45d13cf2d93bc5b9697f16e 7353132 tuxmath_1.8.0.orig.tar.gz
+ 2fdd3564a1a0e81b432b3263bc92da96f14982d1b2072aaf3cb30dff8eef08a2 8332 tuxmath_1.8.0-4.diff.gz
+
+Package: ttf-isabella
+Binary: ttf-isabella
+Version: 1.2-2ubuntu1
+Priority: optional
+Section: universe/x11
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Edgar Antonio Palma de la Cruz <xbytemx@gmail.com>
+Build-Depends: debhelper (>= 8.1.0~), fontforge, fontconfig
+Architecture: all
+Standards-Version: 3.9.2
+Format: 3.0 (quilt)
+Directory: pool/universe/t/ttf-isabella
+Files:
+ 8af8fa739ed994b3967156465288ac27 1940 ttf-isabella_1.2-2ubuntu1.dsc
+ 1b48970deeaa788ae38cd913e76453c2 156538 ttf-isabella_1.2.orig.tar.gz
+ 0713d6ea5348aaf072db5d94b0fcb146 4797 ttf-isabella_1.2-2ubuntu1.debian.tar.gz
+Homepage: http://www.thibault.org/fonts/isabella/
+Package-List: 
+ ttf-isabella deb fonts optional
+Checksums-Sha1:
+ 56c780d7b701c7f46a0da7fc1fa3a165a0e9c1a6 1940 ttf-isabella_1.2-2ubuntu1.dsc
+ 64cf0558be2b53f7bf97f6a2dcca2fe3aa371c10 156538 ttf-isabella_1.2.orig.tar.gz
+ 4e2dfdfc8ba9f64ca4e8dd58760ac887476ad367 4797 ttf-isabella_1.2-2ubuntu1.debian.tar.gz
+Checksums-Sha256:
+ aa1de696faba7752928cabeed6a60426a4ffc88d4397e8fd0903c4e1486b64ec 1940 ttf-isabella_1.2-2ubuntu1.dsc
+ cf1d7834125509f11c13036c16870befb25b805ddc4ff227ddc3e403feb744f8 156538 ttf-isabella_1.2.orig.tar.gz
+ 57f6357647df88f4d482db14d33f7f60b41af1d32f2a652765bdf06237df9fbf 4797 ttf-isabella_1.2-2ubuntu1.debian.tar.gz
+
+Package: ttf-bitstream-vera
+Binary: ttf-bitstream-vera
+Version: 1.10-8
+Priority: optional
+Section: universe/fonts
+Maintainer: Keith Packard <keithp@debian.org>
+Build-Depends: cdbs (>= 0.4.46), debhelper (>= 5.0.42)
+Architecture: all
+Standards-Version: 3.8.3
+Format: 1.0
+Directory: pool/universe/t/ttf-bitstream-vera
+Files:
+ 54512be9107a8e95d556fb532f4d948b 1038 ttf-bitstream-vera_1.10-8.dsc
+ 52559ed969e74f5fca83e527163156df 350465 ttf-bitstream-vera_1.10.orig.tar.gz
+ b6c50b7dac87659eb954133785df93a7 5016 ttf-bitstream-vera_1.10-8.diff.gz
+Checksums-Sha1:
+ 79680c2988d3e2dccf99b3dcda1eeb6eff7fc486 1038 ttf-bitstream-vera_1.10-8.dsc
+ 141d73c0abb8d1744869313e886cd3cdf4fba57a 350465 ttf-bitstream-vera_1.10.orig.tar.gz
+ 8a2657041d88d4a216cbc317fdc5d51d4b5c91c0 5016 ttf-bitstream-vera_1.10-8.diff.gz
+Checksums-Sha256:
+ 63e0e7fc2d4670d0c72f751f2e6b7c02e1fefda8efed1d9881498a7eb96895ff 1038 ttf-bitstream-vera_1.10-8.dsc
+ 3a84126ce11ef404d1453438e35450b9e0838220d262059e56cd8496ac6f5d15 350465 ttf-bitstream-vera_1.10.orig.tar.gz
+ 34480bc06fbf5ab7a5b20b16dbacc50d27ba43e838ffb5ada7a7dc60f23783b5 5016 ttf-bitstream-vera_1.10-8.diff.gz
+
+Package: translate-toolkit
+Binary: translate-toolkit, translate-toolkit-dev-doc
+Version: 1.9.0-1ubuntu2
+Priority: optional
+Section: universe/python
+Maintainer: Debian l10n developers <debian-l10n-devel@lists.alioth.debian.org>
+Build-Depends: debhelper (>= 6.0.7), quilt (>= 0.40)
+Build-Depends-Indep: python-lxml, python (>= 2.6.6-3~), python-vobject, python-simplejson
+Architecture: all
+Standards-Version: 3.9.1
+Format: 3.0 (quilt)
+Directory: pool/universe/t/translate-toolkit
+Files:
+ 0c2844e7b2010b8213af855a1ce87920 1677 translate-toolkit_1.9.0-1ubuntu2.dsc
+ 6106bb27887a77c056bfa7d2fd89204d 2782257 translate-toolkit_1.9.0.orig.tar.bz2
+ 1f7a66b75de19749c528397c12577720 17398 translate-toolkit_1.9.0-1ubuntu2.debian.tar.gz
+Uploaders: Nicolas FRANCOIS (Nekral) <nicolas.francois@centraliens.net>, Christian Perrier <bubulle@debian.org>
+Homepage: http://translate.sourceforge.net/wiki/toolkit/index
+Vcs-Browser: http://svn.debian.org/viewsvn/debian-l10n/translate-toolkit/trunk
+Vcs-Svn: svn://svn.debian.org/svn/debian-l10n/translate-toolkit/trunk
+Package-List: 
+ translate-toolkit deb python optional
+ translate-toolkit-dev-doc deb doc optional
+Checksums-Sha1:
+ a4480aefb4aa7cdd9d1e5fccde7d61dfa9f9c257 1677 translate-toolkit_1.9.0-1ubuntu2.dsc
+ 590eca7d5e22f3f50a053294f4dd97bd0ad15783 2782257 translate-toolkit_1.9.0.orig.tar.bz2
+ 055d080e836c9ceabbaf71e52614c5789f40d729 17398 translate-toolkit_1.9.0-1ubuntu2.debian.tar.gz
+Checksums-Sha256:
+ f12dc8971551de3ed2d8e203a804a10d7460f05567ed5268f3fcd078959e163a 1677 translate-toolkit_1.9.0-1ubuntu2.dsc
+ 58997d5783a1bbf3592c899012df840dab1438b51af8d4810dc36d2d3463e75a 2782257 translate-toolkit_1.9.0.orig.tar.bz2
+ 1e4fc43596efd6bd61220fafe03b48c4a8c784145cca0b2a2d0e12678798c14e 17398 translate-toolkit_1.9.0-1ubuntu2.debian.tar.gz
+
+Package: ttf-jsmath
+Binary: ttf-jsmath
+Version: 0.090709+0-1
+Priority: extra
+Section: universe/x11
+Maintainer: Atsuhito KOHDA <kohda@debian.org>
+Build-Depends: debhelper (>= 7)
+Architecture: all
+Standards-Version: 3.8.0
+Format: 1.0
+Directory: pool/universe/t/ttf-jsmath
+Files:
+ 18dc7a9f5bb1cb0509426d750382a104 1001 ttf-jsmath_0.090709+0-1.dsc
+ 909513b7739cffd1a0f3efd75b794540 372476 ttf-jsmath_0.090709+0.orig.tar.gz
+ f60038ba850b78bf277a49fa01b9bb1c 2053 ttf-jsmath_0.090709+0-1.diff.gz
+Checksums-Sha1:
+ ad6d1bdb1da122fe374aac914440b2a5bad7e28c 1001 ttf-jsmath_0.090709+0-1.dsc
+ 244315717bfccfa7ed7314da330329370ea017ed 372476 ttf-jsmath_0.090709+0.orig.tar.gz
+ 5665e150e62f9087267aaab2ae8702057e146fae 2053 ttf-jsmath_0.090709+0-1.diff.gz
+Checksums-Sha256:
+ 63df415586777da82d1422a5a9ffe7e0f00be6ab5f00c3827fbd9a6be1e85a16 1001 ttf-jsmath_0.090709+0-1.dsc
+ 16c32017c922f3cdaa42aeb3f496fc5508892bf19f15c182c148aaa7cd9d1c1e 372476 ttf-jsmath_0.090709+0.orig.tar.gz
+ 4eb87e6db0975b4b8e006b2d23c13308d39d8b07b790c5c4c2a9aae515686d41 2053 ttf-jsmath_0.090709+0-1.diff.gz
+
+Package: thunar-volman
+Binary: thunar-volman
+Version: 0.8.0-1
+Priority: optional
+Section: universe/x11
+Maintainer: Debian Xfce Maintainers <pkg-xfce-devel@lists.alioth.debian.org>
+Build-Depends: debhelper (>= 9), libexo-1-dev (>= 0.8.0), dpkg-dev (>= 1.16.1), libgudev-1.0-dev (>= 145), libxfce4util-dev (>= 4.10.0), libxfce4ui-1-dev (>= 4.10.0), libxfconf-0-dev (>= 4.10.0), libnotify-dev, chrpath, libxml-parser-perl, intltool
+Architecture: linux-any
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Directory: pool/universe/t/thunar-volman
+Files:
+ 22f711e4dd91546128da06e275910541 2266 thunar-volman_0.8.0-1.dsc
+ 250af757ea629c7c27f554d17119080c 411013 thunar-volman_0.8.0.orig.tar.bz2
+ ce1d0e1b6934b2b9a5e032667fd51c96 4474 thunar-volman_0.8.0-1.debian.tar.gz
+Uploaders: Yves-Alexis Perez <corsac@debian.org>, Lionel Le Folgoc <mrpouit@gmail.com>
+Homepage: http://goodies.xfce.org/projects/thunar-plugins/thunar-volman
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-xfce/goodies/trunk/thunar-volman/
+Vcs-Svn: svn://svn.debian.org/pkg-xfce/goodies/trunk/thunar-volman/
+Package-List: 
+ thunar-volman deb xfce optional
+Checksums-Sha1:
+ dd971b567d2871f441cb4b60bbbf1bcb30465cba 2266 thunar-volman_0.8.0-1.dsc
+ 2e62c9b0bec5c164e9c632671c81966c4220823c 411013 thunar-volman_0.8.0.orig.tar.bz2
+ b37ba17aaed2677915594881c068692d474bef76 4474 thunar-volman_0.8.0-1.debian.tar.gz
+Checksums-Sha256:
+ 8cc6f883d4159c1719fc70a126618a42fb35d4a36482ef6c9a10e879622626d9 2266 thunar-volman_0.8.0-1.dsc
+ ff0887c862b578580d05f4cd7db66081382ff143f9cc7ea3c9ba58cf5d02bceb 411013 thunar-volman_0.8.0.orig.tar.bz2
+ 1ae4006dffe0d954d86d9e81707ca182a22ea89b028f9fd8b8442d811f0e92c6 4474 thunar-volman_0.8.0-1.debian.tar.gz
+
+Package: ttf-tiresias
+Binary: ttf-tiresias
+Version: 0.1-2ubuntu1
+Priority: optional
+Section: universe/x11
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Gürkan Sengün <gurkan@phys.ethz.ch>
+Build-Depends: debhelper (>= 8.1.0~), unzip
+Architecture: all
+Standards-Version: 3.9.2
+Format: 3.0 (quilt)
+Directory: pool/universe/t/ttf-tiresias
+Files:
+ 6dcfd1f1147b94316f96cb7395354adf 1979 ttf-tiresias_0.1-2ubuntu1.dsc
+ 63dfc3a4cf3ef3f2b569c766217ace2a 651277 ttf-tiresias_0.1.orig.tar.gz
+ c7288b401026f21597aa83687538127c 2872 ttf-tiresias_0.1-2ubuntu1.debian.tar.gz
+Uploaders: Debian Fonts Task Force <pkg-fonts-devel@lists.alioth.debian.org>
+Homepage: http://www.tiresias.org/fonts/
+Package-List: 
+ ttf-tiresias deb fonts optional
+Checksums-Sha1:
+ 224378eb2dbec5c3d032252654392875768b6a7e 1979 ttf-tiresias_0.1-2ubuntu1.dsc
+ 90c8b8e1f5075cbfe2695d90c58a87baf6eb7f5b 651277 ttf-tiresias_0.1.orig.tar.gz
+ b1e005ff98c65d571ab5ab5213b7c7ff78dd100a 2872 ttf-tiresias_0.1-2ubuntu1.debian.tar.gz
+Checksums-Sha256:
+ d1e29a52d753befbe7a48313a7c98c5e601077f133dc8c2e4b70e8ce6ef9a62b 1979 ttf-tiresias_0.1-2ubuntu1.dsc
+ 19d197efda2734c583505f78a6a16fc2cb3a2b45485f4808e427c0fa891c98e3 651277 ttf-tiresias_0.1.orig.tar.gz
+ 0a6c22bc65e2333a6639ecfd93100fa19275acde6367673b53428df8cc49882b 2872 ttf-tiresias_0.1-2ubuntu1.debian.tar.gz
+
+Package: thunar-media-tags-plugin
+Binary: thunar-media-tags-plugin
+Version: 0.2.0-1
+Priority: optional
+Section: universe/x11
+Maintainer: Debian Xfce Maintainers <pkg-xfce-devel@lists.alioth.debian.org>
+Build-Depends: debhelper (>= 8.9.4), pkg-config, libthunarx-2-dev (>= 1.0.1), libexo-1-dev (>= 0.5.0), libtagc0-dev, libxml-parser-perl, intltool, dpkg-dev (>= 1.16.1)
+Architecture: any
+Standards-Version: 3.9.2
+Format: 3.0 (quilt)
+Directory: pool/universe/t/thunar-media-tags-plugin
+Files:
+ cf5c1ce787d60c88c112fe20bac4d778 2228 thunar-media-tags-plugin_0.2.0-1.dsc
+ e3fe46401ad12a5cde40b954ae1d8f80 321001 thunar-media-tags-plugin_0.2.0.orig.tar.bz2
+ 20ae744ebfb3721ca8051430357a58ac 2516 thunar-media-tags-plugin_0.2.0-1.debian.tar.gz
+Uploaders: Yves-Alexis Perez <corsac@debian.org>, Lionel Le Folgoc <mrpouit@gmail.com>
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-xfce/goodies/trunk/thunar-media-tags-plugin/
+Vcs-Svn: svn://svn.debian.org/pkg-xfce/goodies/trunk/thunar-media-tags-plugin/
+Package-List: 
+ thunar-media-tags-plugin deb xfce optional
+Checksums-Sha1:
+ d0261a339d8e381d650ee8705132e57ffb3905cb 2228 thunar-media-tags-plugin_0.2.0-1.dsc
+ 1111b4dae10156ab91adb4eadb26586593b1b023 321001 thunar-media-tags-plugin_0.2.0.orig.tar.bz2
+ 9a04977af9a32a2586420e6297abc94cdd748e60 2516 thunar-media-tags-plugin_0.2.0-1.debian.tar.gz
+Checksums-Sha256:
+ d7df976b9ac6be11c517f6da1562a6b192c4b095b516b143e6216275fc05ef47 2228 thunar-media-tags-plugin_0.2.0-1.dsc
+ 721b34a8a801ebd039469c8b8605b0bb332d498a6018a1b978df5c87bdb8750f 321001 thunar-media-tags-plugin_0.2.0.orig.tar.bz2
+ be24341b5eeda77ae9095b1718d28020db6a4d93f76de0568ec5642bfa2b7850 2516 thunar-media-tags-plugin_0.2.0-1.debian.tar.gz
+
+Package: tuxpaint-stamps
+Binary: tuxpaint-stamps-default
+Version: 2009.06.28-1
+Priority: optional
+Section: universe/graphics
+Maintainer: Ben Armstrong <synrg@sanctuary.nslug.ns.ca>
+Build-Depends: debhelper (>> 5)
+Architecture: all
+Standards-Version: 3.8.2
+Format: 1.0
+Directory: pool/universe/t/tuxpaint-stamps
+Files:
+ 76271ca9d373a4828391ee7605c14990 1056 tuxpaint-stamps_2009.06.28-1.dsc
+ 06ceccd22074bdbf95c7c8776f7f49a9 48273629 tuxpaint-stamps_2009.06.28.orig.tar.gz
+ b342c58ca8817f8ef0f97c693dc4d0ad 2210 tuxpaint-stamps_2009.06.28-1.diff.gz
+Checksums-Sha1:
+ bebe7a4b1735418ad63e7c24f3180db35aec9563 1056 tuxpaint-stamps_2009.06.28-1.dsc
+ da00c337e13585d88688d79993936e9b49044e26 48273629 tuxpaint-stamps_2009.06.28.orig.tar.gz
+ 222cbd945499b062ca69da0cdda29ba4d8f7c6a4 2210 tuxpaint-stamps_2009.06.28-1.diff.gz
+Checksums-Sha256:
+ 8842a425a94864b2e8cc59e96a70fc67872c7104b30cb4961b8ac6ddf47e423a 1056 tuxpaint-stamps_2009.06.28-1.dsc
+ 271d9a5739d24b6dcee751bf8c889eecb3beb3ff67f5a870dba5d7732dca3e68 48273629 tuxpaint-stamps_2009.06.28.orig.tar.gz
+ 07416a1f5ff0a3842302568fb96cccbfd9dc9592257f0482e1aa6ae709a4df2c 2210 tuxpaint-stamps_2009.06.28-1.diff.gz
+
+Package: ttfautohint
+Binary: ttfautohint
+Version: 0.9-1
+Priority: optional
+Section: universe/fonts
+Maintainer: Gürkan Sengün <gurkan@phys.ethz.ch>
+Build-Depends: debhelper (>= 8.0.0), autotools-dev, libqt4-dev, libfreetype6-dev
+Architecture: any
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Directory: pool/universe/t/ttfautohint
+Files:
+ 59cac491870b329b3b45675d86e4626b 1213 ttfautohint_0.9-1.dsc
+ c54b831b21c0b205e995656406302005 2077905 ttfautohint_0.9.orig.tar.gz
+ c2e20fbc7afe2ca73d6717b569b73680 5214 ttfautohint_0.9-1.debian.tar.gz
+Uploaders: Debian Fonts Task Force <pkg-fonts-devel@lists.alioth.debian.org>
+Homepage: http://www.freetype.org/ttfautohint/
+Package-List: 
+ ttfautohint deb fonts optional
+Checksums-Sha1:
+ ebc86f20abce0c1c63eb1fcf7713e1b0d76879fb 1213 ttfautohint_0.9-1.dsc
+ efb6b1aeb8ebb0231e4b07d17c6869323e3d3fd2 2077905 ttfautohint_0.9.orig.tar.gz
+ 7c5cde86d4ca8d5ac785a9e79d713487d09fe786 5214 ttfautohint_0.9-1.debian.tar.gz
+Checksums-Sha256:
+ 2133262d58c7eae54651d784c7a8f7d0ea56081912311d0282e11f9ec501cb8b 1213 ttfautohint_0.9-1.dsc
+ 994a69f1590b37d9447412f979555f28fc5b20259145f5fd698c2b4bcd3360b9 2077905 ttfautohint_0.9.orig.tar.gz
+ 7f1778455cec68f3cf0ac70de0a4036aaa304016b5c51dcac9de054d3a66fcc8 5214 ttfautohint_0.9-1.debian.tar.gz
+
+Package: ttf-ancient-fonts
+Binary: ttf-ancient-fonts
+Version: 2.57-1
+Priority: optional
+Section: universe/x11
+Maintainer: Gürkan Sengün <gurkan@phys.ethz.ch>
+Build-Depends: debhelper (>= 8)
+Architecture: all
+Standards-Version: 3.9.2
+Format: 3.0 (quilt)
+Directory: pool/universe/t/ttf-ancient-fonts
+Files:
+ ddec3cc2c4e52a8db2944417295a9530 1170 ttf-ancient-fonts_2.57-1.dsc
+ ee28043d8454f31c6bffc84e55acd823 10762119 ttf-ancient-fonts_2.57.orig.tar.gz
+ 0f44ee2f36bb110cee9ff593d9034844 2229 ttf-ancient-fonts_2.57-1.debian.tar.gz
+Uploaders: Debian Fonts Task Force <pkg-fonts-devel@lists.alioth.debian.org>
+Homepage: http://users.teilar.gr/~g1951d/
+Checksums-Sha1:
+ 7a73e8ef183f75dea97d49d0255a0e1dfcf71727 1170 ttf-ancient-fonts_2.57-1.dsc
+ b4918b9cb7e11b9e9f6323af302d4d5b77674d14 10762119 ttf-ancient-fonts_2.57.orig.tar.gz
+ 6068684afb15025fb25dc3d73427ece51354a11f 2229 ttf-ancient-fonts_2.57-1.debian.tar.gz
+Checksums-Sha256:
+ b35573218246949b27cc871427da59ea5b1cb2879381ba8aac1388e831d851e2 1170 ttf-ancient-fonts_2.57-1.dsc
+ 4d82736e85753407ed5afe12210a344415988e80ce43c37b3c8e7215d2c37311 10762119 ttf-ancient-fonts_2.57.orig.tar.gz
+ b8d5bfa9a09a24b90592993dcdbc918fa9ad249c6ceaa2b8593db2ed6cb96f66 2229 ttf-ancient-fonts_2.57-1.debian.tar.gz
+
+Package: ttf-adf
+Binary: ttf-adf-accanthis, ttf-adf-baskervald, ttf-adf-berenis, ttf-adf-gillius, ttf-adf-ikarius, ttf-adf-irianis, ttf-adf-libris, ttf-adf-mekanus, ttf-adf-oldania, ttf-adf-romande, ttf-adf-switzera, ttf-adf-tribun, ttf-adf-universalis, ttf-adf-verana
+Version: 0.20090423-2
+Priority: optional
+Section: universe/x11
+Maintainer: Gürkan Sengün <gurkan@phys.ethz.ch>
+Build-Depends: debhelper (>= 7)
+Architecture: all
+Standards-Version: 3.8.3
+Format: 1.0
+Directory: pool/universe/t/ttf-adf
+Files:
+ f93b86337630384ccd8fc50f3cbf7c96 1459 ttf-adf_0.20090423-2.dsc
+ cfb3d2a39b8e9cf42fb036b87b44d8e2 15055654 ttf-adf_0.20090423.orig.tar.gz
+ 81c8ab08920502aa4d728e9e3311ad2f 5507 ttf-adf_0.20090423-2.diff.gz
+Uploaders: Debian Fonts Task Force <pkg-fonts-devel@lists.alioth.debian.org>
+Homepage: http://arkandis.tuxfamily.org/
+Checksums-Sha1:
+ db78eeba3600c1114860d286fde0c1bbd8a705bb 1459 ttf-adf_0.20090423-2.dsc
+ 5921a3b0c176cedab8ca4d6d555e509c67df2534 15055654 ttf-adf_0.20090423.orig.tar.gz
+ 7377f68a71975dd5a0d601f7e486b5967620596a 5507 ttf-adf_0.20090423-2.diff.gz
+Checksums-Sha256:
+ 2a7de21ab0bdb515d6515904189a66142e6115e1c70528f852680ce5197b2b23 1459 ttf-adf_0.20090423-2.dsc
+ 7c70bd0e279be9573a850b6ff44bbbdadab7bd3c3efeab405518b5178a9e8df6 15055654 ttf-adf_0.20090423.orig.tar.gz
+ 5cc2878aecf031aa5e4c390ebce156e25d37ad7a70a185e103f85d9261bb47eb 5507 ttf-adf_0.20090423-2.diff.gz
+
+Package: ttf-aenigma
+Binary: ttf-aenigma
+Version: 0.0.20080510.dfsg-2
+Priority: optional
+Section: universe/x11
+Maintainer: Philip Newborough (aka corenominal) <mail@philipnewborough.co.uk>
+Build-Depends: debhelper (>= 7)
+Architecture: all
+Standards-Version: 3.9.2
+Format: 1.0
+Directory: pool/universe/t/ttf-aenigma
+Files:
+ bd04578ef3fcb2522477fda3ddfe04de 2112 ttf-aenigma_0.0.20080510.dfsg-2.dsc
+ 79050bd7b4fac3bb743855133afdfd7a 11621517 ttf-aenigma_0.0.20080510.dfsg.orig.tar.gz
+ 17fe659b68b0a426840b96361cc6497c 6627 ttf-aenigma_0.0.20080510.dfsg-2.diff.gz
+Uploaders: martin f. krafft <madduck@debian.org>
+Homepage: http://www.aenigmafonts.com/
+Checksums-Sha1:
+ 8f1e0710ad0273221cf652fc0ac50795a684e95a 2112 ttf-aenigma_0.0.20080510.dfsg-2.dsc
+ 43912e90bc5757a363bd828f705972a3361ef08e 11621517 ttf-aenigma_0.0.20080510.dfsg.orig.tar.gz
+ 03e09dcb77b8eaa984390d0cf15fcd91373f806e 6627 ttf-aenigma_0.0.20080510.dfsg-2.diff.gz
+Checksums-Sha256:
+ 56a4f73513cf00613887b017323544b5680cab541f73a1cf311cb472d81934e0 2112 ttf-aenigma_0.0.20080510.dfsg-2.dsc
+ 4745616cbfabedf5d777b94c0df3d07a80aeba3c2b15020847851cae581d7275 11621517 ttf-aenigma_0.0.20080510.dfsg.orig.tar.gz
+ 367677deba768c8661faa3002eaa8f6bc9045c76691fa39172b3ee393ac9b969 6627 ttf-aenigma_0.0.20080510.dfsg-2.diff.gz
+
+Package: ttf-goudybookletter
+Binary: ttf-goudybookletter
+Version: 2010.07.03-1ubuntu1
+Priority: optional
+Section: universe/x11
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Gürkan Sengün <gurkan@phys.ethz.ch>
+Build-Depends: debhelper (>= 8.1.0~), dh-autoreconf, fontforge-nox | fontforge, python (>= 2.6), sortsmill-tools
+Architecture: all
+Standards-Version: 3.9.2
+Format: 3.0 (quilt)
+Directory: pool/universe/t/ttf-goudybookletter
+Files:
+ 17bf643518d39b8dce952763994548a3 2172 ttf-goudybookletter_2010.07.03-1ubuntu1.dsc
+ 77f072c0bc7c750a1ee618fb5bb69aba 105803 ttf-goudybookletter_2010.07.03.orig.tar.bz2
+ 74a8b62d2d87090b90538908b961b642 3139 ttf-goudybookletter_2010.07.03-1ubuntu1.debian.tar.gz
+Uploaders: Debian Fonts Task Force <pkg-fonts-devel@lists.alioth.debian.org>
+Homepage: http://crudfactory.com/font/show/gb1911
+Package-List: 
+ ttf-goudybookletter deb fonts optional
+Checksums-Sha1:
+ 8ac3ed456db825a72c99cd7aa28583c92aa7da7b 2172 ttf-goudybookletter_2010.07.03-1ubuntu1.dsc
+ aa430edfdde31e41e4e2cb4c0df569dda70d4644 105803 ttf-goudybookletter_2010.07.03.orig.tar.bz2
+ 6ef9f3905a3616a68f233ce7c2ef9325cc0edf06 3139 ttf-goudybookletter_2010.07.03-1ubuntu1.debian.tar.gz
+Checksums-Sha256:
+ 95c2fdf787373c5c4e4767e33b28accdf47efdfec91db04197f658bf14178e7e 2172 ttf-goudybookletter_2010.07.03-1ubuntu1.dsc
+ 77ce9df7c6a0520aae34334ec4f5921f96aa0c39a21e05ab93da020c30ca820e 105803 ttf-goudybookletter_2010.07.03.orig.tar.bz2
+ d4d5d7d29ea1ad9bdc12f33bf053f77503f015b68d41505e57e3b2c5f2890509 3139 ttf-goudybookletter_2010.07.03-1ubuntu1.debian.tar.gz
+
+Package: ttf-femkeklaver
+Binary: ttf-femkeklaver
+Version: 1.0-1
+Priority: optional
+Section: universe/x11
+Maintainer: Leo Costela <costela@debian.org>
+Build-Depends: debhelper (>= 7)
+Architecture: all
+Standards-Version: 3.8.3
+Format: 3.0 (quilt)
+Directory: pool/universe/t/ttf-femkeklaver
+Files:
+ 2a22d12eacb5f15d1dcba6ec64f35ace 1083 ttf-femkeklaver_1.0-1.dsc
+ e710544d7fc4652d1a8f73ac5e606242 60003 ttf-femkeklaver_1.0.orig.tar.bz2
+ 8e70e47bd660df96328aa823f4834d28 9771 ttf-femkeklaver_1.0-1.debian.tar.gz
+Homepage: http://www.1001fonts.com/font_details.html?font_id=3180
+Checksums-Sha1:
+ 09d203eaae3b711a8df423a59214ad8e694d7d32 1083 ttf-femkeklaver_1.0-1.dsc
+ 98b79efc3fd11d31b7068f35c0540078079a0c6d 60003 ttf-femkeklaver_1.0.orig.tar.bz2
+ 955b7cac20589b9759a58134750f1b9e7b58eb98 9771 ttf-femkeklaver_1.0-1.debian.tar.gz
+Checksums-Sha256:
+ 2122dd11925ebb5a218a8e190d1b51d8eaf62ec613c1d9a675504179c812b1f6 1083 ttf-femkeklaver_1.0-1.dsc
+ 866d5e3101108bca259e1baaf070a8216440f6dab26e7e1a38b81de6d9d6dc77 60003 ttf-femkeklaver_1.0.orig.tar.bz2
+ 9f7664424b4ac4ba04df013a8794af22a10556baac76518f07f9c5ceb58cdf6a 9771 ttf-femkeklaver_1.0-1.debian.tar.gz
+
+Package: tuxpaint
+Binary: tuxpaint, tuxpaint-plugins-default, tuxpaint-dev, tuxpaint-data
+Version: 1:0.9.21-1ubuntu2
+Priority: optional
+Section: universe/graphics
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Ben Armstrong <synrg@sanctuary.nslug.ns.ca>
+Build-Depends: debhelper (>= 5.0.51~), gettext, libfribidi-dev, libsdl1.2-dev, libsdl-image1.2-dev, libsdl-mixer1.2-dev (>= 1.2.4-1.1), libsdl-ttf2.0-dev, libsdl-pango-dev, libpng12-dev, libvorbis-dev (>= 1.0.0-2), librsvg2-dev, libcairo2-dev, libpaper-dev
+Architecture: any
+Standards-Version: 3.8.2
+Format: 1.0
+Directory: pool/universe/t/tuxpaint
+Files:
+ 514e88c5944b34b35ba491da6305f295 1362 tuxpaint_0.9.21-1ubuntu2.dsc
+ a88401d1860648098eeed819cff038fa 9543034 tuxpaint_0.9.21.orig.tar.gz
+ 0b2f2b14a278d103a2012031b6e6692c 11843 tuxpaint_0.9.21-1ubuntu2.diff.gz
+Checksums-Sha1:
+ 38002b5aa2b7fdc1305e93910b8f6415ee678932 1362 tuxpaint_0.9.21-1ubuntu2.dsc
+ 082a179a3cb44ee17af47421bc92125a890846e4 9543034 tuxpaint_0.9.21.orig.tar.gz
+ 8520ada6409200a67caaa7d1e03e1cc2bb59e06f 11843 tuxpaint_0.9.21-1ubuntu2.diff.gz
+Checksums-Sha256:
+ 196ace091bbfdc998d07811c11be4b3c57c23f630009132d909747df961dd1a6 1362 tuxpaint_0.9.21-1ubuntu2.dsc
+ 6d4f2b981643b5c937708e5e6cdaf318ae7b5562375327b4b1cb84611e65ede9 9543034 tuxpaint_0.9.21.orig.tar.gz
+ f0abd15a6b1271af3943318f4cd9bb384a6ece1b3d9624d6040a09ad421e6b17 11843 tuxpaint_0.9.21-1ubuntu2.diff.gz
+
+Package: tomboy
+Binary: tomboy
+Version: 1.12.0-1ubuntu1
+Priority: optional
+Section: universe/x11
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian CLI Applications Team <pkg-cli-apps-team@lists.alioth.debian.org>
+Build-Depends: debhelper (>= 7.0.50), dh-autoreconf, gnome-common, intltool, pngquant, mono-devel (>= 2.4.3), libgtk2.0-cil-dev (>= 2.10.4), libgconf2-dev, libgconf2.0-cil-dev (>= 2.24), libgtkspell-dev (>= 2.0.9), cli-common-dev (>= 0.5.7), imagemagick, libgtk2.0-dev (>= 2.14.0), libatk1.0-dev (>= 1.2.4), libgmime2.6-cil-dev, gnome-doc-utils (>= 0.3.2), scrollkeeper, libdbus1.0-cil-dev (>= 0.4), libdbus-glib1.0-cil-dev (>= 0.3), libmono-addins-cil-dev (>= 0.3), libmono-addins-gui-cil-dev (>= 0.3), libappindicator0.1-cil-dev (>= 0.4.90), libproxy-dev
+Architecture: any
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Directory: pool/universe/t/tomboy
+Files:
+ 67bfbb6fd38f47d1a9d72f37d9e638d9 2585 tomboy_1.12.0-1ubuntu1.dsc
+ 1cbe8c3a402c1f031094de2fdee7fa8a 6628944 tomboy_1.12.0.orig.tar.xz
+ 8246406126b4e1ca0e87bf1e92bd4858 27717 tomboy_1.12.0-1ubuntu1.debian.tar.gz
+Uploaders: Sebastian Dröge <slomo@debian.org>, Iain Lane <laney@debian.org>
+Homepage: http://www.gnome.org/projects/tomboy/
+Vcs-Browser: http://git.debian.org/?p=pkg-cli-apps/packages/tomboy.git
+Vcs-Git: git://git.debian.org/pkg-cli-apps/packages/tomboy.git
+Package-List: 
+ tomboy deb gnome optional
+Checksums-Sha1:
+ 5223f041ebcdf748dbb2ebb732d60284e661eb1f 2585 tomboy_1.12.0-1ubuntu1.dsc
+ d2548a52f58b868dd41f7ec196ee7733c5da9fa9 6628944 tomboy_1.12.0.orig.tar.xz
+ e8624153a2792dc47f72c4dd12568ec5350a1cdd 27717 tomboy_1.12.0-1ubuntu1.debian.tar.gz
+Checksums-Sha256:
+ 84d0139f85ffd1738909272611a0b82dd85e922aa2fcc4bffc979b79e190e858 2585 tomboy_1.12.0-1ubuntu1.dsc
+ e1f33dba1d1bb39624b75e77760ddf29c020083d283d65f976be1dc3056e3203 6628944 tomboy_1.12.0.orig.tar.xz
+ af6a51355e8319065a721b6fe53ff81615b450493219d46e25f9148af6113a23 27717 tomboy_1.12.0-1ubuntu1.debian.tar.gz
+
+Package: ttf-atarismall
+Binary: ttf-atarismall
+Version: 2.1-4ubuntu1
+Priority: optional
+Section: universe/x11
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Gürkan Sengün <gurkan@phys.ethz.ch>
+Build-Depends: debhelper (>= 8.1.0~), fontforge
+Architecture: all
+Standards-Version: 3.9.2
+Format: 3.0 (quilt)
+Directory: pool/universe/t/ttf-atarismall
+Files:
+ 0a573e8c20d388985bf7ce903bd02e0d 2008 ttf-atarismall_2.1-4ubuntu1.dsc
+ 267e5880c277e6cade29ed5e58a4228b 17508 ttf-atarismall_2.1.orig.tar.gz
+ 9c4dbb552209a3a59e5908bc7e3e9476 3141 ttf-atarismall_2.1-4ubuntu1.debian.tar.gz
+Uploaders: Debian Fonts Task Force <pkg-fonts-devel@lists.alioth.debian.org>
+Homepage: http://gnu.ethz.ch/linuks.mine.nu/atari/
+Package-List: 
+ ttf-atarismall deb fonts optional
+Checksums-Sha1:
+ 9c0c0504784aa5e01e471804908297deb309e69a 2008 ttf-atarismall_2.1-4ubuntu1.dsc
+ 9848082ca1cbddf597fe36fb13cd86e469fdf544 17508 ttf-atarismall_2.1.orig.tar.gz
+ 81160e47817d852d2cc13a8036d5ec4588fde16e 3141 ttf-atarismall_2.1-4ubuntu1.debian.tar.gz
+Checksums-Sha256:
+ dc31f4ddb5119404886f4fa06d0c70b6901ed2fd1dd77a95ad3728c735aa5b22 2008 ttf-atarismall_2.1-4ubuntu1.dsc
+ 2e5bacfc3c12c33438cbc42b089c12b564e2634cdf69e9a68645381ef38658b2 17508 ttf-atarismall_2.1.orig.tar.gz
+ 3be8d488e1944be2a1a6454daa9414760fb3ea9156f402dd695acd654d3d5f8e 3141 ttf-atarismall_2.1-4ubuntu1.debian.tar.gz
+
+Package: ttf-radisnoir
+Binary: ttf-radisnoir
+Version: 0.9b-2ubuntu1
+Priority: optional
+Section: universe/x11
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Gürkan Sengün <gurkan@phys.ethz.ch>
+Build-Depends: debhelper (>= 8.1.0~), fontforge
+Architecture: all
+Standards-Version: 3.9.2
+Format: 3.0 (quilt)
+Directory: pool/universe/t/ttf-radisnoir
+Files:
+ 08d5f168f5638fd5f873ff6d1d938753 1991 ttf-radisnoir_0.9b-2ubuntu1.dsc
+ a450d4001b8450565acebd55aa6e0752 30537 ttf-radisnoir_0.9b.orig.tar.gz
+ 7f9b19df1c05197e6936b6353e77c37e 3895 ttf-radisnoir_0.9b-2ubuntu1.debian.tar.gz
+Uploaders: Debian Fonts Task Force <pkg-fonts-devel@lists.alioth.debian.org>
+Homepage: http://www.radisnoir.net/
+Package-List: 
+ ttf-radisnoir deb fonts optional
+Checksums-Sha1:
+ 90f5ed8f7ef3ff1978c8111d08f700574735699c 1991 ttf-radisnoir_0.9b-2ubuntu1.dsc
+ 65232e6347fe1bf188e8916b24e29912dc008e75 30537 ttf-radisnoir_0.9b.orig.tar.gz
+ 21d76e47597d308318e9a76b760f6bca5f6d8410 3895 ttf-radisnoir_0.9b-2ubuntu1.debian.tar.gz
+Checksums-Sha256:
+ 066678e3b01b09d55d333d943aef48f07c657d25d41152b0aed33204a28bd104 1991 ttf-radisnoir_0.9b-2ubuntu1.dsc
+ b03f1e51f1bd306190955f7796d55c11e3b69b7a08c477218803828bd6003d93 30537 ttf-radisnoir_0.9b.orig.tar.gz
+ ad6c5ac5f9552281ea346ff743b5c97075e669d596f9c45a4c26569c9fa9f547 3895 ttf-radisnoir_0.9b-2ubuntu1.debian.tar.gz
+
+Package: thunar-archive-plugin
+Binary: thunar-archive-plugin
+Version: 0.3.0-4
+Priority: optional
+Section: universe/x11
+Maintainer: Debian Xfce Maintainers <pkg-xfce-devel@lists.alioth.debian.org>
+Build-Depends: debhelper (>= 8.9.4), autotools-dev, pkg-config, intltool, libthunarx-2-dev, libexo-1-dev, xfce4-dev-tools, libtool, gtk-doc-tools
+Architecture: any
+Standards-Version: 3.9.2
+Format: 3.0 (quilt)
+Directory: pool/universe/t/thunar-archive-plugin
+Files:
+ 74a9b6c172542905c722fd3193dcf369 2173 thunar-archive-plugin_0.3.0-4.dsc
+ afeb3f1c65a4529dbdadc6e7b349a712 316778 thunar-archive-plugin_0.3.0.orig.tar.bz2
+ cbe61c366253d2ff887e1eb3579ae860 4049 thunar-archive-plugin_0.3.0-4.debian.tar.gz
+Uploaders: Yves-Alexis Perez <corsac@debian.org>, Lionel Le Folgoc <mrpouit@gmail.com>
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-xfce/goodies/trunk/thunar-archive-plugin/
+Vcs-Svn: svn://svn.debian.org/pkg-xfce/goodies/trunk/thunar-archive-plugin/
+Package-List: 
+ thunar-archive-plugin deb xfce optional
+Checksums-Sha1:
+ 21a2ad277205dec7f3d70f395f04120b62bd8046 2173 thunar-archive-plugin_0.3.0-4.dsc
+ 79a008709c61f1c4b4c35b6393abfd24bc60309b 316778 thunar-archive-plugin_0.3.0.orig.tar.bz2
+ 042ebc7a8bd146f710de81eabc6363bbf59e1271 4049 thunar-archive-plugin_0.3.0-4.debian.tar.gz
+Checksums-Sha256:
+ d1258cdc4a0a388581415e73ed62eb8f1594e772000ca3537a3dc60f6f34b0df 2173 thunar-archive-plugin_0.3.0-4.dsc
+ 74be7c6e242ba240b9477e9cf4ccc9190769c2717c5b5bf26788d1847adaf896 316778 thunar-archive-plugin_0.3.0.orig.tar.bz2
+ 9d492b3ba13ce311b2658d7ec690b61bf5bc5352bd04eadc7b715abee2a1fd6f 4049 thunar-archive-plugin_0.3.0-4.debian.tar.gz
+
+Package: ttf-staypuft
+Binary: ttf-staypuft
+Version: 0.04-6ubuntu1
+Priority: optional
+Section: universe/x11
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Edgar Antonio Palma de la Cruz <xbytemx@gmail.com>
+Build-Depends: debhelper (>= 8.1.0~), fontforge, fontconfig
+Architecture: all
+Standards-Version: 3.9.2
+Format: 3.0 (quilt)
+Directory: pool/universe/t/ttf-staypuft
+Files:
+ 2300af7d33d2ec0dec1a901cd422bd4f 1944 ttf-staypuft_0.04-6ubuntu1.dsc
+ f9f4e17ebbbd412a502bebb19b169e94 78300 ttf-staypuft_0.04.orig.tar.gz
+ dd9ce38684939fc3b541e5436e3add45 3915 ttf-staypuft_0.04-6ubuntu1.debian.tar.gz
+Homepage: http://www.thibault.org/fonts/staypuft/
+Package-List: 
+ ttf-staypuft deb fonts optional
+Checksums-Sha1:
+ cd5b39f6cdb164e847c7b18462f8f9ee627c5038 1944 ttf-staypuft_0.04-6ubuntu1.dsc
+ 29142b8075cd75f175af64f454da284c2a6a4b48 78300 ttf-staypuft_0.04.orig.tar.gz
+ 277f99c43d029d96361bab6e57eece3f5b36fec7 3915 ttf-staypuft_0.04-6ubuntu1.debian.tar.gz
+Checksums-Sha256:
+ 356f1ec2d15c0b7be01f0b551f25004ab957dfefe97f685dc41f18175e484ab0 1944 ttf-staypuft_0.04-6ubuntu1.dsc
+ 0c82be5cd9b5a41b12313abce5972e650cc0bd082733fab0fcd84debf55c6de7 78300 ttf-staypuft_0.04.orig.tar.gz
+ a36d254308038c3525426fab82bb2cbe7f669581b90b594fff2e3ef2cb1bfce9 3915 ttf-staypuft_0.04-6ubuntu1.debian.tar.gz
+
+Package: essays1743
+Binary: ttf-essays1743
+Version: 1.0-4.1
+Priority: optional
+Section: universe/x11
+Maintainer: Mauro Lizaur <lavaramano@gmail.com>
+Build-Depends: debhelper (>= 5)
+Build-Depends-Indep: fontforge
+Architecture: all
+Standards-Version: 3.8.0
+Format: 1.0
+Directory: pool/universe/e/essays1743
+Files:
+ 5e63166c704b796bc61a79e65fe65de0 1678 essays1743_1.0-4.1.dsc
+ 65edd8be5c5ba36f859a0664ad9b0add 1025604 essays1743_1.0.orig.tar.gz
+ 65643115c1532d7a062c5339546f79ed 2402 essays1743_1.0-4.1.diff.gz
+Homepage: http://www.thibault.org/fonts/essays/
+Checksums-Sha1:
+ c9e34f018117b20eb0731b179fd4676c0b58c751 1678 essays1743_1.0-4.1.dsc
+ c189c74c74288d44e2fdfca0d208c23f6e461489 1025604 essays1743_1.0.orig.tar.gz
+ f2a594447e0f0edf6c19bc0aff08c0aa0c8e367a 2402 essays1743_1.0-4.1.diff.gz
+Checksums-Sha256:
+ 07f83da1393c0644350b29290c047d08dafcda482cd6e095d374e97663642606 1678 essays1743_1.0-4.1.dsc
+ 6d6321f69ef683b3af285178789f9c6ecd8101924c9d10f3f510b05cd549694c 1025604 essays1743_1.0.orig.tar.gz
+ 06356fc78bb8b46d7caf6b1bb77f1b02362ac4a62c47da9b11d66c8dd4054552 2402 essays1743_1.0-4.1.diff.gz
+
+Package: wah-plugins
+Binary: wah-plugins
+Version: 0.0.2-2
+Priority: optional
+Section: universe/sound
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Build-Depends: debhelper (>= 7.0.50~), ladspa-sdk
+Architecture: any
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Directory: pool/universe/w/wah-plugins
+Files:
+ 8647649730432d03651986f27439a573 2062 wah-plugins_0.0.2-2.dsc
+ e203e3458a4cd75cc442d70b8f124db9 16400 wah-plugins_0.0.2.orig.tar.bz2
+ 8516088a886e9fce81cd9e13272cd542 2655 wah-plugins_0.0.2-2.debian.tar.gz
+Uploaders:  Alessio Treglia <alessio@debian.org>, Jaromír Mikeš <mira.mikes@seznam.cz>
+Dm-Upload-Allowed: yes
+Homepage: http://kokkinizita.linuxaudio.org/linuxaudio/index.html
+Vcs-Browser: http://git.debian.org/?p=pkg-multimedia/wah-plugins.git
+Vcs-Git: git://git.debian.org/pkg-multimedia/wah-plugins.git
+Package-List: 
+ wah-plugins deb sound optional
+Checksums-Sha1:
+ 32d5e9048d094219f74259dc4ce519f78f86dadf 2062 wah-plugins_0.0.2-2.dsc
+ ab5dd83cc8087055e35e13f00ae18ee1eddb329c 16400 wah-plugins_0.0.2.orig.tar.bz2
+ 04f8756c86430562e2c0501d70ec7a5749272cc7 2655 wah-plugins_0.0.2-2.debian.tar.gz
+Checksums-Sha256:
+ 1ba8584d8df54ac1a3e9664bb2b998f450fcb8cb110fdc06f6bebe21d5a0714b 2062 wah-plugins_0.0.2-2.dsc
+ fdd76f55ff59937fdb6e4fc2e0ea1c85a462ee5587bd2809df08a9b40fd5e9ad 16400 wah-plugins_0.0.2.orig.tar.bz2
+ f5d8213f71e636c2a08035af90b6c93ac6924c939d7835b38742aa8dbaea547c 2655 wah-plugins_0.0.2-2.debian.tar.gz
+
+Package: whysynth
+Binary: whysynth
+Version: 20090403-1.2
+Priority: optional
+Section: universe/sound
+Maintainer: rosea grammostola <rosea.grammostola@gmail.com>
+Build-Depends: cdbs, debhelper (>= 7), autotools-dev, libasound2-dev | libasound-dev, libgtk2.0-dev, dssi-dev, liblo0-dev, libfftw3-dev, ladspa-sdk
+Architecture: any
+Standards-Version: 3.8.1
+Format: 1.0
+Directory: pool/universe/w/whysynth
+Files:
+ e5fd84ec06bf3152e13c7ca16b8780d4 1204 whysynth_20090403-1.2.dsc
+ fd4388053ec761acda63bc3010cbdb09 2736720 whysynth_20090403.orig.tar.gz
+ 678c916ff027b5442896e2bc7f2c8898 3119 whysynth_20090403-1.2.diff.gz
+Homepage: http://www.smbolton.com/whysynth.html
+Package-List: 
+ whysynth deb sound optional
+Checksums-Sha1:
+ 040f9648251598d618b4626ef1edeaba537234ce 1204 whysynth_20090403-1.2.dsc
+ 6cf5684a3663f34c74d87e0df827bf3443ee741b 2736720 whysynth_20090403.orig.tar.gz
+ 6358aee1a654c05100ddd41e50733f8ee1310af6 3119 whysynth_20090403-1.2.diff.gz
+Checksums-Sha256:
+ 0e95f27b3965db4e502f6656668e2271ef6232fcce43f635be121583794cacd1 1204 whysynth_20090403-1.2.dsc
+ d2ce27db735014e3729ef857986ed1473826023984495eeb66fca3dc97803290 2736720 whysynth_20090403.orig.tar.gz
+ ef3552e89e0c4e21ecc26739232aba99f21997d5a46ca6fa98b069e1f60e739c 3119 whysynth_20090403-1.2.diff.gz
+
+Package: wmctrl
+Binary: wmctrl
+Version: 1.07-7
+Priority: optional
+Section: universe/x11
+Maintainer: Jeroen Schot <schot@a-eskwadraat.nl>
+Build-Depends: debhelper (>= 9), libglib2.0-dev, libx11-dev, libxmu-dev, x11proto-core-dev
+Architecture: any
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Directory: pool/universe/w/wmctrl
+Files:
+ 4a42ab2d5acfee709bdd3079d076fc54 1735 wmctrl_1.07-7.dsc
+ 1fe3c7a2caa6071e071ba34f587e1555 87820 wmctrl_1.07.orig.tar.gz
+ ce8649ad63886685b9d076ded8e0ea39 4902 wmctrl_1.07-7.debian.tar.gz
+Homepage: http://tomas.styblo.name/wmctrl/
+Package-List: 
+ wmctrl deb x11 optional
+Checksums-Sha1:
+ 63e4f31ffa4ef321eaa8846e076dfe33244b4928 1735 wmctrl_1.07-7.dsc
+ a123019a7fd5adc3e393fc1108cb706268a34e4d 87820 wmctrl_1.07.orig.tar.gz
+ e8ac68f7600907be5489c0fd9ffcf2047daaf8cb 4902 wmctrl_1.07-7.debian.tar.gz
+Checksums-Sha256:
+ 00325215eefc63b7623def01751e177ce26dc192bea677dc47f5d30805444dae 1735 wmctrl_1.07-7.dsc
+ d78a1efdb62f18674298ad039c5cbdb1edb6e8e149bb3a8e3a01a4750aa3cca9 87820 wmctrl_1.07.orig.tar.gz
+ 205c54538c9a20321af3621e00957317b3a4a3aea473b78a74e8f64632f8b958 4902 wmctrl_1.07-7.debian.tar.gz
+
+Package: xfce4-terminal
+Binary: xfce4-terminal, xfce4-terminal-dbg
+Version: 0.4.8-1ubuntu3
+Priority: optional
+Section: universe/x11
+Maintainer: Xubuntu Developers <xubuntu-devel@lists.ubuntu.com>
+Original-Maintainer: Debian Xfce Maintainers <pkg-xfce-devel@lists.alioth.debian.org>
+Build-Depends: debhelper (>= 7.0.50~), libdbus-glib-1-dev, libexo-1-dev (>= 0.5.0), libvte-dev (>= 1:0.17.1), libxml-perl, libstartup-notification0-dev, chrpath, intltool, libgtk2.0-dev (>= 2.14), hardening-includes
+Architecture: any
+Standards-Version: 3.9.2
+Format: 3.0 (quilt)
+Directory: pool/universe/x/xfce4-terminal
+Files:
+ e16a068ccab757f8905e91a866fd356c 2394 xfce4-terminal_0.4.8-1ubuntu3.dsc
+ 8dff62234da14e1a5e542fb56560ebe2 1585791 xfce4-terminal_0.4.8.orig.tar.bz2
+ c5edd714fd9dff44da38cca7ebf4cffa 10483 xfce4-terminal_0.4.8-1ubuntu3.debian.tar.gz
+Uploaders: Yves-Alexis Perez <corsac@debian.org>, Lionel Le Folgoc <mrpouit@gmail.com>
+Homepage: http://goodies.xfce.org/projects/applications/terminal
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-xfce/desktop/trunk/xfce4-terminal/
+Vcs-Svn: svn://svn.debian.org/pkg-xfce/desktop/trunk/xfce4-terminal/
+Package-List: 
+ xfce4-terminal deb xfce optional
+ xfce4-terminal-dbg deb debug extra
+Checksums-Sha1:
+ b493ce62fee748b5cf2b8fa003a028504c0e5af3 2394 xfce4-terminal_0.4.8-1ubuntu3.dsc
+ 2f12c3a0fffad18976d47e531d404ee308cb2f05 1585791 xfce4-terminal_0.4.8.orig.tar.bz2
+ deeadb513f8cbb9e5472b88e88250e2fe014d5a3 10483 xfce4-terminal_0.4.8-1ubuntu3.debian.tar.gz
+Checksums-Sha256:
+ b895010bbfdfd9b72f22988b0c5a683917fb3b7c5237615535926a2f4e8369db 2394 xfce4-terminal_0.4.8-1ubuntu3.dsc
+ fe5db0b7127ce87efa1e10f44d8915be88005b6ce4f0bfea6b64533e25cc788d 1585791 xfce4-terminal_0.4.8.orig.tar.bz2
+ 16176cd0fb6557bdf71b50811ebf65e975f84d68f166a91bc31aeadd47e22d2a 10483 xfce4-terminal_0.4.8-1ubuntu3.debian.tar.gz
+
+Package: xsynth-dssi
+Binary: xsynth-dssi
+Version: 0.9.4-2
+Priority: optional
+Section: universe/sound
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Build-Depends: debhelper (>= 7.0.50~), dssi-dev, liblo-dev, libgtk2.0-dev, ladspa-sdk, libasound2-dev, autotools-dev (>= 20100122.1~)
+Architecture: any
+Standards-Version: 3.9.1
+Format: 3.0 (quilt)
+Directory: pool/universe/x/xsynth-dssi
+Files:
+ 5e6a18e6d0704e01526a024722b0ecdb 1447 xsynth-dssi_0.9.4-2.dsc
+ 3432ecdac06407a992f80eb1c1ecf7cd 465783 xsynth-dssi_0.9.4.orig.tar.gz
+ 4325080e04948b9e305f812e17e040ed 3100 xsynth-dssi_0.9.4-2.debian.tar.gz
+Uploaders: Willem van Engen <debrepo@willem.engen.nl>, Free Ekanayaka <freee@debian.org>, Alessio Treglia <alessio@debian.org>
+Homepage: http://dssi.sourceforge.net/
+Vcs-Browser: http://git.debian.org/?p=pkg-multimedia/xsynth-dssi.git
+Vcs-Git: git://git.debian.org/pkg-multimedia/xsynth-dssi.git
+Checksums-Sha1:
+ 6029225d8051de66096104323d6d431fb05348b1 1447 xsynth-dssi_0.9.4-2.dsc
+ 4fc59fa1bb885d624547f1855ad62acca33afa24 465783 xsynth-dssi_0.9.4.orig.tar.gz
+ d6b4d6b4f74f8407e624eb5cf94f7f1c59237972 3100 xsynth-dssi_0.9.4-2.debian.tar.gz
+Checksums-Sha256:
+ f5f751348b034d6daf5e3ca486e3237bd631ed7b67f1fa67bf95973828835cf0 1447 xsynth-dssi_0.9.4-2.dsc
+ d3d24941a509c6193eac2b2ee3c9a6057c832565a0b66e58c3bd2e89afd8dc02 465783 xsynth-dssi_0.9.4.orig.tar.gz
+ ddeba7108e208b06423ff076410605057de38567b3b89a65d0c224422b8d629c 3100 xsynth-dssi_0.9.4-2.debian.tar.gz
+
+Package: xfce4-mount-plugin
+Binary: xfce4-mount-plugin
+Version: 0.6.4-1build1
+Priority: optional
+Section: universe/x11
+Maintainer: Debian Xfce Maintainers <pkg-xfce-devel@lists.alioth.debian.org>
+Build-Depends: autotools-dev, debhelper (>= 9), libgtk2.0-dev, xfce4-panel-dev (>= 4.8.0), libxml2-dev, libstartup-notification0-dev, libxml-parser-perl, libxfcegui4-dev, libxfce4ui-1-dev, intltool
+Architecture: any
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Directory: pool/universe/x/xfce4-mount-plugin
+Files:
+ 42de4b351293d9fd305ca28712413a55 2251 xfce4-mount-plugin_0.6.4-1build1.dsc
+ f5917e9aa2a06bc6a872cc10d2ee4f6f 390365 xfce4-mount-plugin_0.6.4.orig.tar.bz2
+ c106c92be00c79363b05894c3915878c 2838 xfce4-mount-plugin_0.6.4-1build1.debian.tar.gz
+Uploaders: Yves-Alexis Perez <corsac@debian.org>, Lionel Le Folgoc <mrpouit@gmail.com>
+Homepage: http://goodies.xfce.org/
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-xfce/goodies/trunk/xfce4-mount-plugin/
+Vcs-Svn: svn://svn.debian.org/pkg-xfce/goodies/trunk/xfce4-mount-plugin/
+Package-List: 
+ xfce4-mount-plugin deb xfce optional
+Checksums-Sha1:
+ fa80cc5908ee8ad2b5430855f737bffde7aa7587 2251 xfce4-mount-plugin_0.6.4-1build1.dsc
+ d132a9bbd15398dc1e83e28c6cb3801089c7fa2e 390365 xfce4-mount-plugin_0.6.4.orig.tar.bz2
+ bda010d69e6dba474cd13a197ce108fafefaabdd 2838 xfce4-mount-plugin_0.6.4-1build1.debian.tar.gz
+Checksums-Sha256:
+ 101296b73054b260a3df85b2b95f85210992dd5665a2f548f2dbcd181d8f6088 2251 xfce4-mount-plugin_0.6.4-1build1.dsc
+ 541d7af84d7d0b00ae547aa1f438e2fac51ee4195c4d0a17173c4f72accb227d 390365 xfce4-mount-plugin_0.6.4.orig.tar.bz2
+ 90ab295e889b4e8d148f0dfa52699b622de70fbc0d2702eed827ec5a462a3c6c 2838 xfce4-mount-plugin_0.6.4-1build1.debian.tar.gz
+
+Package: xfce4-notifyd
+Binary: xfce4-notifyd
+Version: 0.2.2-2ubuntu1
+Priority: optional
+Section: universe/x11
+Maintainer: Xubuntu Developers <xubuntu-devel@lists.ubuntu.com>
+Original-Maintainer: Debian Xfce Maintainers <pkg-xfce-devel@lists.alioth.debian.org>
+Build-Depends: debhelper (>= 9), intltool, dpkg-dev (>= 1.16.1), libxfce4ui-1-dev, libxfce4util-dev (>= 4.8.0), libdbus-1-dev, libdbus-glib-1-dev, exo-utils, libxfconf-0-dev (>= 4.8.0)
+Architecture: any
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Directory: pool/universe/x/xfce4-notifyd
+Files:
+ 1a8848baebb7e4895cc987065a2bc075 2321 xfce4-notifyd_0.2.2-2ubuntu1.dsc
+ 8687fb7a0f270231ada265e363b6ffcc 338974 xfce4-notifyd_0.2.2.orig.tar.bz2
+ 150e4671563a135039dadaed44e66787 4392 xfce4-notifyd_0.2.2-2ubuntu1.debian.tar.gz
+Uploaders: Evgeni Golov <evgeni@debian.org>, Yves-Alexis Perez <corsac@debian.org>, Lionel Le Folgoc <mrpouit@gmail.com>
+Homepage: http://spuriousinterrupt.org/projects/xfce4-notifyd
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-xfce/goodies/trunk/xfce4-notifyd/
+Vcs-Svn: svn://svn.debian.org/pkg-xfce/goodies/trunk/xfce4-notifyd/
+Package-List: 
+ xfce4-notifyd deb xfce optional
+Checksums-Sha1:
+ fbe0e0d7afc1d0ff372c05014b93b691cbf9162f 2321 xfce4-notifyd_0.2.2-2ubuntu1.dsc
+ 31888132d949cc7b47d12889b8aaf5dabc546d8b 338974 xfce4-notifyd_0.2.2.orig.tar.bz2
+ e7f4022e4aba7e2bcec38cba3b67fca99aa39142 4392 xfce4-notifyd_0.2.2-2ubuntu1.debian.tar.gz
+Checksums-Sha256:
+ 1ef381f7327b6295227b2dfc458bea31ff6de92cd08cc53d78511a8b11092b82 2321 xfce4-notifyd_0.2.2-2ubuntu1.dsc
+ b66e68dfc2164bcf479acd3c7e8b6f83065d23aef988535e2db3506d06a39168 338974 xfce4-notifyd_0.2.2.orig.tar.bz2
+ 361d8672ac84370dd7ff1f3af6e14d26b78c4eeba7a5ca527f1f59cbacc611b3 4392 xfce4-notifyd_0.2.2-2ubuntu1.debian.tar.gz
+
+Package: xfwm4
+Binary: xfwm4, xfwm4-dbg
+Version: 4.10.0-2ubuntu1
+Priority: optional
+Section: universe/x11
+Maintainer: Xubuntu Developers <xubuntu-devel@lists.ubuntu.com>
+Original-Maintainer: Debian Xfce Maintainers <pkg-xfce-devel@lists.alioth.debian.org>
+Build-Depends: dpkg-dev (>= 1.16.1), debhelper (>= 9), libgtk2.0-dev (>= 2.14), libxft-dev, libxdamage-dev, libxrender-dev, libxcomposite-dev, libxfixes-dev, chrpath, libglade2-dev, libxfce4util-dev (>= 4.10.0), libxfce4ui-1-dev (>= 4.10.0), libxfconf-0-dev (>= 4.10.0), libwnck-dev, intltool, libstartup-notification0-dev
+Build-Conflicts: libxfcegui4-dev (<< 4.7.0)
+Architecture: any
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Directory: pool/universe/x/xfwm4
+Files:
+ 68402cf8431593e772d77dc21f6b1bc5 2401 xfwm4_4.10.0-2ubuntu1.dsc
+ 333e5e25a85411c304e9b4474bf00537 1100067 xfwm4_4.10.0.orig.tar.bz2
+ 5fa655e069770b720839df3bfe5682a2 10976 xfwm4_4.10.0-2ubuntu1.debian.tar.gz
+Uploaders: Yves-Alexis Perez <corsac@debian.org>, Lionel Le Folgoc <mrpouit@gmail.com>
+Homepage: http://www.xfce.org/
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-xfce/desktop/trunk/xfwm4/
+Vcs-Svn: svn://svn.debian.org/pkg-xfce/desktop/trunk/xfwm4/
+Package-List: 
+ xfwm4 deb xfce optional
+ xfwm4-dbg deb debug extra
+Checksums-Sha1:
+ b1a55e4d8f2068d86762dec424f2f00f63a826d2 2401 xfwm4_4.10.0-2ubuntu1.dsc
+ 1549954949b5e1f38a2279a39a477b52bb5339f2 1100067 xfwm4_4.10.0.orig.tar.bz2
+ ef81f28f2e17c3696c2957c6026ee678dde7ff63 10976 xfwm4_4.10.0-2ubuntu1.debian.tar.gz
+Checksums-Sha256:
+ e2ebcfaa1a072d4d1a0b47545ad8935ab65e7b6e21e51888904489a879bf1cfa 2401 xfwm4_4.10.0-2ubuntu1.dsc
+ 492357bf48121ebffabf2bf0d3b84213d19bf81087321175d687c8a68efe1f9c 1100067 xfwm4_4.10.0.orig.tar.bz2
+ 68e538521069b5ab1df9ff5cf640cb078c6241f7971ce1ac2b3409af793b97d6 10976 xfwm4_4.10.0-2ubuntu1.debian.tar.gz
+
+Package: xfce4-verve-plugin
+Binary: xfce4-verve-plugin
+Version: 1.0.0-1build2
+Priority: optional
+Section: universe/x11
+Maintainer: Debian Xfce Maintainers <pkg-xfce-devel@lists.alioth.debian.org>
+Build-Depends: debhelper (>= 7), autotools-dev, libexo-1-dev (>= 0.5.0), xfce4-panel-dev (>= 4.8.0), libpcre3-dev, libstartup-notification0-dev, libxml-parser-perl, libdbus-glib-1-dev, intltool, libxfcegui4-dev, xfce4-dev-tools, libtool, hardening-includes
+Architecture: any
+Standards-Version: 3.9.2
+Format: 3.0 (quilt)
+Directory: pool/universe/x/xfce4-verve-plugin
+Files:
+ 5605bf1234acf8280253935131543f37 2275 xfce4-verve-plugin_1.0.0-1build2.dsc
+ ed7039c40d6e560ed8bcf9a324d2ae86 324945 xfce4-verve-plugin_1.0.0.orig.tar.bz2
+ bf7a386874856c7cf9cc508e352b1552 2809 xfce4-verve-plugin_1.0.0-1build2.debian.tar.gz
+Uploaders: Yves-Alexis Perez <corsac@debian.org>, Lionel Le Folgoc <mrpouit@gmail.com>
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-xfce/goodies/trunk/xfce4-verve-plugin/
+Vcs-Svn: svn://svn.debian.org/pkg-xfce/goodies/trunk/xfce4-verve-plugin/
+Package-List: 
+ xfce4-verve-plugin deb xfce optional
+Checksums-Sha1:
+ 8388ba6dfc805da4c42ab7dbf653e2e5d352d8e5 2275 xfce4-verve-plugin_1.0.0-1build2.dsc
+ 155952e90c25aaed6c1bba5dc17a4733251fb203 324945 xfce4-verve-plugin_1.0.0.orig.tar.bz2
+ c1b557add5f003f486eb5d293d167982781bc24f 2809 xfce4-verve-plugin_1.0.0-1build2.debian.tar.gz
+Checksums-Sha256:
+ a88e1f3d85d952b7216e13025d52b51dc1879213c19b9ed8a60948bc18b069d9 2275 xfce4-verve-plugin_1.0.0-1build2.dsc
+ d011a47ed3b075afdb9673342537fae5deeedc7834daf64b95bc0b541545f1a3 324945 xfce4-verve-plugin_1.0.0.orig.tar.bz2
+ 784c82e12c50795a91f728561398f1ab7a124fdac42ce0af3efa9d494b87e090 2809 xfce4-verve-plugin_1.0.0-1build2.debian.tar.gz
+
+Package: xfce4-netload-plugin
+Binary: xfce4-netload-plugin
+Version: 1.2.0-0ubuntu1
+Priority: optional
+Section: universe/x11
+Maintainer: Xubuntu Developers <xubuntu-devel@lists.ubuntu.com>
+Original-Maintainer: Debian Xfce Maintainers <pkg-xfce-devel@lists.alioth.debian.org>
+Build-Depends: debhelper (>= 8.9.4), xfce4-panel-dev (>= 4.8.0), libxml2-dev, libxml-parser-perl, libxfce4ui-1-dev (>= 4.8.0), intltool, dpkg-dev (>= 1.16.1)
+Architecture: any
+Standards-Version: 3.9.2
+Format: 3.0 (quilt)
+Directory: pool/universe/x/xfce4-netload-plugin
+Files:
+ e9d0f18278fb3f0cf4cb7d23ec4c9a25 2310 xfce4-netload-plugin_1.2.0-0ubuntu1.dsc
+ 05180d60ed347029dc125368c1d4406e 169721 xfce4-netload-plugin_1.2.0.orig.tar.bz2
+ b158792a72f86db9ee5d3cd3409d21a4 3905 xfce4-netload-plugin_1.2.0-0ubuntu1.debian.tar.gz
+Uploaders: Yves-Alexis Perez <corsac@debian.org>, Lionel Le Folgoc <mrpouit@gmail.com>
+Homepage: http://goodies.xfce.org/
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-xfce/goodies/trunk/xfce4-netload-plugin/
+Vcs-Svn: svn://svn.debian.org/pkg-xfce/goodies/trunk/xfce4-netload-plugin/
+Package-List: 
+ xfce4-netload-plugin deb xfce optional
+Checksums-Sha1:
+ 88377534f103c86431c21db998c816beb8e259c2 2310 xfce4-netload-plugin_1.2.0-0ubuntu1.dsc
+ 71e09d84a6c13123bbc92c2cfdcadff87650dc73 169721 xfce4-netload-plugin_1.2.0.orig.tar.bz2
+ 33260cbc811cb18d786973cd268dfd379f4c5be6 3905 xfce4-netload-plugin_1.2.0-0ubuntu1.debian.tar.gz
+Checksums-Sha256:
+ b81ac39b14f0f17d2004109ae55181ba09dfa7d454ec802a24df056d771edfde 2310 xfce4-netload-plugin_1.2.0-0ubuntu1.dsc
+ c824f09e2d3860011b44d8272d661c458237786828027f3d9ad6a1d4f0096845 169721 xfce4-netload-plugin_1.2.0.orig.tar.bz2
+ 10e50277d26e68efd55e3484b66c9bb28b9c9994ebda60ad1d5f73af6d7323de 3905 xfce4-netload-plugin_1.2.0-0ubuntu1.debian.tar.gz
+
+Package: xplanet
+Binary: xplanet, xplanet-images
+Version: 1.2.1-4.1ubuntu1
+Priority: optional
+Section: universe/graphics
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Ruben Molina <rmolina@udea.edu.co>
+Build-Depends: debhelper (>= 7), autotools-dev, libjpeg-dev, libpng12-dev | libpng-dev, libfreetype6-dev, libtiff-dev, libgif-dev, libnetpbm10-dev, libpango1.0-dev, libx11-dev, libxss-dev, libxt-dev, ttf-freefont
+Architecture: any all
+Standards-Version: 3.9.1
+Format: 3.0 (quilt)
+Directory: pool/universe/x/xplanet
+Files:
+ 592ccee94d43dc896a21480d8a5ac179 2113 xplanet_1.2.1-4.1ubuntu1.dsc
+ 5dca0369ca64fa3c006b616b72b5e1cf 1211663 xplanet_1.2.1.orig.tar.gz
+ a790d0fc04dcdce1a4d78576e4269f9d 22267 xplanet_1.2.1-4.1ubuntu1.debian.tar.gz
+Homepage: http://xplanet.sourceforge.net/
+Package-List: 
+ xplanet deb graphics optional
+ xplanet-images deb graphics optional
+Checksums-Sha1:
+ af5d7943fbe99c789fd67b76eb5d4766a76ba281 2113 xplanet_1.2.1-4.1ubuntu1.dsc
+ c3810c303af8f0cb40520112d9cd1f24fa8b42b5 1211663 xplanet_1.2.1.orig.tar.gz
+ f511468f342a39e5cc04dc3adf20e75b0f84d59c 22267 xplanet_1.2.1-4.1ubuntu1.debian.tar.gz
+Checksums-Sha256:
+ ff3c5782c27408d8cf203321ee64ec68c830fed709e9e250ec4a9a1b1624da4d 2113 xplanet_1.2.1-4.1ubuntu1.dsc
+ f52d57e27747bc6faa5f3fb4a7f0b80c5fe810a1c303c078666eca97832ae5de 1211663 xplanet_1.2.1.orig.tar.gz
+ 4f63fbce12dbabe6b6be63c1072a91fd46f0dff1579a820ef442d20778c0a189 22267 xplanet_1.2.1-4.1ubuntu1.debian.tar.gz
+
+Package: xfce4-places-plugin
+Binary: xfce4-places-plugin
+Version: 1.3.0-1ubuntu1
+Priority: extra
+Section: universe/x11
+Maintainer: Xubuntu Developers <xubuntu-devel@lists.ubuntu.com>
+Original-Maintainer: Debian Xfce Maintainers <pkg-xfce-devel@lists.alioth.debian.org>
+Build-Depends: debhelper (>= 9), autotools-dev, pkg-config, libgtk2.0-dev, libxfce4util-dev (>= 4.8), libexo-1-dev (>= 0.5.0), libxfce4ui-1-dev (>= 4.8), xfce4-panel-dev (>= 4.8), libnotify-dev, dpkg-dev (>= 1.16.1), libx11-dev, intltool
+Architecture: any
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Directory: pool/universe/x/xfce4-places-plugin
+Files:
+ 4bae03b99004eb928b173b6f2ad2f5b7 2425 xfce4-places-plugin_1.3.0-1ubuntu1.dsc
+ d075fffccf44bcf09a1bfcd4e0cd38a2 335815 xfce4-places-plugin_1.3.0.orig.tar.bz2
+ b6caa173431f25bb7a9754f84ce4f5a7 5317 xfce4-places-plugin_1.3.0-1ubuntu1.debian.tar.gz
+Uploaders: Yves-Alexis Perez <corsac@debian.org>, Lionel Le Folgoc <mrpouit@gmail.com>
+Homepage: http://goodies.xfce.org/projects/panel-plugins/xfce4-places-plugin
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-xfce/goodies/trunk/xfce4-places-plugin/
+Vcs-Svn: svn://svn.debian.org/svn/pkg-xfce/goodies/trunk/xfce4-places-plugin/
+Package-List: 
+ xfce4-places-plugin deb xfce optional
+Checksums-Sha1:
+ 581814b99f9c99133f51d1fb6b141c2e15bbc0d9 2425 xfce4-places-plugin_1.3.0-1ubuntu1.dsc
+ b59204735262a9ff4d5caf9ee3e5eabc4b974898 335815 xfce4-places-plugin_1.3.0.orig.tar.bz2
+ e5da1aad454e46666abe886412fadd1bf8c91b15 5317 xfce4-places-plugin_1.3.0-1ubuntu1.debian.tar.gz
+Checksums-Sha256:
+ fea93b74c1a93e11e19f852d518b321c71b67c14fc39c5c111a9d3b641a22719 2425 xfce4-places-plugin_1.3.0-1ubuntu1.dsc
+ 0266e6bb9905b6af25f80cbb364d2710b6b95100382d2d540edf9f8408e09936 335815 xfce4-places-plugin_1.3.0.orig.tar.bz2
+ f6e3c152e8247bcb9441bd602466f3c664b8484a8beefe1e248e0e7b5d514666 5317 xfce4-places-plugin_1.3.0-1ubuntu1.debian.tar.gz
+
+Package: xsd
+Binary: xsdcxx
+Version: 3.3.0.1-1.3
+Priority: extra
+Section: universe/devel
+Maintainer: Raphael Bossek <bossekr@debian.org>
+Build-Depends: debhelper (>= 7.0.50~), quilt (>= 0.46-7~), libxerces-c-dev (>= 3.0.0), libboost-date-time-dev, libboost-filesystem-dev, libboost-regex-dev, m4, autotools-dev
+Architecture: any
+Standards-Version: 3.9.1
+Format: 3.0 (quilt)
+Directory: pool/universe/x/xsd
+Files:
+ c7e1664b065725aabb0205e77f24b595 1153 xsd_3.3.0.1-1.3.dsc
+ 7bca6abdf4a51b746964ab70e96fed54 1195554 xsd_3.3.0.1.orig.tar.gz
+ ef83cf59386337135dc794ff44ae0dc7 14789 xsd_3.3.0.1-1.3.debian.tar.gz
+Package-List: 
+ xsdcxx deb devel optional
+Checksums-Sha1:
+ 69cee51ee3b2e8fae7b6bbd20fb1b46294524f7a 1153 xsd_3.3.0.1-1.3.dsc
+ 94642e14e8c7635ce60e985acc9b05d5e3c16ff3 1195554 xsd_3.3.0.1.orig.tar.gz
+ 63008d33aac32177c23232ad27ae721dd92642ae 14789 xsd_3.3.0.1-1.3.debian.tar.gz
+Checksums-Sha256:
+ 4ddc4d814a1c84e1b462037e16693f062c12712291414dcff7770cb7c3010710 1153 xsd_3.3.0.1-1.3.dsc
+ e2b0edf9f5ed5bd6870df98ae5281e6e3b390d96a5584b0ac8d8f7342bf67356 1195554 xsd_3.3.0.1.orig.tar.gz
+ e5fb4ea79b6fd96cb0d9bd353adece965cab70a4032ab1919e833d1b63587865 14789 xsd_3.3.0.1-1.3.debian.tar.gz
+
+Package: xcftools
+Binary: xcftools
+Version: 1.0.7-4
+Priority: optional
+Section: universe/graphics
+Maintainer: Jan Hauke Rahm <jhr@debian.org>
+Build-Depends: debhelper (>= 9), autotools-dev, libpng12-dev, netpbm, dh-autoreconf
+Architecture: any
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Directory: pool/universe/x/xcftools
+Files:
+ 88faeb4f79863b5636fe50283e0baa03 1843 xcftools_1.0.7-4.dsc
+ fd960b6470fb23520fc4b1ade6cf6e25 273455 xcftools_1.0.7.orig.tar.gz
+ d067a5b0063b15c5d11a6cadd9a7113d 8088 xcftools_1.0.7-4.debian.tar.gz
+Vcs-Browser: http://git.debian.org/?p=collab-maint/xcftools.git;a=summary
+Vcs-Git: git://git.debian.org/collab-maint/xcftools.git
+Package-List: 
+ xcftools deb graphics optional
+Checksums-Sha1:
+ 7ba0000af22f20f03ac719eb52cd8dd45d558036 1843 xcftools_1.0.7-4.dsc
+ 3c3cf07ad6183605a3febf5a8af9f2bd4cb4ef83 273455 xcftools_1.0.7.orig.tar.gz
+ 67b2b9b186db647deff048308c18344084e17120 8088 xcftools_1.0.7-4.debian.tar.gz
+Checksums-Sha256:
+ 8e947d42666ae540b7085b2511f4c735b6cc3fdc12c8bb9fc211a3ab10c1073f 1843 xcftools_1.0.7-4.dsc
+ 1ebf6d8405348600bc551712d9e4f7c33cc83e416804709f68d0700afde920a6 273455 xcftools_1.0.7.orig.tar.gz
+ 239eda87e2fdd299d713319741379e93c9e1f6e3f5ca7061893fa67726f982ec 8088 xcftools_1.0.7-4.debian.tar.gz
+
+Package: xfce4-settings
+Binary: xfce4-settings
+Version: 4.10.0-1ubuntu2
+Priority: optional
+Section: universe/x11
+Maintainer: Xubuntu Developers <xubuntu-devel@lists.ubuntu.com>
+Original-Maintainer: Debian Xfce Maintainers <pkg-xfce-devel@lists.alioth.debian.org>
+Build-Depends: debhelper (>= 9), dpkg-dev (>= 1.16.1), libxfce4util-dev (>= 4.10.0), libxfce4ui-1-dev (>= 4.10.0), libexo-1-dev (>= 0.8.0), libxfconf-0-dev (>= 4.10.0), libwnck-dev, libxklavier-dev (>= 5.0), libnotify-dev, intltool (>= 0.31), libgarcon-1-0-dev (>= 0.2.0)
+Build-Conflicts: libxfcegui4-dev (<< 4.7.0)
+Architecture: any
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Directory: pool/universe/x/xfce4-settings
+Files:
+ e4605a3b892f12a248ce5fbde65e0564 2403 xfce4-settings_4.10.0-1ubuntu2.dsc
+ cc4dd9179ead9046c056431f01a12000 782922 xfce4-settings_4.10.0.orig.tar.bz2
+ 7d491f52cbcd28e6c0bb3d5d4f208062 8986 xfce4-settings_4.10.0-1ubuntu2.debian.tar.gz
+Uploaders: Yves-Alexis Perez <corsac@debian.org>, Lionel Le Folgoc <mrpouit@gmail.com>
+Homepage: http://www.xfce.org
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-xfce/desktop/trunk/xfce4-settings/
+Vcs-Svn: svn://svn.debian.org/pkg-xfce/desktop/trunk/xfce4-settings
+Package-List: 
+ xfce4-settings deb xfce optional
+Checksums-Sha1:
+ 598a7ba52a575f2444d5e33dad05c47171e0b1a8 2403 xfce4-settings_4.10.0-1ubuntu2.dsc
+ 4ecf8c6db4e5ad9ed2fa04a34c65532cfaf362db 782922 xfce4-settings_4.10.0.orig.tar.bz2
+ b97e6ffbc15888f21da0fd023f625277b3aa98b5 8986 xfce4-settings_4.10.0-1ubuntu2.debian.tar.gz
+Checksums-Sha256:
+ 24ad1e8da778bf47a4e5fbdf7de2425c586f2ee76c1f03c6cac0b6c1fff1275f 2403 xfce4-settings_4.10.0-1ubuntu2.dsc
+ 0843f09ba9673f1d1b5df8dce4a17b63c183a9ba3be75fb6ef99a67fc8c1f77e 782922 xfce4-settings_4.10.0.orig.tar.bz2
+ 4b466fe780a06e2427ac6ba8c0ac933e06ac7b7cf07990e25d663e4d45ac5776 8986 xfce4-settings_4.10.0-1ubuntu2.debian.tar.gz
+
+Package: xfce4-volumed
+Binary: xfce4-volumed
+Version: 0.1.13-2ubuntu1
+Priority: optional
+Section: universe/xfce
+Maintainer: Xubuntu Developers <xubuntu-devel@lists.ubuntu.com>
+Original-Maintainer: Debian Xfce Maintainers <pkg-xfce-devel@lists.alioth.debian.org>
+Build-Depends: debhelper (>= 7), libxfconf-0-dev, libgstreamer0.10-dev, libgstreamer-plugins-base0.10-dev, libnotify-dev, hardening-includes, libkeybinder-dev (>= 0.2.2-2), libgtk2.0-dev
+Architecture: any
+Standards-Version: 3.9.2
+Format: 3.0 (quilt)
+Directory: pool/universe/x/xfce4-volumed
+Files:
+ 9360cbbdb1d592710e3dcf811aeceb45 2301 xfce4-volumed_0.1.13-2ubuntu1.dsc
+ 03c0ee58aa0a080d35313ac517a975ea 88518 xfce4-volumed_0.1.13.orig.tar.bz2
+ 1bec46105320651562afb05274b3a78e 3348 xfce4-volumed_0.1.13-2ubuntu1.debian.tar.gz
+Uploaders: Yves-Alexis Perez <corsac@debian.org>, Lionel Le Folgoc <mrpouit@gmail.com>
+Homepage: http://goodies.xfce.org/projects/applications/xfce4-volumed
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-xfce/goodies/trunk/xfce4-volumed/
+Vcs-Svn: svn://svn.debian.org/pkg-xfce/goodies/trunk/xfce4-volumed/
+Package-List: 
+ xfce4-volumed deb xfce optional
+Checksums-Sha1:
+ 90e5f291308c16b78d4c9b819f224d3cb0ff2f33 2301 xfce4-volumed_0.1.13-2ubuntu1.dsc
+ 0f9668e706f611f502d3d227fca8ac4e5f0ce8ba 88518 xfce4-volumed_0.1.13.orig.tar.bz2
+ f84d58fce7e3ca48d329c62efff3392d200966b4 3348 xfce4-volumed_0.1.13-2ubuntu1.debian.tar.gz
+Checksums-Sha256:
+ 087f1101dd11e737a90d6741332a5f4eff3dd3e50109338da51cd897549a54c3 2301 xfce4-volumed_0.1.13-2ubuntu1.dsc
+ 4ceca3a59b65630e849b89133f220def775009017ca2c3d689df27b7745040a9 88518 xfce4-volumed_0.1.13.orig.tar.bz2
+ 3c3f6671df277160cafe8aedba775e0a0f2bbc280a5a8fef0e2a2baee54e7f2f 3348 xfce4-volumed_0.1.13-2ubuntu1.debian.tar.gz
+
+Package: xubuntu-meta
+Binary: xubuntu-desktop
+Version: 2.162
+Priority: optional
+Section: universe/metapackages
+Maintainer: Xubuntu Developers <xubuntu-devel@lists.ubuntu.com>
+Build-Depends: debhelper (>= 7.0.50), germinate (>= 1.18)
+Architecture: any
+Standards-Version: 3.9.1
+Format: 1.0
+Directory: pool/universe/x/xubuntu-meta
+Files:
+ de30e38824f1146ec5e6c8cc622918f3 823 xubuntu-meta_2.162.dsc
+ ab18d7b7568cf8fdfda079f162661371 36276 xubuntu-meta_2.162.tar.gz
+Package-List: 
+ xubuntu-desktop deb metapackages optional
+Checksums-Sha1:
+ 7a32582c6046934e5b5bd0f09f234cfbde6323b5 823 xubuntu-meta_2.162.dsc
+ 7365f90ceaff6bfbd58f85e914ed456cf4dac20e 36276 xubuntu-meta_2.162.tar.gz
+Checksums-Sha256:
+ c223357f327583aded353961e58016a925ba34a2f8e1fed764b89670e7daedd2 823 xubuntu-meta_2.162.dsc
+ 20a47a3f4877848a3a2e590917682855e1e0f024547b14e1cef00848c94099ba 36276 xubuntu-meta_2.162.tar.gz
+
+Package: xml2
+Binary: xml2
+Version: 0.4-3.1
+Priority: optional
+Section: universe/utils
+Maintainer: Patrick Schoenfeld <schoenfeld@debian.org>
+Build-Depends: debhelper (>= 7.0.50~), libxml2-dev, pkg-config, quilt (>= 0.46-7), dh-autoreconf
+Architecture: any
+Standards-Version: 3.8.3
+Format: 1.0
+Directory: pool/universe/x/xml2
+Files:
+ 520376ddf0e7a421844a82d5ff9c2a55 1817 xml2_0.4-3.1.dsc
+ 8a0ef16fe0b3e1495307318c590c1ec0 83449 xml2_0.4.orig.tar.gz
+ 7d4097b47d09cdadd86bf3ca8d9eeb0a 4853 xml2_0.4-3.1.diff.gz
+Homepage: http://ofb.net/~egnor/xml2/
+Vcs-Browser: http://git.debian.org/?p=collab-maint/xml2.git
+Vcs-Git: git://git.debian.org/git/collab-maint/xml2.git
+Package-List: 
+ xml2 deb utils optional
+Checksums-Sha1:
+ 9a977d6d24743d2cc9919c53cdbbfc6100663dd3 1817 xml2_0.4-3.1.dsc
+ 735e7f6c336bd88dd1ab12bdea84e7cf1df5a36d 83449 xml2_0.4.orig.tar.gz
+ 5d701a8d0621ff82ad5e8308d1bc0493d2949444 4853 xml2_0.4-3.1.diff.gz
+Checksums-Sha256:
+ 38b11702ac44b48a1dc8e2572e4c0363e4385c0c407d49866cd0a520913f127c 1817 xml2_0.4-3.1.dsc
+ b0817ee453ca4a28e170a1f5ef8d52e43a905a946b77ed2a01ac0d48419e5367 83449 xml2_0.4.orig.tar.gz
+ 71486f630ddd1a2c8118f7d4b1088aff12e07b11dc5a8ace3123e177a4298399 4853 xml2_0.4-3.1.diff.gz
+
+Package: xfce4-xkb-plugin
+Binary: xfce4-xkb-plugin
+Version: 0.5.4.3-1ubuntu3
+Priority: optional
+Section: universe/x11
+Maintainer: Xubuntu Developers <xubuntu-devel@lists.ubuntu.com>
+Original-Maintainer: Debian Xfce Maintainers <pkg-xfce-devel@lists.alioth.debian.org>
+Build-Depends: debhelper (>= 9), libgtk2.0-dev, dpkg-dev (>= 1.16.1), libxfce4ui-1-dev (>= 4.8.0), xfce4-panel-dev (>= 4.8.0), libxml-parser-perl, libxklavier-dev (>= 5.0), librsvg2-dev, libwnck-dev, intltool
+Architecture: any
+Standards-Version: 3.9.2
+Format: 3.0 (quilt)
+Directory: pool/universe/x/xfce4-xkb-plugin
+Files:
+ a235434ce660f94fa006db34d6fbcb8a 2331 xfce4-xkb-plugin_0.5.4.3-1ubuntu3.dsc
+ b31144bd50875ec73f0b3101456c97fd 781788 xfce4-xkb-plugin_0.5.4.3.orig.tar.bz2
+ 5d058a5c69125a4fd319897966e7d8cd 4342 xfce4-xkb-plugin_0.5.4.3-1ubuntu3.debian.tar.gz
+Uploaders: Yves-Alexis Perez <corsac@debian.org>, Lionel Le Folgoc <mrpouit@gmail.com>
+Homepage: http://goodies.xfce.org/
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-xfce/goodies/trunk/xfce4-xkb-plugin/
+Vcs-Svn: svn://svn.debian.org/pkg-xfce/goodies/trunk/xfce4-xkb-plugin/
+Package-List: 
+ xfce4-xkb-plugin deb xfce optional
+Checksums-Sha1:
+ 66aa64f131d81a262e89dbda196908d155fa9e49 2331 xfce4-xkb-plugin_0.5.4.3-1ubuntu3.dsc
+ 4dc42f96dc16a3bd78f86454ea3a931464e18497 781788 xfce4-xkb-plugin_0.5.4.3.orig.tar.bz2
+ f22a176414c43bc5894153dc93bf4edbbb99b3fd 4342 xfce4-xkb-plugin_0.5.4.3-1ubuntu3.debian.tar.gz
+Checksums-Sha256:
+ 352c8322e5089adaf3ba7c4714380ee5edbf7e086877ccba7b73fc1077c75e82 2331 xfce4-xkb-plugin_0.5.4.3-1ubuntu3.dsc
+ ca4801bb2edfe04eeceb71879b3cf79a0674e8311c39117efdb9d3521307396d 781788 xfce4-xkb-plugin_0.5.4.3.orig.tar.bz2
+ c39c1baa5379ac2e5af379d0674cb22d3b9ab1b7d60f9e503faf239237e4cbdb 4342 xfce4-xkb-plugin_0.5.4.3-1ubuntu3.debian.tar.gz
+
+Package: xfburn
+Binary: xfburn
+Version: 0.4.3-4ubuntu2
+Priority: optional
+Section: universe/misc
+Maintainer: Xubuntu Developers <xubuntu-devel@lists.ubuntu.com>
+Original-Maintainer: Debian Xfce Maintainers <pkg-xfce-devel@lists.alioth.debian.org>
+Build-Depends: debhelper (>= 8.9.4), libxfce4ui-1-dev (>= 4.8.0), libexo-1-dev (>= 0.6.0), libburn-dev, libisofs-dev, libdbus-glib-1-dev, libgstreamer0.10-dev, intltool, libgstreamer-plugins-base0.10-dev, libgudev-1.0-dev [linux-any], xfce4-dev-tools, automake, autoconf, libtool, dpkg-dev (>= 1.16.1)
+Architecture: any
+Standards-Version: 3.9.2
+Format: 3.0 (quilt)
+Directory: pool/universe/x/xfburn
+Files:
+ 11534b7baf03acdb76ec8c1f389b894c 2265 xfburn_0.4.3-4ubuntu2.dsc
+ 5f6a7c87ba69122745252540eb7a4fe3 985767 xfburn_0.4.3.orig.tar.gz
+ 1c59c7af9af9d98d7e9edc94e58611c0 26956 xfburn_0.4.3-4ubuntu2.debian.tar.gz
+Uploaders: Yves-Alexis Perez <corsac@debian.org>, Lionel Le Folgoc <mrpouit@gmail.com>
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-xfce/goodies/trunk/xfburn/
+Vcs-Svn: svn://svn.debian.org/pkg-xfce/goodies/trunk/xfburn/
+Package-List: 
+ xfburn deb xfce optional
+Checksums-Sha1:
+ b20976c45864ba269301698d9107a343febf9fac 2265 xfburn_0.4.3-4ubuntu2.dsc
+ d66d7b1690a212444ed9a73f284ea13defc3c53f 985767 xfburn_0.4.3.orig.tar.gz
+ 61a3e3378809b083b978fcf3a88a1e74e1eff3ff 26956 xfburn_0.4.3-4ubuntu2.debian.tar.gz
+Checksums-Sha256:
+ 7806b3c5ce658ab58f17fe646072aa3b1e7674a2f87c0a9a56b9076745f3ae22 2265 xfburn_0.4.3-4ubuntu2.dsc
+ ad049820ba4c3161c14579e5d977216dc52a7cb101865520d8171075bd44676c 985767 xfburn_0.4.3.orig.tar.gz
+ 166b31a9d099c388141d9663fe6d05261a234eb5c0bee7b476a42e191d83386c 26956 xfburn_0.4.3-4ubuntu2.debian.tar.gz
+
+Package: xgridfit
+Binary: xgridfit, xgridfit-doc
+Version: 2.2a-2
+Priority: optional
+Section: universe/text
+Maintainer: Debian Fonts Task Force <pkg-fonts-devel@lists.alioth.debian.org>
+Build-Depends: debhelper (>= 7.0.50~)
+Build-Depends-Indep: python, python-support
+Architecture: all
+Standards-Version: 3.8.4
+Format: 3.0 (quilt)
+Directory: pool/universe/x/xgridfit
+Files:
+ 6e5d891034f718192bea97ef8d932f3c 1966 xgridfit_2.2a-2.dsc
+ b6959a505d8276fc0dab133fa39d5c2d 621506 xgridfit_2.2a.orig.tar.gz
+ cc10f60a6e31b18608cf0405dea2199c 3760 xgridfit_2.2a-2.debian.tar.gz
+Uploaders: Kęstutis Biliūnas <kebil@kaunas.init.lt>
+Dm-Upload-Allowed: yes
+Homepage: http://xgridfit.sourceforge.net/
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-fonts/packages/xgridfit/
+Vcs-Svn: svn://svn.debian.org/pkg-fonts/packages/xgridfit/
+Checksums-Sha1:
+ d6d4fc1eda99240528ba22604a1b2e23b799ef62 1966 xgridfit_2.2a-2.dsc
+ 1dc2cd30f60d626c68e286ec568aa846e3cebb4a 621506 xgridfit_2.2a.orig.tar.gz
+ a729e8a0e21e10d48516365bdaad367db745fbc8 3760 xgridfit_2.2a-2.debian.tar.gz
+Checksums-Sha256:
+ 205ddaf85d6209a5d5cc3b34d0a128c2c98b1d40eb2d07affbeee671a3e4b194 1966 xgridfit_2.2a-2.dsc
+ 5d17681b748c064100f8dc924c6dcd9d25d5d53336fd37306d333d93f959bc35 621506 xgridfit_2.2a.orig.tar.gz
+ 521bfa36aeea996725287e5f0785d3b8e2f07c5eccae10e38c424513fb897fa0 3760 xgridfit_2.2a-2.debian.tar.gz
+Python-Version: >= 2.6
+
+Package: x11vnc
+Binary: x11vnc, x11vnc-data
+Version: 0.9.13-1ubuntu1
+Priority: optional
+Section: universe/x11
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Fathi Boudra <fabo@debian.org>
+Build-Depends: automake, chrpath, debhelper (>= 8.0.0), libavahi-client-dev, libssl-dev, libtool, libvncserver-dev (>= 0.9.7), libxdamage-dev, libxext-dev, libxfixes-dev, libxinerama-dev, libxrandr-dev, libxss-dev, libxtst-dev
+Build-Depends-Indep: default-jdk (>= 1:1.6)
+Architecture: any all
+Standards-Version: 3.9.2
+Format: 3.0 (quilt)
+Directory: pool/universe/x/x11vnc
+Files:
+ fabcc733238d9ce752f913b0fd389325 2083 x11vnc_0.9.13-1ubuntu1.dsc
+ a372ec4fe8211221547b1c108cf56e4c 2853769 x11vnc_0.9.13.orig.tar.gz
+ c3bfabcc849fc941c87bdc8f041f73e1 5675 x11vnc_0.9.13-1ubuntu1.debian.tar.gz
+Homepage: http://www.karlrunge.com/x11vnc/
+Package-List: 
+ x11vnc deb x11 optional
+ x11vnc-data deb x11 optional
+Checksums-Sha1:
+ 032a5b50f674497cb8a06861ba0352cf499f43ca 2083 x11vnc_0.9.13-1ubuntu1.dsc
+ f011d81488ac94dc8dce2d88739c23bd85a976fa 2853769 x11vnc_0.9.13.orig.tar.gz
+ 97c44a3ebf3f1f5e27eeea4e010c6a9ea9ac5923 5675 x11vnc_0.9.13-1ubuntu1.debian.tar.gz
+Checksums-Sha256:
+ 7ea207a1e2b33dfc71256d955010e982160ea6740ede325935e810643e4ba475 2083 x11vnc_0.9.13-1ubuntu1.dsc
+ f6829f2e629667a5284de62b080b13126a0736499fe47cdb447aedb07a59f13b 2853769 x11vnc_0.9.13.orig.tar.gz
+ 10afa43f92a86014de5a9ede61c42e10424ddde007f498d817624e6ccf510d42 5675 x11vnc_0.9.13-1ubuntu1.debian.tar.gz
+
+Package: xine-ui
+Binary: xine-ui, xine-console, xine-dbg
+Version: 0.99.7-1
+Priority: optional
+Section: universe/graphics
+Maintainer: Darren Salt <devspam@moreofthesa.me.uk>
+Build-Depends: debhelper (>> 5.0.0), libxine2-dev, libpng-dev, libjpeg8-dev, libx11-dev, libxext-dev, libxft-dev, libxinerama-dev, libxt-dev, libxtst-dev, libxv-dev, libxxf86vm-dev, libaa1-dev, libgpm-dev [linux-any], liblircclient-dev, libcurl4-gnutls-dev, libfreetype6-dev, libreadline-dev, libcaca-dev
+Build-Conflicts: libcurl4-openssl-dev
+Architecture: any
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Directory: pool/universe/x/xine-ui
+Files:
+ 29fa555a3e46a209336337e1411d2f00 1593 xine-ui_0.99.7-1.dsc
+ 2af6fcc2ad6af6ba2e471497c5d140dc 1752328 xine-ui_0.99.7.orig.tar.xz
+ b3516fecd315fa1a616ac61b27a75b2c 11805 xine-ui_0.99.7-1.debian.tar.gz
+Dm-Upload-Allowed: yes
+Homepage: http://xine-project.org/
+Vcs-Browser: http://hg.debian.org/hg/xine-lib/pkg/xine-ui.deb
+Vcs-Hg: http://hg.debian.org/hg/xine-lib/pkg/xine-ui.deb
+Package-List: 
+ xine-console deb video optional
+ xine-dbg deb debug extra
+ xine-ui deb video optional
+Checksums-Sha1:
+ e0a48965e3dcf5605c75bf7394208aa0e672e952 1593 xine-ui_0.99.7-1.dsc
+ ca82e09cf8245d038813bc4dbd8384ba79cbf197 1752328 xine-ui_0.99.7.orig.tar.xz
+ 47462876c80d2a0860a5f65f870b1be0c2abc142 11805 xine-ui_0.99.7-1.debian.tar.gz
+Checksums-Sha256:
+ 8d4ab228f5560d5b8d504701134fc9980f4a054278194eb26a07a22037b5964e 1593 xine-ui_0.99.7-1.dsc
+ 9d8cdfd1c5c84251d6978765b059adf57099ff6c447f3e4b59066c8563f66bc4 1752328 xine-ui_0.99.7.orig.tar.xz
+ a68ed5f75a7fbfa3fb8d44fe6485090c4343e487843836bb76805436ae7daaef 11805 xine-ui_0.99.7-1.debian.tar.gz
+
+Package: xfce4-mailwatch-plugin
+Binary: xfce4-mailwatch-plugin
+Version: 1.1.0-5build2
+Priority: optional
+Section: universe/x11
+Maintainer: Debian Xfce Maintainers <pkg-xfce-devel@lists.alioth.debian.org>
+Build-Depends: debhelper (>= 8.9.4), libgtk2.0-dev, dpkg-dev (>= 1.16.1), xfce4-panel-dev (>= 4.8), libgnutls-dev, libxml-parser-perl, libxfce4util-dev, libxfcegui4-dev, xfce4-dev-tools, intltool, libtool, autoconf
+Architecture: any
+Standards-Version: 3.9.2
+Format: 3.0 (quilt)
+Directory: pool/universe/x/xfce4-mailwatch-plugin
+Files:
+ 05c294fc1eb4a24c4685554cff427faf 2430 xfce4-mailwatch-plugin_1.1.0-5build2.dsc
+ f84dce86be1d7f25f169f262aaacee4e 662624 xfce4-mailwatch-plugin_1.1.0.orig.tar.bz2
+ 587eb824c95d77e5dbd49e42dfdf30e5 5302 xfce4-mailwatch-plugin_1.1.0-5build2.debian.tar.gz
+Uploaders: Emanuele Rocca <ema@debian.org>, Simon Huggins <huggie@earth.li>, Stefan Ott <stefan@ott.net>, Yves-Alexis Perez <corsac@debian.org>, Lionel Le Folgoc <mrpouit@gmail.com>
+Homepage: http://spuriousinterrupt.org/projects/mailwatch
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-xfce/goodies/trunk/xfce4-mailwatch-plugin/
+Vcs-Svn: svn://svn.debian.org/pkg-xfce/goodies/trunk/xfce4-mailwatch-plugin/
+Package-List: 
+ xfce4-mailwatch-plugin deb xfce optional
+Checksums-Sha1:
+ aff2ef2701cd246798e311ec4b9baff7868fc606 2430 xfce4-mailwatch-plugin_1.1.0-5build2.dsc
+ fdca7a62a694146fc5cbe48dbaf4db4c60da5510 662624 xfce4-mailwatch-plugin_1.1.0.orig.tar.bz2
+ f1f9ae974a37e2ea2a82e68a25e33ae532c5e91d 5302 xfce4-mailwatch-plugin_1.1.0-5build2.debian.tar.gz
+Checksums-Sha256:
+ c0c6442a609fc85691127286b8c191fc27e5e2af63195c8e50b52f4a63ba7ce8 2430 xfce4-mailwatch-plugin_1.1.0-5build2.dsc
+ ba6fe9fc8d20f317b968369bbc2802c91c4c7838823faee9304767db9f1a3799 662624 xfce4-mailwatch-plugin_1.1.0.orig.tar.bz2
+ 74707d835b62ab649eefe53c130ec01ae42b0cfbe8a3331f27acf980b129efbf 5302 xfce4-mailwatch-plugin_1.1.0-5build2.debian.tar.gz
+
+Package: xubuntu-docs
+Binary: xubuntu-docs
+Version: 12.10.2
+Priority: optional
+Section: universe/text
+Maintainer: Ubuntu Documentation Team <ubuntu-doc@lists.ubuntu.com>
+Build-Depends: cdbs, debhelper (>= 8), docbook-xml, docbook-xsl, xsltproc, gnome-doc-utils
+Architecture: all
+Standards-Version: 3.9.3
+Format: 3.0 (native)
+Directory: pool/universe/x/xubuntu-docs
+Files:
+ c275cdcb5ad09b0b0d275e64a64bbf5e 1500 xubuntu-docs_12.10.2.dsc
+ 2968e4991dd8cb6691e245854f65aaf3 95381 xubuntu-docs_12.10.2.tar.gz
+Package-List: 
+ xubuntu-docs deb doc optional
+Checksums-Sha1:
+ 42118804a7a2b2142e6a0a091a80fcfa7bdd5685 1500 xubuntu-docs_12.10.2.dsc
+ f6fb50600994db1529d6b9cc5b90cbd461064da3 95381 xubuntu-docs_12.10.2.tar.gz
+Checksums-Sha256:
+ a1ddab90e1bf7275bbc751d6524c9b8e6384c07c7280b8136e3c474f10c90b65 1500 xubuntu-docs_12.10.2.dsc
+ 259655746a30c6e922f8d6bb686f93acc7057012ca8b377fedd14af4f255ca2c 95381 xubuntu-docs_12.10.2.tar.gz
+
+Package: xfce4-appfinder
+Binary: xfce4-appfinder
+Version: 4.10.0-1
+Priority: optional
+Section: universe/x11
+Maintainer: Debian Xfce Maintainers <pkg-xfce-devel@lists.alioth.debian.org>
+Build-Depends: debhelper (>= 9), libxfce4util-dev (>= 4.10.0), libxfce4ui-1-dev (>= 4.10.0), libxft-dev, libxml-parser-perl, libgtk2.0-dev, libxfconf-0-dev (>= 4.10.0), libgarcon-1-0-dev (>= 0.2.0), intltool, dpkg-dev (>= 1.16.1), libdbus-glib-1-dev
+Architecture: any
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Directory: pool/universe/x/xfce4-appfinder
+Files:
+ 10e39bb2a64faaf917c974a251b50442 2249 xfce4-appfinder_4.10.0-1.dsc
+ 799f70a9ad67b450da67810a5107e623 429196 xfce4-appfinder_4.10.0.orig.tar.bz2
+ fda4def45799ac2f3521364d33b936a9 8481 xfce4-appfinder_4.10.0-1.debian.tar.gz
+Uploaders: Yves-Alexis Perez <corsac@debian.org>, Lionel Le Folgoc <mrpouit@gmail.com>
+Homepage: http://www.xfce.org/
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-xfce/desktop/trunk/xfce4-appfinder/
+Vcs-Svn: svn://svn.debian.org/pkg-xfce/desktop/trunk/xfce4-appfinder/
+Package-List: 
+ xfce4-appfinder deb xfce optional
+Checksums-Sha1:
+ 00da0a31681ce39cab86b685d975fe7fa3d7ae5e 2249 xfce4-appfinder_4.10.0-1.dsc
+ f34bfb2809ab679f4df46ed1d712ab5a35d44b9b 429196 xfce4-appfinder_4.10.0.orig.tar.bz2
+ e04078e974379f050fda1929b8dcf21fd275354c 8481 xfce4-appfinder_4.10.0-1.debian.tar.gz
+Checksums-Sha256:
+ f5c3c17343c9299d1717519faa120910965a38f02ebc1ccecfcea1764946b0f9 2249 xfce4-appfinder_4.10.0-1.dsc
+ 042aae7e366428a6a92b6353b3f2727d64823076a7752b8e0a15f1f8f3645439 429196 xfce4-appfinder_4.10.0.orig.tar.bz2
+ c4edb7ba8ec211137e10b73dfb5b2ce6cc3432202a2294afd65d782e7e4aaee7 8481 xfce4-appfinder_4.10.0-1.debian.tar.gz
+
+Package: xfce4-session
+Binary: xfce4-session, xfce4-session-dbg
+Version: 4.10.0-1ubuntu1
+Priority: optional
+Section: universe/x11
+Maintainer: Xubuntu Developers <xubuntu-devel@lists.ubuntu.com>
+Original-Maintainer: Debian Xfce Maintainers <pkg-xfce-devel@lists.alioth.debian.org>
+Build-Depends: debhelper (>= 9), libx11-dev, libxml-parser-perl, libdbus-1-dev, libdbus-glib-1-dev, libxfce4util-dev (>= 4.10.0), libxfce4ui-1-dev (>= 4.10.0), libwnck-dev, x11-xserver-utils, libxfconf-0-dev (>= 4.10.0), libglade2-dev, intltool (>= 0.31), dpkg-dev (>= 1.16.1), libgnome-keyring-dev
+Architecture: any
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Directory: pool/universe/x/xfce4-session
+Files:
+ 3fb1cd35aba01a11aa94fe5ba34647dd 2437 xfce4-session_4.10.0-1ubuntu1.dsc
+ 4768e1a41a0287af6aad18b329a0f230 1257385 xfce4-session_4.10.0.orig.tar.bz2
+ e3972c88febab82dbc76c9e0e2e0809c 12663 xfce4-session_4.10.0-1ubuntu1.debian.tar.gz
+Uploaders: Yves-Alexis Perez <corsac@debian.org>, Lionel Le Folgoc <mrpouit@gmail.com>
+Homepage: http://www.xfce.org/
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-xfce/desktop/trunk/xfce4-session/
+Vcs-Svn: svn://svn.debian.org/pkg-xfce/desktop/trunk/xfce4-session/
+Package-List: 
+ xfce4-session deb xfce optional
+ xfce4-session-dbg deb debug extra
+Checksums-Sha1:
+ 4c0c3e3abe733f63e3df8538c99ba3188b917921 2437 xfce4-session_4.10.0-1ubuntu1.dsc
+ a956b67816fb06c50990c604d0a09c402b20302c 1257385 xfce4-session_4.10.0.orig.tar.bz2
+ f2338d9f7168a053849be4a5128356d7e1b552ae 12663 xfce4-session_4.10.0-1ubuntu1.debian.tar.gz
+Checksums-Sha256:
+ 6788f6095c054b2d622dc70796a6c1a24a78935d0f80032d908bc25b201177b9 2437 xfce4-session_4.10.0-1ubuntu1.dsc
+ bb8aa9a74c3d382840596fb4875144d66c7f3f47c8e9ee81d31e3428a72c46ce 1257385 xfce4-session_4.10.0.orig.tar.bz2
+ 9b1f9fe34e4bb8e5baf09cd339cb54d97a5a565e353c8918c5c415bfa8e4fe0b 12663 xfce4-session_4.10.0-1ubuntu1.debian.tar.gz
+
+Package: xfce4-cpugraph-plugin
+Binary: xfce4-cpugraph-plugin
+Version: 1.0.5-0ubuntu1
+Priority: optional
+Section: universe/x11
+Maintainer: Xubuntu Developers <xubuntu-devel@lists.ubuntu.com>
+Original-Maintainer: Debian Xfce Maintainers <pkg-xfce-devel@lists.alioth.debian.org>
+Build-Depends: debhelper (>= 9), libxfce4ui-1-dev, xfce4-panel-dev (>= 4.8), intltool, dpkg-dev (>= 1.16.1), autotools-dev
+Architecture: any
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Directory: pool/universe/x/xfce4-cpugraph-plugin
+Files:
+ cad6477e71cae6b1baab92e241d8c8dc 2286 xfce4-cpugraph-plugin_1.0.5-0ubuntu1.dsc
+ f0ebfabb273adf69361b37a3fa4b7912 328972 xfce4-cpugraph-plugin_1.0.5.orig.tar.bz2
+ 256bdbfa92ac61cdac5e7d5ac0418894 3256 xfce4-cpugraph-plugin_1.0.5-0ubuntu1.debian.tar.gz
+Uploaders: Yves-Alexis Perez <corsac@debian.org>, Lionel Le Folgoc <mrpouit@gmail.com>
+Homepage: http://goodies.xfce.org/
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-xfce/goodies/trunk/xfce4-cpugraph-plugin/
+Vcs-Svn: svn://svn.debian.org/pkg-xfce/goodies/trunk/xfce4-cpugraph-plugin/
+Package-List: 
+ xfce4-cpugraph-plugin deb xfce optional
+Checksums-Sha1:
+ 7e49694c821508decc9c075f78edd0b975cf5ddc 2286 xfce4-cpugraph-plugin_1.0.5-0ubuntu1.dsc
+ 6286bcb91eb88a77e7d8965e80c0999a03afc2ae 328972 xfce4-cpugraph-plugin_1.0.5.orig.tar.bz2
+ 2391450272011c882bc2228d1a744b00cd66bd00 3256 xfce4-cpugraph-plugin_1.0.5-0ubuntu1.debian.tar.gz
+Checksums-Sha256:
+ 0f82297c924a035755a4ee7774c70b61be68872bb0ca4f1f5f8a74ef4e648e76 2286 xfce4-cpugraph-plugin_1.0.5-0ubuntu1.dsc
+ 85da0ec89aacfd31e0bbafcefea37cdca618d62e681c1c9da8bdd492f028f4c7 328972 xfce4-cpugraph-plugin_1.0.5.orig.tar.bz2
+ f55441b7a21f93f6dd6cf6d0ca750a40916267ec0c292a681cc0314475387f38 3256 xfce4-cpugraph-plugin_1.0.5-0ubuntu1.debian.tar.gz
+
+Package: xfce4-smartbookmark-plugin
+Binary: xfce4-smartbookmark-plugin
+Version: 0.4.4-1ubuntu3
+Priority: optional
+Section: universe/x11
+Maintainer: Xubuntu Developers <xubuntu-devel@lists.ubuntu.com>
+Original-Maintainer: Debian Xfce Maintainers <pkg-xfce-devel@lists.alioth.debian.org>
+Build-Depends: cdbs, debhelper (>= 7), libgtk2.0-dev, xfce4-panel-dev (>= 4.8.0), libxml2-dev, libxml-parser-perl, libxt-dev, libxfcegui4-dev, hardening-includes, intltool, xfce4-dev-tools, libtool
+Architecture: any
+Standards-Version: 3.9.2
+Format: 3.0 (quilt)
+Directory: pool/universe/x/xfce4-smartbookmark-plugin
+Files:
+ 87215d99293502b3b6aad98681268e10 2444 xfce4-smartbookmark-plugin_0.4.4-1ubuntu3.dsc
+ 273e38306a82f14e1b8c2c5db912f6c3 293094 xfce4-smartbookmark-plugin_0.4.4.orig.tar.bz2
+ 2a2d1d0103322632739f5eb8b60f5c0b 3789 xfce4-smartbookmark-plugin_0.4.4-1ubuntu3.debian.tar.gz
+Uploaders: Yves-Alexis Perez <corsac@debian.org>, Stefan Ott <stefan@ott.net>, Evgeni Golov <evgeni@debian.org>, Lionel Le Folgoc <mrpouit@gmail.com>
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-xfce/goodies/trunk/xfce4-smartbookmark-plugin/
+Vcs-Svn: svn://svn.debian.org/pkg-xfce/goodies/trunk/xfce4-smartbookmark-plugin/
+Package-List: 
+ xfce4-smartbookmark-plugin deb xfce optional
+Checksums-Sha1:
+ e95a3793f4c826dda3ae3cf56c889e734d1aec44 2444 xfce4-smartbookmark-plugin_0.4.4-1ubuntu3.dsc
+ d29c79ba25dc0470267f97df08c2ef973f4c6f49 293094 xfce4-smartbookmark-plugin_0.4.4.orig.tar.bz2
+ 056b578091dc97a0851e40ca71021bebc3fdd0e1 3789 xfce4-smartbookmark-plugin_0.4.4-1ubuntu3.debian.tar.gz
+Checksums-Sha256:
+ a5804a4f5921349d43693a87a42cc0e4eeaeef72ea5e49175b4d6341a97b4fe2 2444 xfce4-smartbookmark-plugin_0.4.4-1ubuntu3.dsc
+ 6c77e8fee0ec4dcee7aa34d94377e068a522b1ea650823422f2f5cca8126f2ed 293094 xfce4-smartbookmark-plugin_0.4.4.orig.tar.bz2
+ aec183dfd14440b6aaf584a51ad8cafe901c62f65658ed56c743389b9031eda6 3789 xfce4-smartbookmark-plugin_0.4.4-1ubuntu3.debian.tar.gz
+
+Package: xfdesktop4
+Binary: xfdesktop4-data, xfdesktop4, xfdesktop4-dbg
+Version: 4.10.0-1ubuntu1
+Priority: optional
+Section: universe/x11
+Maintainer: Xubuntu Developers <xubuntu-devel@lists.ubuntu.com>
+Original-Maintainer: Debian Xfce Maintainers <pkg-xfce-devel@lists.alioth.debian.org>
+Build-Depends: debhelper (>= 9), libglib2.0-dev, libgtk2.0-dev, libxfce4util-dev (>= 4.10.0), libxfce4ui-1-dev (>= 4.10.0), libwnck-dev, libxfconf-0-dev (>= 4.10.0), intltool, libdbus-glib-1-dev (>= 0.84), libthunarx-2-dev (>= 1.4.0), libexo-1-dev (>= 0.6.0), libgarcon-1-0-dev (>= 0.2.0), libnotify-dev (>= 0.4.0), dpkg-dev (>= 1.16.1)
+Architecture: any all
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Directory: pool/universe/x/xfdesktop4
+Files:
+ 7bee0cbfdeffae4034afc205f5c2078f 2492 xfdesktop4_4.10.0-1ubuntu1.dsc
+ d5f6fb9fdde3ddff5804b2a251892936 1098862 xfdesktop4_4.10.0.orig.tar.bz2
+ ba08cd590c164a01ff098f49a47c5bb4 11932 xfdesktop4_4.10.0-1ubuntu1.debian.tar.gz
+Uploaders: Yves-Alexis Perez <corsac@debian.org>, Lionel Le Folgoc <mrpouit@gmail.com>
+Homepage: http://www.xfce.org/
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-xfce/desktop/trunk/xfdesktop4/
+Vcs-Svn: svn://svn.debian.org/pkg-xfce/desktop/trunk/xfdesktop4/
+Package-List: 
+ xfdesktop4 deb xfce optional
+ xfdesktop4-data deb xfce optional
+ xfdesktop4-dbg deb debug extra
+Checksums-Sha1:
+ 2ea2e391db0665474f8b19c8c90c3a83e9393c12 2492 xfdesktop4_4.10.0-1ubuntu1.dsc
+ 16bd4dc5b2ffbee043a0c50d60eb34fa68ce2a56 1098862 xfdesktop4_4.10.0.orig.tar.bz2
+ 5b26cc320234e5d774f1f5741ee458a6e35988c7 11932 xfdesktop4_4.10.0-1ubuntu1.debian.tar.gz
+Checksums-Sha256:
+ 71af452a4afe45e0dbedaa64abcc79bdd13199261dd4639cb4ba4ce089bb0829 2492 xfdesktop4_4.10.0-1ubuntu1.dsc
+ 897ae6ee435dcc89809ad70c15c5d15347d1cf4fc8033238b17dcc47836c2d7b 1098862 xfdesktop4_4.10.0.orig.tar.bz2
+ dd19a3fc9e8c17289d65f62af2f6c649a8f41258f1dfac7b73f544740c160083 11932 xfdesktop4_4.10.0-1ubuntu1.debian.tar.gz
+
+Package: xfce4-panel
+Binary: xfce4-panel, xfce4-panel-dev, xfce4-panel-dbg
+Version: 4.10.0-1ubuntu2
+Priority: optional
+Section: universe/x11
+Maintainer: Xubuntu Developers <xubuntu-devel@lists.ubuntu.com>
+Original-Maintainer: Debian Xfce Maintainers <pkg-xfce-devel@lists.alioth.debian.org>
+Build-Depends: debhelper (>= 9), libxfce4util-dev (>= 4.10.0), libgarcon-1-0-dev (>= 0.2.0), libxfce4ui-1-dev (>= 4.10.0), libxfconf-0-dev (>= 4.10.0), libexo-1-dev (>= 0.8.0), libgtk2.0-dev (>= 2.14.0), libglib2.0-dev (>= 2.18.0), libdbus-glib-1-dev (>= 0.73), libcairo2-dev (>= 1.0.0), libwnck-dev (>= 2.22), libxml-parser-perl, intltool
+Architecture: any
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Directory: pool/universe/x/xfce4-panel
+Files:
+ c5db2820e782833da14ed9b8f2175df2 2504 xfce4-panel_4.10.0-1ubuntu2.dsc
+ cf7351a4b952dbe3fc5ff509c68def33 1036257 xfce4-panel_4.10.0.orig.tar.bz2
+ d2361089761bface048b4ad0f1665e35 14535 xfce4-panel_4.10.0-1ubuntu2.debian.tar.gz
+Uploaders: Yves-Alexis Perez <corsac@debian.org>, Lionel Le Folgoc <mrpouit@gmail.com>
+Homepage: http://www.xfce.org/
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-xfce/desktop/trunk/xfce4-panel/
+Vcs-Svn: svn://svn.debian.org/pkg-xfce/desktop/trunk/xfce4-panel/
+Package-List: 
+ xfce4-panel deb xfce optional
+ xfce4-panel-dbg deb debug extra
+ xfce4-panel-dev deb xfce optional
+Checksums-Sha1:
+ 27cef00ed7e8f1c3e19646afb5a041ff9e94f5bc 2504 xfce4-panel_4.10.0-1ubuntu2.dsc
+ db1d3b1da145d858e6ee2bf026313d1a608d9f3c 1036257 xfce4-panel_4.10.0.orig.tar.bz2
+ 2280e26067f3eee7bded5c60d45f251ba992d8b5 14535 xfce4-panel_4.10.0-1ubuntu2.debian.tar.gz
+Checksums-Sha256:
+ 9f6dcecfa26ba534bd836021d8153d1fe3e6d833b090e48d332eb2267f4d270c 2504 xfce4-panel_4.10.0-1ubuntu2.dsc
+ 3321f998af2bbd14ba68654a8881774f6ea2ec4f1a3544598e7f47d3ed0009b9 1036257 xfce4-panel_4.10.0.orig.tar.bz2
+ 49262897b429caa2a5a2ab2c03e032dc1f6fe870cb4f994b7993b10dabbf1033 14535 xfce4-panel_4.10.0-1ubuntu2.debian.tar.gz
+
+Package: xrestop
+Binary: xrestop
+Version: 0.4-7
+Priority: optional
+Section: universe/x11
+Maintainer: Moray Allan <moray@debian.org>
+Build-Depends: debhelper (>= 9.0), dh-autoreconf, libncurses5-dev, libxext-dev (>= 4.3.0), libx11-dev (>= 4.3.0), x11proto-core-dev, libxres-dev (>= 4.3.0), libice-dev (>= 4.3.0), pkg-config (>= 0.15.0)
+Architecture: any
+Standards-Version: 3.9.1
+Format: 3.0 (quilt)
+Directory: pool/universe/x/xrestop
+Files:
+ 5f3d1cc38bc2021728f542537a031292 1160 xrestop_0.4-7.dsc
+ d8a54596cbaf037e62b80c4585a3ca9b 92308 xrestop_0.4.orig.tar.gz
+ 8b737bf7445e862da13e2371a355dfaa 3393 xrestop_0.4-7.debian.tar.gz
+Package-List: 
+ xrestop deb x11 optional
+Checksums-Sha1:
+ f2ea6b44f545257fa5ead45d0f4cd8d6bc35d60d 1160 xrestop_0.4-7.dsc
+ 040b0ac561f4de0a04e9db42a2cfab918801c452 92308 xrestop_0.4.orig.tar.gz
+ f2d4ff2a1495b1d301c8091cc8ce3947da11d5a7 3393 xrestop_0.4-7.debian.tar.gz
+Checksums-Sha256:
+ a5ec4fe5c09eabfcb0c382dc3189b298288a2cd3be7c5ed6121c69a59f8573c7 1160 xrestop_0.4-7.dsc
+ 67c2fc94a7ecedbaae0d1837e82e93d1d98f4a6d759828860e552119af3ce257 92308 xrestop_0.4.orig.tar.gz
+ 812b43bb839b85edcca40b7f53a32459611d6f2de48a5ee9110b237b9d912907 3393 xrestop_0.4-7.debian.tar.gz
+
+Package: xfce4-power-manager
+Binary: xfce4-power-manager, xfce4-power-manager-data, xfce4-power-manager-plugins
+Version: 1.2.0-1ubuntu1
+Priority: optional
+Section: universe/x11
+Maintainer: Xubuntu Developers <xubuntu-devel@lists.ubuntu.com>
+Original-Maintainer: Debian Xfce Maintainers <pkg-xfce-devel@lists.alioth.debian.org>
+Build-Depends: debhelper (>= 9), intltool, pkg-config, libgtk2.0-dev, libdbus-1-dev, libdbus-glib-1-dev, libxfconf-0-dev (>= 4.10.0), libxfce4ui-1-dev (>= 4.10.0), libnotify-dev, xfce4-panel-dev (>= 4.10.0), libpolkit-gobject-1-dev, libxext-dev, libx11-dev, dpkg-dev (>= 1.16.1)
+Architecture: any all
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Directory: pool/universe/x/xfce4-power-manager
+Files:
+ b007620105f06f68a4efa34cff64b3fb 2614 xfce4-power-manager_1.2.0-1ubuntu1.dsc
+ 935599b7114b0a4b0e2c9a5d6c72524c 1034821 xfce4-power-manager_1.2.0.orig.tar.bz2
+ cba10d02bd56c27b32e6fa351f41529e 7313 xfce4-power-manager_1.2.0-1ubuntu1.debian.tar.gz
+Uploaders: Yves-Alexis Perez <corsac@debian.org>, Lionel Le Folgoc <mrpouit@gmail.com>
+Homepage: http://goodies.xfce.org/projects/applications/xfce4-power-manager
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-xfce/goodies/trunk/xfce4-power-manager/
+Vcs-Svn: svn://svn.debian.org/pkg-xfce/goodies/trunk/xfce4-power-manager/
+Package-List: 
+ xfce4-power-manager deb xfce optional
+ xfce4-power-manager-data deb xfce optional
+ xfce4-power-manager-plugins deb xfce optional
+Checksums-Sha1:
+ 01b4fb9aa5e8618eada1906f911036a935011ba3 2614 xfce4-power-manager_1.2.0-1ubuntu1.dsc
+ 7efb0ceb37a6d69bd4d0e80d7206161dcf46657a 1034821 xfce4-power-manager_1.2.0.orig.tar.bz2
+ 90be9667599b93a02e955640137ef0551332b3ac 7313 xfce4-power-manager_1.2.0-1ubuntu1.debian.tar.gz
+Checksums-Sha256:
+ 0c66f281272347113b17a04166020f5266aa6d7149e3797b00c582d7d74d9986 2614 xfce4-power-manager_1.2.0-1ubuntu1.dsc
+ d7fb98a540284b62f4201527de17d4b24123f9d26c9f49131dd497c8387184e9 1034821 xfce4-power-manager_1.2.0.orig.tar.bz2
+ f40efa5fc21d1bbe8500af4e80a5ab8ed46ee7e413acd736df4667954e79658b 7313 xfce4-power-manager_1.2.0-1ubuntu1.debian.tar.gz
+
+Package: xfce4-mixer
+Binary: xfce4-mixer
+Version: 1:4.8.0-3ubuntu2
+Priority: optional
+Section: universe/x11
+Maintainer: Xubuntu Developers <xubuntu-devel@lists.ubuntu.com>
+Original-Maintainer: Debian Xfce Maintainers <pkg-xfce-devel@lists.alioth.debian.org>
+Build-Depends: debhelper (>= 9), pkg-config, libglib2.0-dev, libgstreamer-plugins-base0.10-dev, libgtk2.0-dev, libxfce4util-dev (>= 4.8.0), libxfce4ui-1-dev (>= 4.8.0), xfce4-panel-dev (>= 4.8.0), libxml-parser-perl, libxfconf-0-dev (>= 4.8.0), intltool, dpkg-dev (>= 1.16.1)
+Architecture: any
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Directory: pool/universe/x/xfce4-mixer
+Files:
+ c7604de8c914b7d6e7f5a830bbd568a4 2330 xfce4-mixer_4.8.0-3ubuntu2.dsc
+ 3fa3a9973e18c04da26709a654e242ff 494990 xfce4-mixer_4.8.0.orig.tar.bz2
+ 678c0be53a380154cae6ad2b97e54632 11097 xfce4-mixer_4.8.0-3ubuntu2.debian.tar.gz
+Uploaders: Yves-Alexis Perez <corsac@debian.org>, Lionel Le Folgoc <mrpouit@gmail.com>
+Homepage: http://www.xfce.org/
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-xfce/desktop/trunk/xfce4-mixer/
+Vcs-Svn: svn://svn.debian.org/pkg-xfce/desktop/trunk/xfce4-mixer/
+Package-List: 
+ xfce4-mixer deb xfce optional
+Checksums-Sha1:
+ 06859ce6e83ab5bb6fd4a0e515fe6dd0db24ec1e 2330 xfce4-mixer_4.8.0-3ubuntu2.dsc
+ 24f3401a68f10d2c620e354a6de98e09fe808665 494990 xfce4-mixer_4.8.0.orig.tar.bz2
+ 304773aad69958fb3aecb03be39cec22a7d756cd 11097 xfce4-mixer_4.8.0-3ubuntu2.debian.tar.gz
+Checksums-Sha256:
+ c0ac3598d00bddfd802239670a5b9dc1db6fe9971620438b4518e21c5b2bb32e 2330 xfce4-mixer_4.8.0-3ubuntu2.dsc
+ 9f9f48fdd0d3f6b1e46694b93a44d15b800db72a96d831b5111d9ac976970fab 494990 xfce4-mixer_4.8.0.orig.tar.bz2
+ f2be959a5e7efbc272e50b061b45dc8b9f73b3bdb0f4dea28b52d6f81dbb5945 11097 xfce4-mixer_4.8.0-3ubuntu2.debian.tar.gz
+
+Package: xfce4-screenshooter
+Binary: xfce4-screenshooter, xfce4-screenshooter-plugin
+Version: 1.8.1-1
+Priority: optional
+Section: universe/x11
+Maintainer: Debian Xfce Maintainers <pkg-xfce-devel@lists.alioth.debian.org>
+Build-Depends: debhelper (>= 9), autotools-dev, libxml-parser-perl, xfce4-panel-dev (>= 4.8.0), libgtk2.0-dev, intltool, libcurl4-gnutls-dev, libxmlrpc-c3-dev, libsoup2.4-dev, libxfce4ui-1-dev, libexo-1-dev, dpkg-dev (>= 1.16.1), xfce4-dev-tools (>= 4.10), autoconf, automake, libtool
+Architecture: any all
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Directory: pool/universe/x/xfce4-screenshooter
+Files:
+ 8877e0165b316b8d9b8d55710c5686e2 2447 xfce4-screenshooter_1.8.1-1.dsc
+ d0ffea2052a8e70154cf13789070711f 1407790 xfce4-screenshooter_1.8.1.orig.tar.bz2
+ fab0a8e849d27f0849f3dd957622a49f 4719 xfce4-screenshooter_1.8.1-1.debian.tar.gz
+Uploaders: Yves-Alexis Perez <corsac@debian.org>, Lionel Le Folgoc <mrpouit@gmail.com>
+Homepage: http://goodies.xfce.org/projects/applications/xfce4-screenshooter
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-xfce/goodies/trunk/xfce4-screenshooter/
+Vcs-Svn: svn://svn.debian.org/pkg-xfce/goodies/trunk/xfce4-screenshooter/
+Package-List: 
+ xfce4-screenshooter deb xfce optional
+ xfce4-screenshooter-plugin deb xfce optional
+Checksums-Sha1:
+ 363d08f3f0fbc1cd1b004375c0c09163b63a7bfd 2447 xfce4-screenshooter_1.8.1-1.dsc
+ 4343f32e5d23d12065c2990de27cef0cf88f1326 1407790 xfce4-screenshooter_1.8.1.orig.tar.bz2
+ ff7195690db0115efa83c36b12069f07f9193ef7 4719 xfce4-screenshooter_1.8.1-1.debian.tar.gz
+Checksums-Sha256:
+ c3e634debed20ab4ae9dad095b386f0e051a8879f5e506d880deb9ea8ea6a7f9 2447 xfce4-screenshooter_1.8.1-1.dsc
+ 40419892bd28989315eed053c159bba0f4264ed8c6c6738806024e481eab9492 1407790 xfce4-screenshooter_1.8.1.orig.tar.bz2
+ 91664632b93bf77f5d2988e34e6e40a0f89ed241342383b6608da501280e41c7 4719 xfce4-screenshooter_1.8.1-1.debian.tar.gz
+
+Package: xfce4-systemload-plugin
+Binary: xfce4-systemload-plugin
+Version: 1:1.1.1-1ubuntu1
+Priority: optional
+Section: universe/x11
+Maintainer: Xubuntu Developers <xubuntu-devel@lists.ubuntu.com>
+Original-Maintainer: Debian Xfce Maintainers <pkg-xfce-devel@lists.alioth.debian.org>
+Build-Depends: autotools-dev, debhelper (>= 9), dpkg-dev (>= 1.16.1), xfce4-panel-dev (>= 4.8.0), libxml2-dev, libxml-parser-perl, libxfce4ui-1-dev, intltool
+Architecture: any
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Directory: pool/universe/x/xfce4-systemload-plugin
+Files:
+ 27c2bf4b80ef7fc0d578fb4e1b86ec26 2307 xfce4-systemload-plugin_1.1.1-1ubuntu1.dsc
+ 22d48c0883f9d598bce24e81d93e692e 299695 xfce4-systemload-plugin_1.1.1.orig.tar.bz2
+ 6f7bd2b170c358dbed21be4d0f44213e 3875 xfce4-systemload-plugin_1.1.1-1ubuntu1.debian.tar.gz
+Uploaders: Yves-Alexis Perez <corsac@debian.org>
+Homepage: http://goodies.xfce.org/
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-xfce/goodies/trunk/xfce4-systemload-plugin/
+Vcs-Svn: svn://svn.debian.org/pkg-xfce/goodies/trunk/xfce4-systemload-plugin/
+Package-List: 
+ xfce4-systemload-plugin deb xfce optional
+Checksums-Sha1:
+ ab371123a0ab5ae034ba40789c8417f8452bba90 2307 xfce4-systemload-plugin_1.1.1-1ubuntu1.dsc
+ aa48b0163dd973790a55ddcc3a224878a3f14c69 299695 xfce4-systemload-plugin_1.1.1.orig.tar.bz2
+ 65f4a5935c6ce4d62e440d43bb6083b19f78d89c 3875 xfce4-systemload-plugin_1.1.1-1ubuntu1.debian.tar.gz
+Checksums-Sha256:
+ 923aca9674d0644313c6ed1b7428019308405a576f9ee2ad6228a04137a7f87f 2307 xfce4-systemload-plugin_1.1.1-1ubuntu1.dsc
+ 1ac13efbe9e576c9effd5e0675574a57c8fd44cfee60d6e319eb4d03c1c8d9ae 299695 xfce4-systemload-plugin_1.1.1.orig.tar.bz2
+ 7c0b4c4a6a05cc9f5564a1a9326fa1d663cb7aeef6cec7bfd524c5368d5dcc7f 3875 xfce4-systemload-plugin_1.1.1-1ubuntu1.debian.tar.gz
+
+Package: xchat
+Binary: xchat, xchat-common
+Version: 2.8.8-3ubuntu15
+Priority: optional
+Section: universe/net
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Davide Puricelli (evo) <evo@debian.org>
+Build-Depends: debhelper (>= 5), bison, libssl-dev, libglib2.0-dev, libgtk2.0-dev (>= 2.10.0), libperl-dev, gettext (>= 0.10.37), libtool, zlib1g-dev, perl (>= 5.8), python-dev, tcl-dev, autotools-dev, libdbus-glib-1-dev, libgtkspell-dev, gconf2, dpkg-dev (>= 1.13.19), libsexy-dev, chrpath, imagemagick
+Architecture: any all
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Directory: pool/universe/x/xchat
+Files:
+ fb51db5d02248d4f744c91dbb4e67a0d 1516 xchat_2.8.8-3ubuntu15.dsc
+ 6775c44f38e84d06c06c336b32c4a452 1509993 xchat_2.8.8.orig.tar.bz2
+ 74d3a825cb4dc4f04c37838a1fa0f5eb 125575 xchat_2.8.8-3ubuntu15.debian.tar.gz
+Uploaders: Bart Martens <bartm@debian.org>
+Homepage: http://www.xchat.org/
+Package-List: 
+ xchat deb net optional
+ xchat-common deb net optional
+Checksums-Sha1:
+ 4289c2cbf29188c6233912da5b18cae18e8ffd7a 1516 xchat_2.8.8-3ubuntu15.dsc
+ a4ac161e4e40f4bbabc492675a1ff4380dba8d68 1509993 xchat_2.8.8.orig.tar.bz2
+ a9c589e4d483278676626a74f11f2b4c005699e9 125575 xchat_2.8.8-3ubuntu15.debian.tar.gz
+Checksums-Sha256:
+ e2dc699857a497d69f31f3e1bdd7d07d1b025bbf3a7f6be44222fd5297a9bddc 1516 xchat_2.8.8-3ubuntu15.dsc
+ 0d6d69437b5e1e45f3e66270fe369344943de8a1190e498fafa5296315a27db0 1509993 xchat_2.8.8.orig.tar.bz2
+ 0619cb525efcbc172fbf37e5e34a9106fb05a7276a991cf36ca571243c6880e9 125575 xchat_2.8.8-3ubuntu15.debian.tar.gz
+
+Package: xfce4-dict
+Binary: xfce4-dict
+Version: 0.6.0-5build2
+Priority: optional
+Section: universe/x11
+Maintainer: Debian Xfce Maintainers <pkg-xfce-devel@lists.alioth.debian.org>
+Build-Depends: debhelper (>= 7.0.13), xfce4-panel-dev (>= 4.8.0), libxml-parser-perl, intltool, libgtk2.0-dev, libxfcegui4-dev (>= 4.8.0), hardening-includes
+Architecture: any
+Standards-Version: 3.9.2
+Format: 3.0 (quilt)
+Directory: pool/universe/x/xfce4-dict
+Files:
+ 403bfc829c9ada3120013f21e38eb79b 2117 xfce4-dict_0.6.0-5build2.dsc
+ c371c5c0bbe45a2bfac336cfe01dfe01 373420 xfce4-dict_0.6.0.orig.tar.bz2
+ f9670ca2c26f4809c3e38edee6076124 3247 xfce4-dict_0.6.0-5build2.debian.tar.gz
+Uploaders: Yves-Alexis Perez <corsac@debian.org>
+Homepage: http://goodies.xfce.org/projects/applications/xfce4-dict
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-xfce/goodies/trunk/xfce4-dict/
+Vcs-Svn: svn://svn.debian.org/pkg-xfce/goodies/trunk/xfce4-dict/
+Package-List: 
+ xfce4-dict deb xfce optional
+Checksums-Sha1:
+ d86283e36f82d35914acdd88b0d88861ccc85721 2117 xfce4-dict_0.6.0-5build2.dsc
+ af004096d6bd935d69b7ef3a989470e89c7be99b 373420 xfce4-dict_0.6.0.orig.tar.bz2
+ 5b3fc0fec8b5c855211d2d669240a69bfdf3d34f 3247 xfce4-dict_0.6.0-5build2.debian.tar.gz
+Checksums-Sha256:
+ f166cabb9f54c5ddaaf3011c670b9318a9c5b3a3ab80c811cfbf8342e8878c8d 2117 xfce4-dict_0.6.0-5build2.dsc
+ a8188ca4c980ca2003be6bf2391589f5122830680c41d51105b10813850da0d3 373420 xfce4-dict_0.6.0.orig.tar.bz2
+ 959f924de5cff5810c5a878f34a96704e0d27f3691f0636ec50e70ad7328306f 3247 xfce4-dict_0.6.0-5build2.debian.tar.gz
+
+Package: xaos
+Binary: xaos
+Version: 3.5+ds1-1ubuntu3
+Priority: optional
+Section: universe/graphics
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Build-Depends: debhelper (>= 7.0.50~), libaa1-dev, libx11-dev, libpng3-dev, zlib1g-dev, libxext-dev, x11proto-core-dev, autoconf (>= 2.63), autotools-dev, libtool, libgsl0-dev
+Architecture: any
+Standards-Version: 3.8.4
+Format: 3.0 (quilt)
+Directory: pool/universe/x/xaos
+Files:
+ 9b62a9eb85a9e5358ec1d0b0574ebc11 2203 xaos_3.5+ds1-1ubuntu3.dsc
+ 2dc3502e5f3c16ba144cdb5f50fbb3ca 1454807 xaos_3.5+ds1.orig.tar.gz
+ c2830d3c3add00b1d0c378bcee5c346c 18482 xaos_3.5+ds1-1ubuntu3.debian.tar.gz
+Uploaders: Ansgar Burchardt <ansgar@43-1.org>
+Dm-Upload-Allowed: yes
+Homepage: http://wmi.math.u-szeged.hu/xaos/
+Vcs-Browser: http://git.debian.org/?p=pkg-games/xaos.git
+Vcs-Git: git://git.debian.org/git/pkg-games/xaos.git
+Package-List: 
+ xaos deb graphics optional
+Checksums-Sha1:
+ a6d74fc9a82d834b32a7657961312233b03c7862 2203 xaos_3.5+ds1-1ubuntu3.dsc
+ fc9f5a08c2c3a06a35fa64bd22480c14e7ffcf1c 1454807 xaos_3.5+ds1.orig.tar.gz
+ a7961d2248abdca51b8f414b881fd4fed8dfd3b5 18482 xaos_3.5+ds1-1ubuntu3.debian.tar.gz
+Checksums-Sha256:
+ f9ac5cb7f14841c5440d1e38624333d9d258c2c8fc2183f7038e40a670ebda99 2203 xaos_3.5+ds1-1ubuntu3.dsc
+ 908c931a2e2f8925d905b578dd87963cafd744a49b330179b1e213a20a77ca0e 1454807 xaos_3.5+ds1.orig.tar.gz
+ c22008ce4557b08836d2a70d639b99a1ab24b2898f96bef96087b25e348baf9b 18482 xaos_3.5+ds1-1ubuntu3.debian.tar.gz
+
+Package: xfce4-weather-plugin
+Binary: xfce4-weather-plugin
+Version: 0.8.1-0ubuntu1
+Priority: optional
+Section: universe/x11
+Maintainer: Xubuntu Developers <xubuntu-devel@lists.ubuntu.com>
+Original-Maintainer: Debian Xfce Maintainers <pkg-xfce-devel@lists.alioth.debian.org>
+Build-Depends: autotools-dev, debhelper (>= 8.9.4), dpkg-dev (>= 1.16.1), xfce4-panel-dev (>= 4.8.0), libxml2-dev, libxml-parser-perl, intltool, libxfce4ui-1-dev
+Architecture: any
+Standards-Version: 3.9.2
+Format: 3.0 (quilt)
+Directory: pool/universe/x/xfce4-weather-plugin
+Files:
+ 75d2443dc1204223e05522e497d413eb 2276 xfce4-weather-plugin_0.8.1-0ubuntu1.dsc
+ 9f0f23cc78c33b1cf54cae7603cbc0e7 662546 xfce4-weather-plugin_0.8.1.orig.tar.bz2
+ 341f02c3c8922230e4888884ee4a3823 4222 xfce4-weather-plugin_0.8.1-0ubuntu1.debian.tar.gz
+Uploaders: Yves-Alexis Perez <corsac@debian.org>
+Homepage: http://goodies.xfce.org/
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-xfce/goodies/trunk/xfce4-weather-plugin/
+Vcs-Svn: svn://svn.debian.org/pkg-xfce/goodies/trunk/xfce4-weather-plugin/
+Package-List: 
+ xfce4-weather-plugin deb xfce optional
+Checksums-Sha1:
+ ea48efaab4b359f2d8e3aa76eebacccbf1c9c29f 2276 xfce4-weather-plugin_0.8.1-0ubuntu1.dsc
+ 4056f2909b39f4e15ae7331f7151cd88917d625f 662546 xfce4-weather-plugin_0.8.1.orig.tar.bz2
+ 428ff9019add8cde44bbc636fa39ae5d4790fb29 4222 xfce4-weather-plugin_0.8.1-0ubuntu1.debian.tar.gz
+Checksums-Sha256:
+ 057f012216dd46049f12bc8fe6b696a6ab83717256b3a7f0d73fff35b3ac8244 2276 xfce4-weather-plugin_0.8.1-0ubuntu1.dsc
+ a03a001065afdd8a167a44b96885d70013290b88d82e7deec45a2d294411077d 662546 xfce4-weather-plugin_0.8.1.orig.tar.bz2
+ 0ba403a8efd48270cb8cf842488bebe88a69ebed8457f824d7285d0f6f763341 4222 xfce4-weather-plugin_0.8.1-0ubuntu1.debian.tar.gz
+
+Package: xfce4-taskmanager
+Binary: xfce4-taskmanager
+Version: 1.0.0-2
+Priority: optional
+Section: universe/x11
+Maintainer: Debian Xfce Maintainers <pkg-xfce-devel@lists.alioth.debian.org>
+Build-Depends: autotools-dev, cdbs, debhelper (>= 7), libgtk2.0-dev (>= 2.12.0), libcairo2-dev (>= 1.5.0), libwnck-dev (>= 2.0), intltool
+Architecture: any
+Standards-Version: 3.8.4
+Format: 1.0
+Directory: pool/universe/x/xfce4-taskmanager
+Files:
+ 61be36753fa406dbcfc560c7ff1d97f8 2141 xfce4-taskmanager_1.0.0-2.dsc
+ e7046d03e85a34ae0c5462a506da126c 407809 xfce4-taskmanager_1.0.0.orig.tar.gz
+ 5729a82c734f37f139d428c080bccfff 2842 xfce4-taskmanager_1.0.0-2.diff.gz
+Uploaders: Yves-Alexis Perez <corsac@debian.org>, Emanuele Rocca <ema@debian.org>, Simon Huggins <huggie@earth.li>, Lionel Le Folgoc <mrpouit@gmail.com>
+Homepage: http://goodies.xfce.org/
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-xfce/goodies/trunk/xfce4-taskmanager/
+Vcs-Svn: svn://svn.debian.org/pkg-xfce/goodies/trunk/xfce4-taskmanager/
+Checksums-Sha1:
+ ac259250aa55f0045580ae41418da5be0d786ae0 2141 xfce4-taskmanager_1.0.0-2.dsc
+ ffa9e353636aeb1c0e1cd474a528821ed6e8e93c 407809 xfce4-taskmanager_1.0.0.orig.tar.gz
+ 1b463998afaae7b2bee3d4d0abcadf5daf3a4e26 2842 xfce4-taskmanager_1.0.0-2.diff.gz
+Checksums-Sha256:
+ ffa33d7555dd7025bc48e34ea6d965b08199a0c8d3d296d0b338538087f38625 2141 xfce4-taskmanager_1.0.0-2.dsc
+ f845852d0b4b91ad9237aa67ada1672f3cc4d8d8f22e506372bacbdd688e6a71 407809 xfce4-taskmanager_1.0.0.orig.tar.gz
+ 341db632747ada40d454a946494559dee5929b3cf91359a8cf7add5cba5a79df 2842 xfce4-taskmanager_1.0.0-2.diff.gz
+
+Package: xfce4-dev-tools
+Binary: xfce4-dev-tools
+Version: 4.10.0-2
+Priority: optional
+Section: universe/devel
+Maintainer: Debian Xfce Maintainers <pkg-xfce-devel@lists.alioth.debian.org>
+Build-Depends: debhelper (>= 9), autotools-dev, libglib2.0-dev, dpkg-dev (>= 1.16.1.)
+Architecture: any
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Directory: pool/universe/x/xfce4-dev-tools
+Files:
+ 9cd9f362ffcd4e954d4ae3d9a0465d65 2121 xfce4-dev-tools_4.10.0-2.dsc
+ 372b74f432e7e02d946c2ea9d3de2805 283987 xfce4-dev-tools_4.10.0.orig.tar.bz2
+ d22920f6c3371f1c9da2af8ffa3ddb96 4264 xfce4-dev-tools_4.10.0-2.debian.tar.gz
+Uploaders: Yves-Alexis Perez <corsac@debian.org>, Lionel Le Folgoc <mrpouit@gmail.com>
+Homepage: http://foo-projects.org/~benny/projects/xfce4-dev-tools/
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-xfce/desktop/trunk/xfce4-dev-tools/
+Vcs-Svn: svn://svn.debian.org/pkg-xfce/desktop/trunk/xfce4-dev-tools/
+Package-List: 
+ xfce4-dev-tools deb xfce optional
+Checksums-Sha1:
+ 14772b4e2e720aa3721b4856e1a0f98c4c8e0437 2121 xfce4-dev-tools_4.10.0-2.dsc
+ 214bd32b7984589b416932e939e5269159f0426e 283987 xfce4-dev-tools_4.10.0.orig.tar.bz2
+ 4bb498275a632f842479cc9f5fd609ee1c0ac046 4264 xfce4-dev-tools_4.10.0-2.debian.tar.gz
+Checksums-Sha256:
+ 700552132f8d42e383d23394328d058d213989649317341b64dba99c63516bc4 2121 xfce4-dev-tools_4.10.0-2.dsc
+ f79649bbfbbf16881494ee9f67035063765aec12e23ab9bac31de2c8a4f32bf8 283987 xfce4-dev-tools_4.10.0.orig.tar.bz2
+ 70068c32f9f38d591d628b7f980309176fb5eb9ab0b3da1c7a654215c27ed28d 4264 xfce4-dev-tools_4.10.0-2.debian.tar.gz
+
+Package: xsettings-kde
+Binary: xsettings-kde
+Version: 0.12.3-0ubuntu3
+Priority: optional
+Section: universe/kde
+Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+Original-Maintainer: Guido Günther <agx@sigxcpu.org>
+Build-Depends: cdbs, debhelper (>= 8~), libfontconfig1-dev, libglib2.0-dev, libx11-dev, pkg-config
+Architecture: any
+Standards-Version: 3.9.2
+Format: 3.0 (quilt)
+Directory: pool/universe/x/xsettings-kde
+Files:
+ fd5f0caaf16e1b189e13c7a1e032a92a 1237 xsettings-kde_0.12.3-0ubuntu3.dsc
+ 312375c139d9acfef4abadc1e22b9449 18596 xsettings-kde_0.12.3.orig.tar.bz2
+ 3377b506dabdfdb200d6e975fc7af1e3 4446 xsettings-kde_0.12.3-0ubuntu3.debian.tar.gz
+Package-List: 
+ xsettings-kde deb kde optional
+Checksums-Sha1:
+ 3fc89e644bd9433efabace262b141e804a878cbb 1237 xsettings-kde_0.12.3-0ubuntu3.dsc
+ e83d76bd85100244963877d7df86cc580c6c9b76 18596 xsettings-kde_0.12.3.orig.tar.bz2
+ a8f8b3782bed35611f4713fa7f4c7534961748fc 4446 xsettings-kde_0.12.3-0ubuntu3.debian.tar.gz
+Checksums-Sha256:
+ 97626ff5ae6fad2dc3bbdaaf406bf2f8251c02a3dbe30882d7a3a3fe0efb418f 1237 xsettings-kde_0.12.3-0ubuntu3.dsc
+ f20cbd1b2f62b7060624865bab67e66b8e8d41cda4acbf10f0934754374cfe90 18596 xsettings-kde_0.12.3.orig.tar.bz2
+ 469141d8f20f7dbd851c86be5f256930ed854a293fb827d33ab71f4fad8613a0 4446 xsettings-kde_0.12.3-0ubuntu3.debian.tar.gz
+
+Package: xfce4-indicator-plugin
+Binary: xfce4-indicator-plugin
+Version: 0.5.0-1ubuntu2
+Priority: optional
+Section: universe/xfce
+Maintainer: Xubuntu Developers <xubuntu-devel@lists.ubuntu.com>
+Original-Maintainer: Debian Xfce Maintainers <pkg-xfce-devel@lists.alioth.debian.org>
+Build-Depends: debhelper (>= 9), xfce4-panel-dev (>= 4.8.0), libindicator-dev (>= 0.3.90), intltool, dpkg-dev (>= 1.16.1), libexo-1-dev (>= 0.6.0), libxfconf-0-dev
+Architecture: any
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Directory: pool/universe/x/xfce4-indicator-plugin
+Files:
+ ca9740e170a4e3cc3f3392ea93547d37 1792 xfce4-indicator-plugin_0.5.0-1ubuntu2.dsc
+ 11476f8d4020e0737096b7403828063f 317674 xfce4-indicator-plugin_0.5.0.orig.tar.bz2
+ 482c5ae9c19c8fba286380c5f8ed9e28 3464 xfce4-indicator-plugin_0.5.0-1ubuntu2.debian.tar.gz
+Uploaders: Yves-Alexis Perez <corsac@debian.org>, Evgeni Golov <evgeni@debian.org>, Lionel Le Folgoc <mrpouit@gmail.com>
+Homepage: http://goodies.xfce.org/projects/panel-plugins/xfce4-indicator-plugin/
+Package-List: 
+ xfce4-indicator-plugin deb xfce optional
+Checksums-Sha1:
+ 539ed6823c643dc832f78d3f01a597cf9399181a 1792 xfce4-indicator-plugin_0.5.0-1ubuntu2.dsc
+ c8c6b3ed5af31be492b445b88a5d05f57bd66709 317674 xfce4-indicator-plugin_0.5.0.orig.tar.bz2
+ 3a7e75a6158c668f9a17cecf9d95e3bf8e621b16 3464 xfce4-indicator-plugin_0.5.0-1ubuntu2.debian.tar.gz
+Checksums-Sha256:
+ ca11f1dc54b5b76d65073fdb1cd9f85c38519035ebf1969c49258e504a0ebe53 1792 xfce4-indicator-plugin_0.5.0-1ubuntu2.dsc
+ 384a2f4d75270252a5f95ebdffacf1d50ad070014c7e60c728c71ec30e33914f 317674 xfce4-indicator-plugin_0.5.0.orig.tar.bz2
+ 5e23a7d9051c580ba6da21252678bfebddf7afb1b0093a4f5122c21ec77266a7 3464 xfce4-indicator-plugin_0.5.0-1ubuntu2.debian.tar.gz
+Debian-Vcs-Browser: http://svn.debian.org/wsvn/pkg-xfce/goodies/trunk/xfce4-indicator-plugin/
+Debian-Vcs-Svn: svn://svn.debian.org/pkg-xfce/goodies/trunk/xfce4-indicator-plugin/
+
+Package: xfce4-quicklauncher-plugin
+Binary: xfce4-quicklauncher-plugin
+Version: 1.9.4-9build2
+Priority: optional
+Section: universe/x11
+Maintainer: Debian Xfce Maintainers <pkg-xfce-devel@lists.alioth.debian.org>
+Build-Depends: autotools-dev, cdbs, debhelper (>= 7), libgtk2.0-dev, xfce4-panel-dev (>= 4.8.0), libxml2-dev, libstartup-notification0-dev, libxml-parser-perl, libxfcegui4-dev, hardening-includes
+Architecture: any
+Standards-Version: 3.9.2
+Format: 3.0 (quilt)
+Directory: pool/universe/x/xfce4-quicklauncher-plugin
+Files:
+ 0d466bfdcb0769a133394025e2a977d1 2334 xfce4-quicklauncher-plugin_1.9.4-9build2.dsc
+ 3f7aa0d8b021cb250485a1d9e0770a34 386146 xfce4-quicklauncher-plugin_1.9.4.orig.tar.gz
+ 364596fa7e516a0d3d540b1488d3045e 6314 xfce4-quicklauncher-plugin_1.9.4-9build2.debian.tar.gz
+Uploaders: Yves-Alexis Perez <corsac@debian.org>, Lionel Le Folgoc <mrpouit@gmail.com>
+Homepage: http://goodies.xfce.org/
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-xfce/goodies/trunk/xfce4-quicklauncher-plugin/
+Vcs-Svn: svn://svn.debian.org/pkg-xfce/goodies/trunk/xfce4-quicklauncher-plugin/
+Package-List: 
+ xfce4-quicklauncher-plugin deb xfce optional
+Checksums-Sha1:
+ ebc7cf42c262f2f3db579fd2f634a8022bf01753 2334 xfce4-quicklauncher-plugin_1.9.4-9build2.dsc
+ 5ba3b514e087a7eab6a878c722b73a78df336b58 386146 xfce4-quicklauncher-plugin_1.9.4.orig.tar.gz
+ 078166dfad3b129e4a098565d3b433573d89e51a 6314 xfce4-quicklauncher-plugin_1.9.4-9build2.debian.tar.gz
+Checksums-Sha256:
+ c7b9c2c7ac798557bee6625534d5db8def9a5debe40a0fb33b416d61092f05de 2334 xfce4-quicklauncher-plugin_1.9.4-9build2.dsc
+ 49064cd43ecc7f974db1723474de99da87d04611b828cd3b7515349c587c9b0a 386146 xfce4-quicklauncher-plugin_1.9.4.orig.tar.gz
+ f848b38053cd6617bd72eaaa7c87e69e0fc8104eafed948cc24e66eb249b8b16 6314 xfce4-quicklauncher-plugin_1.9.4-9build2.debian.tar.gz
+
+Package: xscreensaver
+Binary: xscreensaver, xscreensaver-data, xscreensaver-data-extra, xscreensaver-gl, xscreensaver-gl-extra, xscreensaver-screensaver-webcollage, xscreensaver-screensaver-bsod
+Version: 5.15-2ubuntu1
+Priority: optional
+Section: universe/x11
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Jose Luis Rivas <ghostbar@debian.org>
+Build-Depends: bc, debhelper (>= 7.0), fortune-mod, libgtk2.0-dev, libpam0g-dev (>= 0.72), libgl1-mesa-dev | libgl-dev, libglu1-mesa-dev | xlibmesa-glu-dev | libglu-dev, xutils-dev, libxml2-dev, libglade2-dev, libjpeg-dev, libgle-dev, intltool, autotools-dev, libx11-dev, libxext-dev, libxinerama-dev, libxmu-dev, libxpm-dev, libxrandr-dev, libxss-dev, libxt-dev, libxtst-dev, libxxf86vm-dev, x11proto-core-dev, xbitmaps, quilt
+Architecture: any
+Standards-Version: 3.9.2
+Format: 1.0
+Directory: pool/universe/x/xscreensaver
+Files:
+ f50b4eccd2c04c9d9b7caada9e661b99 2746 xscreensaver_5.15-2ubuntu1.dsc
+ 075a362119444338206950f2435dedb6 5995992 xscreensaver_5.15.orig.tar.gz
+ 8947a3e7bd92865a131bf23516b12555 81379 xscreensaver_5.15-2ubuntu1.diff.gz
+Uploaders: Tormod Volden <debian.tormod@gmail.com>
+Homepage: http://www.jwz.org/xscreensaver/
+Vcs-Bzr: https://code.launchpad.net/~ubuntu-desktop/xscreensaver/ubuntu
+Package-List: 
+ xscreensaver deb x11 optional
+ xscreensaver-data deb x11 optional
+ xscreensaver-data-extra deb x11 optional
+ xscreensaver-gl deb x11 optional
+ xscreensaver-gl-extra deb x11 optional
+ xscreensaver-screensaver-bsod deb x11 optional
+ xscreensaver-screensaver-webcollage deb x11 optional
+Checksums-Sha1:
+ f717c43435203cc29c4590b9a2e0a03d5797f04b 2746 xscreensaver_5.15-2ubuntu1.dsc
+ 5653e8162ef41c5a799dec33dc4573fee351dc68 5995992 xscreensaver_5.15.orig.tar.gz
+ e8dde7364d3524134839692d11b73892da186ba5 81379 xscreensaver_5.15-2ubuntu1.diff.gz
+Checksums-Sha256:
+ 9d32ae046ab6f146b21c103e6d6b7404708cb4544f71ccf4a5f081489136acc0 2746 xscreensaver_5.15-2ubuntu1.dsc
+ ef158cb9b49664748a1e35f895338c658dbb854bbea345f9e5f6ca28191050b0 5995992 xscreensaver_5.15.orig.tar.gz
+ fe904502aded62a92bd27e69b61294d4b59bb07962057f4d02ef80ecefce03d7 81379 xscreensaver_5.15-2ubuntu1.diff.gz
+
+Package: xubuntu-default-settings
+Binary: xubuntu-default-settings, xubuntu-live-settings
+Version: 12.10.7
+Priority: optional
+Section: universe/x11
+Maintainer: Xubuntu Developers <xubuntu-devel@lists.ubuntu.com>
+Build-Depends: debhelper (>= 8.1.3~), intltool
+Architecture: all
+Standards-Version: 3.9.2
+Format: 3.0 (native)
+Directory: pool/universe/x/xubuntu-default-settings
+Files:
+ fba5303dbb2c61b2e2f563ffa57341c3 1774 xubuntu-default-settings_12.10.7.dsc
+ 8bc16df9a35347a12bed87e9bfdd9713 34279 xubuntu-default-settings_12.10.7.tar.gz
+Homepage: https://launchpad.net/xubuntu-default-settings
+Vcs-Browser: http://bazaar.launchpad.net/~xubuntu-dev/xubuntu-default-settings/trunk/files
+Vcs-Bzr: lp:xubuntu-default-settings
+Package-List: 
+ xubuntu-default-settings deb x11 optional
+ xubuntu-live-settings deb x11 optional
+Checksums-Sha1:
+ ae761aa68777c68a7ac2cf5c766b3ad3b16fa4a3 1774 xubuntu-default-settings_12.10.7.dsc
+ c6faf74848f0295cd1652e7632552a1613868260 34279 xubuntu-default-settings_12.10.7.tar.gz
+Checksums-Sha256:
+ 76df9322b13d2c74c533e9d90d59128a618af3f84c403500a57a4304a290be7f 1774 xubuntu-default-settings_12.10.7.dsc
+ 8b28eaf8a2a97bedf5e251b71bc0d16ce8f1932e5852600a5fbad3647bd4a341 34279 xubuntu-default-settings_12.10.7.tar.gz
+
+Package: xfce4-fsguard-plugin
+Binary: xfce4-fsguard-plugin
+Version: 1.0.1-1
+Priority: optional
+Section: universe/x11
+Maintainer: Debian Xfce Maintainers <pkg-xfce-devel@lists.alioth.debian.org>
+Build-Depends: debhelper (>= 9), xfce4-panel-dev (>= 4.8), libxml2-dev, libxml-parser-perl, intltool, libx11-dev, pkg-config, libgtk2.0-dev, libxfce4ui-1-dev, dpkg-dev (>= 1.16.1), autotools-dev
+Architecture: any
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Directory: pool/universe/x/xfce4-fsguard-plugin
+Files:
+ 6ae11c002c754b98b24c29b1554c5cc5 2289 xfce4-fsguard-plugin_1.0.1-1.dsc
+ 9c179371475e2837004cc208026e30c1 356783 xfce4-fsguard-plugin_1.0.1.orig.tar.bz2
+ 4d791130065afa491ba5de4478424f55 4029 xfce4-fsguard-plugin_1.0.1-1.debian.tar.gz
+Uploaders: Yves-Alexis Perez <corsac@debian.org>, Lionel Le Folgoc <mrpouit@gmail.com>
+Homepage: http://goodies.xfce.org/projects/panel-plugins/xfce4-fsguard-plugin
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-xfce/goodies/trunk/xfce4-fsguard-plugin/
+Vcs-Svn: svn://svn.debian.org/pkg-xfce/goodies/trunk/xfce4-fsguard-plugin/
+Package-List: 
+ xfce4-fsguard-plugin deb xfce optional
+Checksums-Sha1:
+ 01e23fe5381c61967189f1123259461045d544ea 2289 xfce4-fsguard-plugin_1.0.1-1.dsc
+ 42b7aecafd720bb1dcf37a5efd0deb3db528e3bc 356783 xfce4-fsguard-plugin_1.0.1.orig.tar.bz2
+ eac0305ea2d791ec67894b3db54fb5fd0189f786 4029 xfce4-fsguard-plugin_1.0.1-1.debian.tar.gz
+Checksums-Sha256:
+ 884a5217dc69feab0dbe19a568aaf0f28dcb2c72da77893e0e996812249e008f 2289 xfce4-fsguard-plugin_1.0.1-1.dsc
+ fffb7ee09769ec0b991b8752b848578e6434a675a939c5588f0728c2ef33aab7 356783 xfce4-fsguard-plugin_1.0.1.orig.tar.bz2
+ e80f9b03e2e79b55fce4b46e8b4491408b2d407cd5f0df61f592eeeb4152d7f6 4029 xfce4-fsguard-plugin_1.0.1-1.debian.tar.gz
+
+Package: xfce4-notes-plugin
+Binary: xfce4-notes, xfce4-notes-plugin
+Version: 1.7.7-2ubuntu3
+Priority: optional
+Section: universe/x11
+Maintainer: Xubuntu Developers <xubuntu-devel@lists.ubuntu.com>
+Original-Maintainer: Debian Xfce Maintainers <pkg-xfce-devel@lists.alioth.debian.org>
+Build-Depends: autotools-dev, debhelper (>= 7.0.50~), xfce4-panel-dev (>= 4.8.0), libxml2-dev, libxml-parser-perl, intltool, libx11-dev, pkg-config, libgtk2.0-dev, libxfcegui4-dev, libxfconf-0-dev, libunique-dev, hardening-includes
+Architecture: any
+Standards-Version: 3.9.2
+Format: 3.0 (quilt)
+Directory: pool/universe/x/xfce4-notes-plugin
+Files:
+ a8e33d00e910569e6337c14ea2caffe8 2447 xfce4-notes-plugin_1.7.7-2ubuntu3.dsc
+ 42b924b23f2fec6a1099e9b7a87db4a3 472082 xfce4-notes-plugin_1.7.7.orig.tar.bz2
+ a6383be155dabdf1db777030c837b203 5803 xfce4-notes-plugin_1.7.7-2ubuntu3.debian.tar.gz
+Uploaders: Yves-Alexis Perez <corsac@debian.org>, Lionel Le Folgoc <mrpouit@gmail.com>
+Homepage: http://goodies.xfce.org/projects/panel-plugins/xfce4-notes-plugin
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-xfce/goodies/trunk/xfce4-notes-plugin/
+Vcs-Svn: svn://svn.debian.org/pkg-xfce/goodies/trunk/xfce4-notes-plugin/
+Package-List: 
+ xfce4-notes deb xfce optional
+ xfce4-notes-plugin deb xfce optional
+Checksums-Sha1:
+ 88ed318e0c30e7a8a23498497e889adaede58439 2447 xfce4-notes-plugin_1.7.7-2ubuntu3.dsc
+ 8a8ab252a65aee386849ddd589c552c2e2a20148 472082 xfce4-notes-plugin_1.7.7.orig.tar.bz2
+ 16abebb9b83b4e206745e0a0adfaa0e603cc8657 5803 xfce4-notes-plugin_1.7.7-2ubuntu3.debian.tar.gz
+Checksums-Sha256:
+ 4cefa3e6056f9769049d8cdd2313ce65fdeedacf88542549231aabc1a1504d43 2447 xfce4-notes-plugin_1.7.7-2ubuntu3.dsc
+ a7baa105b37ad05dea4d6b55d98fd3214c77ad5c7a0e91471d4906c81e5f5217 472082 xfce4-notes-plugin_1.7.7.orig.tar.bz2
+ 599ad0b4e972502e0fdc55da5b757fe0cbc25267408a9afa55b57eb0d419c207 5803 xfce4-notes-plugin_1.7.7-2ubuntu3.debian.tar.gz
+
+Package: vocproc
+Binary: vocproc
+Version: 0.2-3
+Priority: optional
+Section: universe/sound
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Build-Depends: debhelper (>= 7), libboost-dev, libfftw3-dev, libgtkmm-2.4-dev, lv2-c++-tools (>= 1.0.4-3~), lv2-dev, pkg-config
+Architecture: any
+Standards-Version: 3.9.1
+Format: 3.0 (quilt)
+Directory: pool/universe/v/vocproc
+Files:
+ 1302c51cc7ea3ee90a7e3fb09d66f45b 2039 vocproc_0.2-3.dsc
+ 21c9268679192f9fe095474027f74e0c 18938 vocproc_0.2.orig.tar.gz
+ 9006b9c317299321e10447fa8268be7b 2571 vocproc_0.2-3.debian.tar.gz
+Uploaders:  Jaromír Mikeš <mira.mikes@seznam.cz>, Alessio Treglia <alessio@debian.org>
+Homepage: http://hyperglitch.com/dev/VocProc
+Vcs-Browser: http://git.debian.org/?p=pkg-multimedia/vocproc.git
+Vcs-Git: git://git.debian.org/git/pkg-multimedia/vocproc.git
+Package-List: 
+ vocproc deb sound optional
+Checksums-Sha1:
+ b7a37b6f39ccaf29b371ecb3248577e2e5995b07 2039 vocproc_0.2-3.dsc
+ 1f73850bd97d3ac891c86537c98a3fa57f5fdb71 18938 vocproc_0.2.orig.tar.gz
+ 92c1aa12943fc22ec6dded94818fdf0a25105afe 2571 vocproc_0.2-3.debian.tar.gz
+Checksums-Sha256:
+ 6a5f80e2bcd2fd32fcc3c5d73adfa0e4baec95734393127f78720937a121a9b4 2039 vocproc_0.2-3.dsc
+ 59530df7cadff8734cae21a8e5bb0b9cd09c6907e29438adb8d10338edfeedc8 18938 vocproc_0.2.orig.tar.gz
+ 647f2a154156d744752a4c45fb7b7463a5ca1bbc6a3dde82f0b3cdccbb177bdc 2571 vocproc_0.2-3.debian.tar.gz
+
+Package: vinagre
+Binary: vinagre
+Version: 3.6.0-0ubuntu1
+Priority: optional
+Section: universe/gnome
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Build-Depends: cdbs (>= 0.4.52), debhelper (>= 8), gnome-pkg-tools (>= 0.10), intltool (>= 0.50.0), libglib2.0-dev (>= 2.28.0), libx11-dev, libgtk-3-dev (>= 3.0.3), libsecret-1-dev, libgtk-vnc-2.0-dev (>= 0.4.3-3), libavahi-ui-gtk3-dev (>= 0.6.26), libavahi-gobject-dev (>= 0.6.26), libdbus-glib-1-dev, valac-0.18 (>= 0.12.0), yelp-tools, libvte-2.90-dev (>= 0.20), libxml2-dev (>= 2.6.31), libtelepathy-glib-dev (>= 0.11.6), openssh-client, docbook-xml
+Architecture: any
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Directory: pool/universe/v/vinagre
+Files:
+ 700d3febc5ffa3f055658466fde753f8 1937 vinagre_3.6.0-0ubuntu1.dsc
+ dc3dc119f00ff1ca47d59e49b73b71f6 2495712 vinagre_3.6.0.orig.tar.xz
+ ac6aea35b5e5d2021ae60e5ec4fe2fa5 7804 vinagre_3.6.0-0ubuntu1.debian.tar.gz
+Uploaders: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>, Jeremy Bicha <jbicha@ubuntu.com>, Michael Biebl <biebl@debian.org>
+Homepage: http://www.gnome.org/projects/vinagre/
+Vcs-Browser: http://anonscm.debian.org/viewvc/pkg-gnome/desktop/unstable/vinagre
+Vcs-Svn: svn://anonscm.debian.org/svn/pkg-gnome/desktop/unstable/vinagre
+Package-List: 
+ vinagre deb gnome optional
+Checksums-Sha1:
+ 53f5c39aabf16621d467a7ae362e2dd2fb113a3a 1937 vinagre_3.6.0-0ubuntu1.dsc
+ c9029b384ce023ed2662f4160e3cba4eac685f1c 2495712 vinagre_3.6.0.orig.tar.xz
+ d91441c8db8953a5f2444988bc401e1c8f3fffc4 7804 vinagre_3.6.0-0ubuntu1.debian.tar.gz
+Checksums-Sha256:
+ bac537dbd23296c370dd3dccd3b1f1f0a9bcbb98ee3d7709a52d85273f6654c7 1937 vinagre_3.6.0-0ubuntu1.dsc
+ 4f75882d52308ccb241ef6d76061bad54a7e13e6549fe355faa2af994765f11d 2495712 vinagre_3.6.0.orig.tar.xz
+ 10fb8e1b285ed306c8156f9af9af99f6935b94c495fd16380fd63e2cfbc277c6 7804 vinagre_3.6.0-0ubuntu1.debian.tar.gz
+
+Package: vkeybd
+Binary: vkeybd
+Version: 1:0.1.18d-2
+Priority: optional
+Section: universe/sound
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Build-Depends: debhelper (>= 7.0.50~), docbook-to-man, libasound2-dev, tcl8.5-dev, tk8.5-dev
+Architecture: any
+Standards-Version: 3.9.1
+Format: 3.0 (quilt)
+Directory: pool/universe/v/vkeybd
+Files:
+ c142db4e3da2e705425b31bfe65fa356 1303 vkeybd_0.1.18d-2.dsc
+ 0945f968c30125ea870df696c8cf8802 40643 vkeybd_0.1.18d.orig.tar.gz
+ a3ae9da96d5ec34989e4fc73747c0036 9933 vkeybd_0.1.18d-2.debian.tar.gz
+Uploaders: Free Ekanayaka <freee@debian.org>
+Homepage: http://www.alsa-project.org/~tiwai/alsa.html
+Vcs-Browser: http://git.debian.org/?p=pkg-multimedia/vkeybd.git
+Vcs-Git: git://git.debian.org/pkg-multimedia/vkeybd.git
+Checksums-Sha1:
+ 72641ce5fe12db817ba5be1dac6c05648d014e33 1303 vkeybd_0.1.18d-2.dsc
+ 753c48c6b2f52dc9eb47bbf254b8e3a1a370c0e1 40643 vkeybd_0.1.18d.orig.tar.gz
+ 77f698c332e16d7ac16c6a8ba586c699f00d62f3 9933 vkeybd_0.1.18d-2.debian.tar.gz
+Checksums-Sha256:
+ 65811eadf4c6d06bbf0e50a10b720cbf83f5578b04d944b6536a73a9eb32dadd 1303 vkeybd_0.1.18d-2.dsc
+ d220563add32356f61feb7efd87b29ae7b0c294ff84d4a7f4d70b52af650f073 40643 vkeybd_0.1.18d.orig.tar.gz
+ 34ec8d5ffdc0df575b0e0bda06bdf35950b803a1523c18270abcc95d9dbc825f 9933 vkeybd_0.1.18d-2.debian.tar.gz
+
+Package: vnc4
+Binary: vnc4server, xvnc4viewer
+Version: 4.1.1+xorg4.3.0-37ubuntu4
+Priority: optional
+Section: universe/x11
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Ola Lundqvist <opal@debian.org>
+Build-Depends: debhelper (>= 4.0.0), perl, zlib1g-dev, xutils, libx11-dev, libxtst-dev, x11proto-core-dev, libxext-dev
+Architecture: any
+Standards-Version: 3.7.2
+Format: 1.0
+Directory: pool/universe/v/vnc4
+Files:
+ 9c4a7a42871e8235f217955e177d3240 1286 vnc4_4.1.1+xorg4.3.0-37ubuntu4.dsc
+ b28c43385fe574d612ddbd0b645082f7 31536534 vnc4_4.1.1+xorg4.3.0.orig.tar.gz
+ 3bcc26dcf17d71e359e3f0b1749a58a8 70225 vnc4_4.1.1+xorg4.3.0-37ubuntu4.diff.gz
+Package-List: 
+ vnc4server deb x11 optional
+ xvnc4viewer deb net optional
+Checksums-Sha1:
+ 44d045273588929d2afea86104fcce2285c9d086 1286 vnc4_4.1.1+xorg4.3.0-37ubuntu4.dsc
+ 9f6e23aa8f7dc596f6222bc4f07f83e7df0ba35c 31536534 vnc4_4.1.1+xorg4.3.0.orig.tar.gz
+ 9113f2b1f6657f3fb422522177cb965ca6713eb9 70225 vnc4_4.1.1+xorg4.3.0-37ubuntu4.diff.gz
+Checksums-Sha256:
+ 3537b2c67ce3703101e874e56b4e2742d2657b85f3ba36f081f726a23b29778a 1286 vnc4_4.1.1+xorg4.3.0-37ubuntu4.dsc
+ d073445a909a04bcdeac8eb8a5ad05a7101a930be436f68625001d81b5fd900e 31536534 vnc4_4.1.1+xorg4.3.0.orig.tar.gz
+ 0c664493baf03d6474abfa5eb028560d31a6d42a0b50bed1566e5c32bdbe8354 70225 vnc4_4.1.1+xorg4.3.0-37ubuntu4.diff.gz
+
+Package: vstream-client
+Binary: vstream-client, vstream-client-dev
+Version: 1.2-6.1
+Priority: extra
+Section: universe/libs
+Maintainer: Paul Hedderly <prh@debian.org>
+Build-Depends: debhelper (>= 8), autotools-dev
+Architecture: any
+Standards-Version: 3.9.2
+Format: 3.0 (quilt)
+Directory: pool/universe/v/vstream-client
+Files:
+ 5938f99c75f0460c939c06e525181b48 1956 vstream-client_1.2-6.1.dsc
+ 3809a96241ecb978737cf32a104769cb 80871 vstream-client_1.2.orig.tar.gz
+ 35a4bbb3ebffd6224d54af318e6fe5c3 5332 vstream-client_1.2-6.1.debian.tar.gz
+Homepage: http://code.google.com/p/vstream-client
+Vcs-Browser: http://git.debian.org/?p=collab-maint/vstream-client.git
+Vcs-Git: git://git.debian.org/git/collab-maint/vstream-client.git
+Package-List: 
+ vstream-client deb libs extra
+ vstream-client-dev deb libdevel extra
+Checksums-Sha1:
+ 99351e12531e84003ed534731c083eca19c12e91 1956 vstream-client_1.2-6.1.dsc
+ f463203cec39e63145a3315ac9aef01c00585064 80871 vstream-client_1.2.orig.tar.gz
+ 77971a1333b2b411064b0071d9d45a70b5e44a69 5332 vstream-client_1.2-6.1.debian.tar.gz
+Checksums-Sha256:
+ be7e801c82be4d928baf75d1a04b144706a4373fea7d151e581fffdaf0351901 1956 vstream-client_1.2-6.1.dsc
+ d1a9790d5c3f0b90dec4b92204f801583ff4c2cea8edde3019ce938ce582bf0c 80871 vstream-client_1.2.orig.tar.gz
+ 007fac876f5f1cd89b125553e4126927eacf364c10698a58f69641af11f28747 5332 vstream-client_1.2-6.1.debian.tar.gz
+
+Package: vorbisgain
+Binary: vorbisgain
+Version: 0.37-2
+Priority: optional
+Section: universe/sound
+Maintainer: Daniel Martí <mvdan@mvdan.cc>
+Build-Depends: debhelper (>= 9), autotools-dev, libogg-dev, libvorbis-dev
+Architecture: any
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Directory: pool/universe/v/vorbisgain
+Files:
+ a020b9c83cb6ab5e0274ddeb4763e212 1756 vorbisgain_0.37-2.dsc
+ 850b05a7b2b0ee67edb5a27b8c6ac3a2 208977 vorbisgain_0.37.orig.tar.gz
+ fc3e7992fac421912ba9b508855e117d 10931 vorbisgain_0.37-2.debian.tar.gz
+Homepage: http://sjeng.org/vorbisgain.html
+Package-List: 
+ vorbisgain deb sound optional
+Checksums-Sha1:
+ c8e06d90a8ff23059eb8ade520250396b0b28a22 1756 vorbisgain_0.37-2.dsc
+ bd79764a83a8ee327df85c538ec798a6d3f240be 208977 vorbisgain_0.37.orig.tar.gz
+ 46015c62019b31131038108768e3efdf56aaa89c 10931 vorbisgain_0.37-2.debian.tar.gz
+Checksums-Sha256:
+ 07218def602d0c66404e840371e77a8e7e09e79f6584852a811e492da52922dd 1756 vorbisgain_0.37-2.dsc
+ dd6db051cad972bcac25d47b4a9e40e217bb548a1f16328eddbb4e66613530ec 208977 vorbisgain_0.37.orig.tar.gz
+ 52e150028d3301d4257baf281989bf74e57e9e1cbf206d7cb4fec6682b89e351 10931 vorbisgain_0.37-2.debian.tar.gz
+
+Package: unclutter
+Binary: unclutter
+Version: 8-18
+Priority: optional
+Section: universe/x11
+Maintainer: Axel Beckert <abe@debian.org>
+Build-Depends: debhelper (>= 8), libx11-dev
+Architecture: any
+Standards-Version: 3.9.2
+Format: 3.0 (quilt)
+Directory: pool/universe/u/unclutter
+Files:
+ 95a4265f14c1b0971a42cb9836244932 1204 unclutter_8-18.dsc
+ 92170771bc153b52adb0132fb0d5c58d 9058 unclutter_8.orig.tar.gz
+ 8d17a8f9307657b67c9500713f0ab81d 12203 unclutter_8-18.debian.tar.gz
+Uploaders: Ian Jackson <ijackson@chiark.greenend.org.uk>
+Homepage: ftp://ftp.x.org/contrib/utilities/
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=collab-maint/unclutter.git
+Vcs-Git: git://anonscm.debian.org/collab-maint/unclutter.git
+Checksums-Sha1:
+ 2bedf0e15ddf4ed83593dfaf4ab7f4bf13069434 1204 unclutter_8-18.dsc
+ 21371f39aaaefbb2e210df0fbad072305f0d568f 9058 unclutter_8.orig.tar.gz
+ 6ef7359e8e1adb46ae1263aa1c6571501b8b4f81 12203 unclutter_8-18.debian.tar.gz
+Checksums-Sha256:
+ 622dea72449a0732fc1d03f0537f5bc1b3305706501610cc1ad07e720149aac6 1204 unclutter_8-18.dsc
+ dfc0e4f22dd2398f91206e82c2a193a635a7fa5c1e03910db476cb2a8cf4f084 9058 unclutter_8.orig.tar.gz
+ aab8dea2ec3e422dcd363b50cdb6e15e1d4d2974c2180a37754dcc132378d7c3 12203 unclutter_8-18.debian.tar.gz
+
+Package: ubuntustudio-sounds
+Binary: ubuntustudio-sounds
+Version: 0.10
+Priority: optional
+Section: universe/gnome
+Maintainer: Ubuntu MOTU Developers <ubuntu-motu@lists.ubuntu.com>
+Build-Depends: debhelper (>= 5), cdbs
+Architecture: all
+Standards-Version: 3.7.2
+Format: 1.0
+Directory: pool/universe/u/ubuntustudio-sounds
+Files:
+ 504096c37fc4dfe4eaf8f53f8e9c6d0d 780 ubuntustudio-sounds_0.10.dsc
+ 9ba4816de9e4be447bade8fb040cfda9 4928139 ubuntustudio-sounds_0.10.tar.gz
+Checksums-Sha1:
+ db40e50fb017cf6aa8b5f31bc3246bf7f47292b2 780 ubuntustudio-sounds_0.10.dsc
+ faf36ad0699cc97770ec47e3e15ff65b689132f1 4928139 ubuntustudio-sounds_0.10.tar.gz
+Checksums-Sha256:
+ a0ed7ff371f38f69c584355ce591b31f897fca49328619f8311f3623cbddd0fd 780 ubuntustudio-sounds_0.10.dsc
+ 7999450b05ddf6d9ab25467f9c9bf7ff12f1fe6c46252b3e343b425b290c0274 4928139 ubuntustudio-sounds_0.10.tar.gz
+
+Package: ubuntustudio-default-settings
+Binary: ubuntustudio-default-settings, ubuntustudio-live-settings
+Version: 0.39
+Priority: optional
+Section: universe/gnome
+Maintainer: Ubuntu Studio Developers <ubuntu-studio-devel@lists.ubuntu.com>
+Build-Depends: debhelper (>= 8.1.3~), intltool
+Architecture: all
+Standards-Version: 3.9.2
+Format: 3.0 (native)
+Directory: pool/universe/u/ubuntustudio-default-settings
+Files:
+ 2bfcf0ceb60ac35e49a242a22dd521c5 1250 ubuntustudio-default-settings_0.39.dsc
+ 0ac31654c4f61c5f270ce0dfaa0b1a1e 53890 ubuntustudio-default-settings_0.39.tar.gz
+Homepage: https://launchpad.net/ubuntustudio-default-settings
+Vcs-Browser: http://bazaar.launchpad.net/~ubuntustudio-dev/ubuntustudio-default-settings/UbuntuStudio
+Vcs-Bzr: https://code.launchpad.net/~ubuntustudio-dev/ubuntustudio-default-settings/UbuntuStudio
+Package-List: 
+ ubuntustudio-default-settings deb x11 optional
+ ubuntustudio-live-settings deb x11 optional
+Checksums-Sha1:
+ b6bae68f2b28664706406ff867590c85488cd611 1250 ubuntustudio-default-settings_0.39.dsc
+ 419df8aeb5082ca042dda11358724cd9021003d8 53890 ubuntustudio-default-settings_0.39.tar.gz
+Checksums-Sha256:
+ 1f6ccf14e911a50f9da6009967ab9272f8fba336157d15aaad0b6f920c516d79 1250 ubuntustudio-default-settings_0.39.dsc
+ 6583de2d2d6fef47efad96b0fccb21d6e3105c312f57695b79f041baeeb7ae69 53890 ubuntustudio-default-settings_0.39.tar.gz
+
+Package: ubuntustudio-lightdm-theme
+Binary: ubuntustudio-lightdm-theme
+Version: 0.4
+Priority: optional
+Section: universe/misc
+Maintainer: Ubuntu Studio Developers <ubuntu-studio-devel@lists.ubuntu.com>
+Build-Depends: debhelper (>= 7)
+Architecture: all
+Standards-Version: 3.9.2
+Format: 1.0
+Directory: pool/universe/u/ubuntustudio-lightdm-theme
+Files:
+ 6b87a5f472a4e7e8ea117440da4ffb5a 964 ubuntustudio-lightdm-theme_0.4.dsc
+ cb948acc8b1953d029545402d8c03400 11819 ubuntustudio-lightdm-theme_0.4.tar.gz
+Vcs-Bzr: http://code.launchpad.net/~ubuntustudio-dev/ubuntustudio/ubuntustudio-lightdm-theme
+Package-List: 
+ ubuntustudio-lightdm-theme deb misc optional
+Checksums-Sha1:
+ f20a07c48834ca84bf6fba041729d7a7910d0c55 964 ubuntustudio-lightdm-theme_0.4.dsc
+ 1ad14f13269b75471e91ce5b22249fcda0c6e137 11819 ubuntustudio-lightdm-theme_0.4.tar.gz
+Checksums-Sha256:
+ 70dfcf5343c1f183fd267c99f96229ae2c91069639477b9762158caae9c52ff4 964 ubuntustudio-lightdm-theme_0.4.dsc
+ ba70513777e326ea5ba1dd153187a967bb59a050070ba26b05e71120cf8bca90 11819 ubuntustudio-lightdm-theme_0.4.tar.gz
+
+Package: ubuntustudio-meta
+Binary: ubuntustudio-desktop, ubuntustudio-generation, ubuntustudio-recording, ubuntustudio-graphics, ubuntustudio-audio-plugins, ubuntustudio-video, ubuntustudio-font-meta, ubuntustudio-photography, ubuntustudio-publishing, ubuntustudio-audio
+Version: 0.108
+Priority: optional
+Section: universe/metapackages
+Maintainer: Ubuntu Studio Developers <ubuntu-studio-devel@lists.ubuntu.com>
+Build-Depends: debhelper (>= 7.0.0), germinate (>= 1.0)
+Architecture: any
+Standards-Version: 3.9.1
+Format: 3.0 (native)
+Directory: pool/universe/u/ubuntustudio-meta
+Files:
+ dc803dbc47813bca37a47acc808fb3d1 1536 ubuntustudio-meta_0.108.dsc
+ fa482dd56cc06c4bd9db3ac11b36b334 31819 ubuntustudio-meta_0.108.tar.gz
+Package-List: 
+ ubuntustudio-audio deb metapackages optional
+ ubuntustudio-audio-plugins deb metapackages optional
+ ubuntustudio-desktop deb metapackages optional
+ ubuntustudio-font-meta deb metapackages optional
+ ubuntustudio-generation deb metapackages optional
+ ubuntustudio-graphics deb metapackages optional
+ ubuntustudio-photography deb metapackages optional
+ ubuntustudio-publishing deb metapackages optional
+ ubuntustudio-recording deb metapackages optional
+ ubuntustudio-video deb metapackages optional
+Checksums-Sha1:
+ 991ff5b6707509c39387d1da8602ca96927fb2df 1536 ubuntustudio-meta_0.108.dsc
+ c060dac5570e06d39a41a549f224f621512ecdf1 31819 ubuntustudio-meta_0.108.tar.gz
+Checksums-Sha256:
+ cff86127645d4125d8f9c3f3eb920e6060ee4de38e6fe39f05ea37a9b4a5feb1 1536 ubuntustudio-meta_0.108.dsc
+ 3f5c7e7c65974f4a25584c9230655ad77632a0f25f0fe0218b6fc133a987fd33 31819 ubuntustudio-meta_0.108.tar.gz
+
+Package: userconfig
+Binary: userconfig
+Version: 0.9.0-0ubuntu10
+Priority: extra
+Section: universe/admin
+Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+Original-Maintainer: Jonathan Riddell <jriddell@ubuntu.com>
+Build-Depends: debhelper (>= 7.3.16), pkg-kde-tools (>= 0.12), cmake, kdelibs5-dev, python (>= 2.6.6-3~), python-qt4-dev (>= 4.8.3-3~), python-kde4-dev (>= 4:4.7.0-0ubuntu2~)
+Architecture: all
+Standards-Version: 3.8.4
+Format: 3.0 (quilt)
+Directory: pool/universe/u/userconfig
+Files:
+ 48f65806418bd687886752b6cbdf7375 1542 userconfig_0.9.0-0ubuntu10.dsc
+ abbe1c1a78d9c88382a4ae245ea40f16 37752 userconfig_0.9.0.orig.tar.gz
+ 350a50611e81e5eba137d55a2dc7170a 5225 userconfig_0.9.0-0ubuntu10.debian.tar.gz
+Homepage: https://code.launchpad.net/~kubuntu-packagers/guidance/userconfig-kde4
+Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/userconfig
+Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/userconfig
+Package-List: 
+ userconfig deb admin optional
+Checksums-Sha1:
+ 8be431575c00f69678ea047bd3d1964b6deb3b32 1542 userconfig_0.9.0-0ubuntu10.dsc
+ 7c53cd956205cd302c7db9dbbe87b5e80024ac62 37752 userconfig_0.9.0.orig.tar.gz
+ ef950f5da0fdbbf769f8498f871fcc5c6dbb4a48 5225 userconfig_0.9.0-0ubuntu10.debian.tar.gz
+Checksums-Sha256:
+ afdaed138ca3abcb3e22522a35808298e7416a6dd3fc4a7144a3c33708d046f9 1542 userconfig_0.9.0-0ubuntu10.dsc
+ 20a94d8fd0c47d300e9d686d4186e57558b6035dea735d7c30a2b09fa2c8e6f2 37752 userconfig_0.9.0.orig.tar.gz
+ c8ad1c5876d12d79fd96d72677f882029b39ab01a6cb3f585ccc115bb6749267 5225 userconfig_0.9.0-0ubuntu10.debian.tar.gz
+
+Package: yorick-z
+Binary: yorick-z
+Version: 1.2.0+cvs20080115-5
+Priority: optional
+Section: universe/math
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Build-Depends: debhelper (>= 7.0.50~), yorick-dev (>= 2.1.05+dfsg-2~bpo40+1), zlib1g (>= 1.1.4), libjpeg-dev, libpng-dev
+Architecture: any
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Directory: pool/universe/y/yorick-z
+Files:
+ 972d7061a25bf03f3a416e0c4c0adbfe 1503 yorick-z_1.2.0+cvs20080115-5.dsc
+ 42515b922ab066efb2f444a1d85d7742 43537 yorick-z_1.2.0+cvs20080115.orig.tar.gz
+ 7ad1ad1f58711ac3e01943382cbbe408 6200 yorick-z_1.2.0+cvs20080115-5.debian.tar.gz
+Uploaders: Thibaut Paumard <paumard@users.sourceforge.net>
+Dm-Upload-Allowed: yes
+Homepage: http://yorick.sourceforge.net
+Vcs-Browser: http://git.debian.org/?p=debian-science/packages/yorick-z.git
+Vcs-Git: git://git.debian.org/git/debian-science/packages/yorick-z.git
+Package-List: 
+ yorick-z deb science extra
+Checksums-Sha1:
+ 1528ddc9ce22b3ab091523c2dfdcdf714d9df043 1503 yorick-z_1.2.0+cvs20080115-5.dsc
+ 700f628198c9edc90a682d572bc19d76c95fa272 43537 yorick-z_1.2.0+cvs20080115.orig.tar.gz
+ ee42c9072de28531aaed33ddc15251c7b36581a3 6200 yorick-z_1.2.0+cvs20080115-5.debian.tar.gz
+Checksums-Sha256:
+ c41096cc932b10b9c075e9763723ce3e9d9a899ec13edce0627b807667f4e0a5 1503 yorick-z_1.2.0+cvs20080115-5.dsc
+ 102f3f60ee2e7a74b5e584bd8e88a9586b2cde2a56a40805dbe105fcfa3243e6 43537 yorick-z_1.2.0+cvs20080115.orig.tar.gz
+ 99ab5cd8e87d7e00a179a787fb1f58dad0f4f1c6f6ca5db12963d52d123d1927 6200 yorick-z_1.2.0+cvs20080115-5.debian.tar.gz
+
+Package: yoshimi
+Binary: yoshimi, yoshimi-data, yoshimi-dbg
+Version: 1.0.0-1
+Priority: optional
+Section: universe/sound
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Build-Depends: cmake, debhelper (>= 7.0.50~), dpkg-dev (>= 1.14.17), fluid, libasound2-dev, libboost-dev, libfftw3-dev, libfltk1.1-dev, libfontconfig1-dev, libgl1-mesa-dev | libgl-dev, libglu1-mesa-dev | libglu-dev, libjack-dev, libmxml-dev, libsndfile1-dev, libx11-dev, libxinerama-dev, sharutils
+Architecture: any all
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Directory: pool/universe/y/yoshimi
+Files:
+ f7be000eb02012ad0099156d5e8a3415 2347 yoshimi_1.0.0-1.dsc
+ 5f1214155f9274d478a5eb63562f511b 1424814 yoshimi_1.0.0.orig.tar.bz2
+ 80e0998d88b6fa0c83152929dbd1de99 10922 yoshimi_1.0.0-1.debian.tar.gz
+Uploaders:  Alessio Treglia <alessio@debian.org>, Jaromír Mikeš <mira.mikes@seznam.cz>
+Dm-Upload-Allowed: yes
+Homepage: http://yoshimi.sourceforge.net
+Vcs-Browser: http://git.debian.org/?p=pkg-multimedia/yoshimi.git
+Vcs-Git: git://git.debian.org/git/pkg-multimedia/yoshimi.git
+Package-List: 
+ yoshimi deb sound optional
+ yoshimi-data deb sound optional
+ yoshimi-dbg deb debug extra
+Checksums-Sha1:
+ b7e65f70d2d541210166ab179c37f7fa52f407e1 2347 yoshimi_1.0.0-1.dsc
+ fda85998b206a31f91c3a43c0e43f89fb0e2dd8f 1424814 yoshimi_1.0.0.orig.tar.bz2
+ 4ff7da7910092969e087eba4d32e3fd24cf7d559 10922 yoshimi_1.0.0-1.debian.tar.gz
+Checksums-Sha256:
+ 9515a64a82e3f9ea33b34939f31bbcc099fed92a0f486ec3a4aecff3c177f0ab 2347 yoshimi_1.0.0-1.dsc
+ 4c0d6f5a8f856f05ff594cbac7d0dc113f1fccd20d33fd166308a71983d9b1ab 1424814 yoshimi_1.0.0.orig.tar.bz2
+ b8c2d35f7537500a13c6073bdc4a8e4da4dfc84e4437f09a1ccd5a58f53a6a7f 10922 yoshimi_1.0.0-1.debian.tar.gz
+
+Package: yorick
+Binary: yorick, yorick-dbg, yorick-data, yorick-dev, yorick-mpy-mpich2, yorick-mpy-openmpi, yorick-mpy-common, yorick-doc, yorick-full
+Version: 2.2.02+dfsg-6
+Priority: optional
+Section: universe/math
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Build-Depends: libx11-dev, texinfo, debhelper (>= 7.0.0), quilt (>= 0.40), imagemagick, po-debconf, texi2html (>= 1.82), libmpich2-dev, libopenmpi-dev [alpha amd64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 powerpc powerpcspe ppc64 sparc sparc64]
+Architecture: any all
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Directory: pool/universe/y/yorick
+Files:
+ b73f85a302349849e2aeb33d8bf466de 1974 yorick_2.2.02+dfsg-6.dsc
+ aacc4ac7e01529e46b3e9545cf880770 1808416 yorick_2.2.02+dfsg.orig.tar.xz
+ b12287ea4ea3335d719abbd8f26a24c9 44322 yorick_2.2.02+dfsg-6.debian.tar.gz
+Uploaders: Thibaut Paumard <paumard@users.sourceforge.net>
+Dm-Upload-Allowed: yes
+Homepage: http://yorick.sourceforge.net
+Vcs-Browser: http://git.debian.org/?p=debian-science/packages/yorick.git
+Vcs-Git: git://git.debian.org/git/debian-science/packages/yorick.git
+Package-List: 
+ yorick deb science extra
+ yorick-data deb science extra
+ yorick-dbg deb debug extra
+ yorick-dev deb science extra
+ yorick-doc deb doc extra
+ yorick-full deb science extra
+ yorick-mpy-common deb science extra
+ yorick-mpy-mpich2 deb science extra
+ yorick-mpy-openmpi deb science extra
+Checksums-Sha1:
+ f1c027e63b67755ffba7adce6326383141b1b5c5 1974 yorick_2.2.02+dfsg-6.dsc
+ 54ec348652e75548505221d342880055313c4db5 1808416 yorick_2.2.02+dfsg.orig.tar.xz
+ 4377076d78a61fd754a2a4660f0478237711f238 44322 yorick_2.2.02+dfsg-6.debian.tar.gz
+Checksums-Sha256:
+ d4d564d55d2e58bc68aeb7dd6f080909cabe07f473c701b2043800bb16e4ab03 1974 yorick_2.2.02+dfsg-6.dsc
+ 215540e07d0540f5b14f84d6b7d56348612f64e7024e9af7e606ec0c58abc619 1808416 yorick_2.2.02+dfsg.orig.tar.xz
+ 09b1e5b225f25e92de3b4e2120d176971a8a3579fa24c50a32cb93d1b855fbd3 44322 yorick_2.2.02+dfsg-6.debian.tar.gz
+

@@ -1,0 +1,63 @@
+Package: transcode
+Binary: transcode, transcode-dbg, transcode-doc
+Version: 3:1.1.7-2build1
+Priority: extra
+Section: multiverse/misc
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Build-Depends: debhelper (>= 7.2), dh-autoreconf, liba52-0.7.4-dev, libasound2-dev, libavcodec-dev, libavformat-dev, libavutil-dev, libdv4-dev, libdvdread-dev, libfaad-dev, libfreetype6-dev, libjpeg-dev, liblzo2-dev, libmagickcore-dev, libmagickwand-dev, libmp3lame-dev, libmpeg2-4-dev, libpopt-dev, libpostproc-dev, libquicktime-dev, libsdl1.2-dev, libswscale-dev, libtheora-dev, libvorbis-dev, libx264-dev, libxaw7-dev, libxft-dev, libxml2-dev, libxv-dev, libxvidcore-dev, libxxf86vm-dev [i386]
+Architecture: any all
+Standards-Version: 3.9.2
+Format: 3.0 (quilt)
+Directory: pool/multiverse/t/transcode
+Files:
+ 1e6032b294ee6056d8e0e340dbf1b4b4 1989 transcode_1.1.7-2build1.dsc
+ 9bb25a796a8591fb764de46ee87ce505 2183627 transcode_1.1.7.orig.tar.bz2
+ 90822356f5ede176324ce516ba470379 6925 transcode_1.1.7-2build1.debian.tar.gz
+Uploaders:  Fabian Greffrath <fabian@debian-unofficial.org>, Reinhard Tartler <siretart@tauware.de>, Alessio Treglia <alessio@debian.org>
+Homepage: http://www.transcoding.org/
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-multimedia/transcode.git
+Vcs-Git: git://anonscm.debian.org/pkg-multimedia/transcode.git
+Package-List: 
+ transcode deb video optional
+ transcode-dbg deb debug extra
+ transcode-doc deb doc optional
+Checksums-Sha1:
+ 9a34ac042ca20f46d57fc687d59be1f1b6513150 1989 transcode_1.1.7-2build1.dsc
+ e35df68b960eb56ef0a59a4cdbed1491be56aee6 2183627 transcode_1.1.7.orig.tar.bz2
+ 5e8cfc8039a01beecc4c3d4b41fa8055ae836d4f 6925 transcode_1.1.7-2build1.debian.tar.gz
+Checksums-Sha256:
+ adebea8cd19d94b68159f7a3f5e3480fa73a4e48c7257fcff6e21128e4d7eb70 1989 transcode_1.1.7-2build1.dsc
+ 1e4e72d8e0dd62a80b8dd90699f5ca64c9b0cb37a5c9325c184166a9654f0a92 2183627 transcode_1.1.7.orig.tar.bz2
+ 6ff2a0403f3f083d55615fac23460ea46e3db84c0c1730b8cce1b2048b6dbecf 6925 transcode_1.1.7-2build1.debian.tar.gz
+
+Package: xjadeo
+Binary: xjadeo
+Version: 0.6.4-1
+Priority: optional
+Section: multiverse/sound
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Build-Depends: debhelper (>= 7.0.50~), dh-autoreconf, libasound2-dev [linux-any], libavcodec-dev, libavformat-dev, libavutil-dev, libfreetype6-dev, libimlib2-dev, libjack-dev | libjack-jackd2-dev, liblo-dev, libltcsmpte-dev, libportmidi-dev [linux-any], libqt4-dev, libswscale-dev, libx11-dev, libxpm-dev, libxv-dev
+Architecture: any
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Directory: pool/multiverse/x/xjadeo
+Files:
+ c155e51dec14ca0eb3de4782202afe44 2258 xjadeo_0.6.4-1.dsc
+ e5f833f612fec902b5863262e6317453 347279 xjadeo_0.6.4.orig.tar.gz
+ 3e7ec80a78f5afddb91a8ac7959ee89b 203929 xjadeo_0.6.4-1.debian.tar.gz
+Uploaders:  Alessio Treglia <alessio@debian.org>, Jaromír Mikeš <mira.mikes@seznam.cz>
+Dm-Upload-Allowed: yes
+Homepage: http://xjadeo.sourceforge.net/
+Vcs-Browser: http://git.debian.org/?p=pkg-multimedia/xjadeo.git
+Vcs-Git: git://git.debian.org/git/pkg-multimedia/xjadeo.git
+Package-List: 
+ xjadeo deb video optional
+Checksums-Sha1:
+ 1614e8e4d09293f4c83d98533b46127528548b1e 2258 xjadeo_0.6.4-1.dsc
+ 6abd302b0864d04a8ea7187d68ce65413df185da 347279 xjadeo_0.6.4.orig.tar.gz
+ dba53dbd68ced8c62df9923b6acd9fc21a2a9a6b 203929 xjadeo_0.6.4-1.debian.tar.gz
+Checksums-Sha256:
+ 65cd37e96992730c6713120b6a30c48581409cfc116235591629e01ba3806102 2258 xjadeo_0.6.4-1.dsc
+ cccc6e00436eaba3b8d82ef3445e39f89a6b2920f2dc3aaf6b1c9fd2767e49b1 347279 xjadeo_0.6.4.orig.tar.gz
+ 878bba7efa0496fed101ebb0512e77d75a638d643e257823c8d1e4637460b1be 203929 xjadeo_0.6.4-1.debian.tar.gz
+

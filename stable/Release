@@ -1,0 +1,36 @@
+Origin: Ubuntu
+Label: Ubuntu
+Suite: quantal
+Version: 12.10
+Codename: quantal
+Date: Wed, 17 Oct 2012 15:52:53 UTC
+Architectures: amd64 armel armhf i386 powerpc
+Components: main restricted universe multiverse
+Description: Ubuntu Quantal 12.10
+MD5Sum:
+ 4a4dd3598707603b3f76a2378a4504aa       20 restricted/source/Sources.gz
+ d41d8cd98f00b204e9800998ecf8427e        0 restricted/source/Sources
+ 9373cfd728053c79b1beb8b3c3be904d    39705 universe/source/Sources.gz
+ 5f96be019eb0a073f328fb2c9808a65e   142441 universe/source/Sources
+ 3b6eb7cca4513caf4abbee99c4b9a34c     1551 multiverse/source/Sources.gz
+ fc24b4f78fa184c8774310e7c205061e     3729 multiverse/source/Sources
+ 9de0dda02af241116a04f22167fc8912    85251 main/source/Sources.gz
+ dcb4c76822de67d5305f8d2b484f0835   306907 main/source/Sources
+SHA1:
+ a0fddd5458378c1bf3c10dd2f5c060d1347741ed       20 restricted/source/Sources.gz
+ da39a3ee5e6b4b0d3255bfef95601890afd80709        0 restricted/source/Sources
+ 3cdbcad749c7a29ac86b00ac1d944edc0dc081d6    39705 universe/source/Sources.gz
+ 1971ec1c69b39d2af97d50d56199449ebcaa909f   142441 universe/source/Sources
+ 32661d84893a0229ed8b4652c4f80fb654d88479     1551 multiverse/source/Sources.gz
+ 8a47b37ab44b00765afef84db43dd62c9a0a4b4f     3729 multiverse/source/Sources
+ 573995df7ff77a03bb8af1ffda87d7bb91ed8d0d    85251 main/source/Sources.gz
+ 7069242c772bd30b53f1af171ef66463acfef3f7   306907 main/source/Sources
+SHA256:
+ f61f27bd17de546264aa58f40f3aafaac7021e0ef69c17f6b1b4cd7664a037ec       20 restricted/source/Sources.gz
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855        0 restricted/source/Sources
+ cb4689017f997f7c2ae11a94a0b7c68293008c03fe09b66469fbc6f3f3937a84    39705 universe/source/Sources.gz
+ 30d9a5652cf2fd3f7fa3c988612a2efb7fd3b29c8d40ee8cdf3a6d07f1fe4ed8   142441 universe/source/Sources
+ e02abea7488b2d82c8201fbb067cfeb943acb4747f1d1499ba685128623c40c2     1551 multiverse/source/Sources.gz
+ e836cd5904ac947a67928848b9d8ef1620dc331629144556abb49f221d33435f     3729 multiverse/source/Sources
+ 5bbb9e1c607e03ba726dda8200cd295a797a1e2f2b027b34d6a4d883186ad862    85251 main/source/Sources.gz
+ 6bd14ba5e6a515fc52c6b8c77615adc3755dfac3998c739679248ea7b7857eb3   306907 main/source/Sources
